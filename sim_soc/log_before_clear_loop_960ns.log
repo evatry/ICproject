@@ -1,0 +1,227 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Sep 18 15:33 2026
+ucli% run 996000000
+*Verdi* Loading libsscore_vcsmx201809.so
+*Verdi* Cannot load libsscore_vcsmx201809.so from following LD_LIBRARY_PATH
+(null)
+*Verdi* Failed to load FSDB dumper.
+996000000 PS
+ucli% for {set i 0} {$i < 200} {incr i} {
+  run 20000
+  set dt [get -radix bin tbench_top.dut.DHTRANS]
+  set w  [get -radix bin tbench_top.dut.DHWRITE]
+  set da [get -radix hex tbench_top.dut.DHADDR]
+  set dd [get -radix hex tbench_top.dut.DHWDATA]
+  set hd [get -radix bin tbench_top.dut.DHREADY]
+  set ih [get -radix hex tbench_top.dut.IHADDR]
+  set ld [get -radix hex tbench_top.dut.led]
+  puts "S $i DT=$dt W=$w HREADY=$hd DA=$da DD=$dd IH=$ih LED=$ld"
+}
+S 0 DT='b00 W='b1 HREADY='b0 DA='h10001ffc DD='hxxxxxxxx IH='hffff0178 LED='h00
+S 1 DT='b00 W='b1 HREADY='b0 DA='h10001ffc DD='hxxxxxxxx IH='hffff0178 LED='h00
+S 2 DT='b00 W='b1 HREADY='b0 DA='h10001ffc DD='hxxxxxxxx IH='hffff017c LED='h00
+S 3 DT='b00 W='b1 HREADY='b0 DA='h10001ffc DD='hxxxxxxxx IH='hffff017c LED='h00
+S 4 DT='b00 W='b1 HREADY='b0 DA='h10001ffc DD='hxxxxxxxx IH='hffff0180 LED='h00
+S 5 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0180 LED='h00
+S 6 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0184 LED='h00
+S 7 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0184 LED='h00
+S 8 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 9 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 10 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 11 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 12 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 13 DT='b00 W='b1 HREADY='b1 DA='h10001ffc DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 14 DT='b10 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 15 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0188 LED='h00
+S 16 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0188 LED='h00
+S 17 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0188 LED='h00
+S 18 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff018c LED='h00
+S 19 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff018c LED='h00
+S 20 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0190 LED='h00
+S 21 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0190 LED='h00
+S 22 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0194 LED='h00
+S 23 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0194 LED='h00
+S 24 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 25 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 26 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 27 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 28 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 29 DT='b10 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 30 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 31 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 32 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 33 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff0198 LED='h00
+S 34 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff019c LED='h00
+S 35 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff019c LED='h00
+S 36 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 37 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 38 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 39 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 40 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 41 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 42 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 43 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 44 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 45 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 46 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 47 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 48 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 49 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 50 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 51 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 52 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 53 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 54 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a0 LED='h00
+S 55 DT='b10 W='b1 HREADY='b1 DA='h80000000 DD='h000000a5 IH='hffff01a0 LED='h00
+S 56 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 57 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 58 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 59 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 60 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 61 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+Time      997250 ns: LED write, value = 0x00
+S 62 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 63 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 64 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 65 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 66 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 67 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 68 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 69 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 70 DT='b10 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 71 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 72 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 73 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 74 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 75 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 76 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 77 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 78 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 79 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 80 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 81 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 82 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 83 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 84 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 85 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 86 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0198 LED='h00
+S 87 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 88 DT='b10 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 89 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 90 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 91 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 92 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 93 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 94 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 95 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 96 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 97 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 98 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 99 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 100 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 101 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 102 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 103 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 104 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 105 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 106 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a0 LED='h00
+S 107 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a4 LED='h00
+S 108 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a4 LED='h00
+S 109 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a8 LED='h00
+S 110 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff01a8 LED='h00
+S 111 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0178 LED='h00
+S 112 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0178 LED='h00
+S 113 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 114 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 115 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 116 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 117 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 118 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 119 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 120 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 121 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 122 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff017c LED='h00
+S 123 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0180 LED='h00
+S 124 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0180 LED='h00
+S 125 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0184 LED='h00
+S 126 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0184 LED='h00
+S 127 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 128 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0188 LED='h00
+S 129 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 130 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 131 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 132 DT='b10 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 133 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 134 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 135 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 136 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 137 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 138 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff018c LED='h00
+S 139 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0190 LED='h00
+S 140 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0190 LED='h00
+S 141 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0194 LED='h00
+S 142 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0194 LED='h00
+S 143 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0198 LED='h00
+S 144 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff0198 LED='h00
+S 145 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 146 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 147 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 148 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 149 DT='b10 W='b1 HREADY='b1 DA='h80000000 DD='hxxxxxxxx IH='hffff019c LED='h00
+S 150 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff019c LED='h00
+S 151 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff019c LED='h00
+S 152 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff019c LED='h00
+S 153 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff019c LED='h00
+S 154 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff019c LED='h00
+S 155 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff01a0 LED='h00
+Time      999130 ns: LED write, value = 0xxx
+S 156 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff01a0 LED='hxx
+S 157 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 158 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 159 DT='b00 W='b1 HREADY='b0 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 160 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 161 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 162 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 163 DT='b00 W='b1 HREADY='b1 DA='h80000000 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 164 DT='b10 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 165 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 166 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 167 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 168 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 169 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 170 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 171 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 172 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 173 DT='b00 W='b0 HREADY='b0 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 174 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 175 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 176 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 177 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 178 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 179 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 180 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 181 DT='b00 W='b0 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 182 DT='b10 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a5 IH='hffff01a4 LED='hxx
+S 183 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 184 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 185 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 186 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 187 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 188 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 189 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 190 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 191 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 192 DT='b00 W='b1 HREADY='b0 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 193 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 194 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 195 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 196 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff01a4 LED='hxx
+S 197 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff0178 LED='hxx
+S 198 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff017c LED='hxx
+S 199 DT='b00 W='b1 HREADY='b1 DA='h10001ff4 DD='h000000a6 IH='hffff017c LED='hxx
+ucli% quit
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1000000000 ps
+CPU Time:      3.620 seconds;       Data structure size:   1.4Mb
+Fri Sep 18 15:33:22 2026

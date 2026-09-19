@@ -1,0 +1,20 @@
+Command: ./simv +vcs+lic+wait -l t_sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Sep 19 15:58 2026
+[1500000.0 ps] reset released
+[603470000.0 ps] OK  data port addr=40000000 rd=c0de0000
+[603990000.0 ps] OK  data port addr=40000004 rd=c0de0001
+[604510000.0 ps] OK  data port addr=40000008 rd=c0de0002
+[605030000.0 ps] OK  data port addr=4000000c rd=c0de0003
+[605570000.0 ps] OK  instr port addr=40000000 rd=c0de0000
+[606090000.0 ps] OK  instr port addr=40000004 rd=c0de0001
+[606610000.0 ps] OK  instr port addr=40000008 rd=c0de0002
+[607130000.0 ps] OK  instr port addr=4000000c rd=c0de0003
+==== MATRIX->DDR3 TB PASS ====
+$finish called from file "matrix_ddr_tb.v", line 223.
+$finish at simulation time            607130000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 607130000 ps
+CPU Time:      8.020 seconds;       Data structure size:   1.5Mb
+Sat Sep 19 15:58:15 2026

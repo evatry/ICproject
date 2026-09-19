@@ -1,0 +1,916 @@
+15:24:47 [START run_2_step.sh]
+--- Compiling Verilog files ---
+                         Chronologic VCS (TM)
+           Version O-2018.09-1 -- Fri Sep 18 15:24:48 2026
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffnrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx11.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx15.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx19.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx21.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx23.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx34.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx48.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx21.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx11.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx112.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx26.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx28.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx31.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx37.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx38.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx56.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx75.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx77.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCLZ.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCLZ.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsFwd.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsFwd.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIMM.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIMM.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsISyncr.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsISyncr.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJNullPtr.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJNullPtr.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJStack.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJStack.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/LogDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMainSeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMainSeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMem.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMem.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPSR.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPSR.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRam3r2wSDff.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRam3r2wSDff.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegC.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegC.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSat.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSat.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSatTimes2.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSatTimes2.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScanctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScanctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScandp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScandp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDecoder.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDecoder.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsDBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsIBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExt.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExtFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExt.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtAddrFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtDataFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETMIF/a926ejsETMIF.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/DataRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/DirtyRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/TagRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/ValidRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheBiuIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDataIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDirtyIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRamGasket.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheTagIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926DCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926ICache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMRAM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsRAM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/ETM9.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/ETM9.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9AddrCompress.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9AddrCompress.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9BufOut.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9BufOut.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Control.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Control.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v'
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 60.
+  Previous value: 6
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 61.
+  Previous value: `FD_SIZE'd45
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 66
+  Text macro (IFP_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 66.
+  Previous value: 3
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 132
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 138.
+  Previous value: 8
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 133
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 139.
+  Previous value: 16
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 135
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 141.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 145
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 151.
+  Previous value: 4'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 146
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 152.
+  Previous value: 4'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 147
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 153.
+  Previous value: 5'd16   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 148
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 154.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 151
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 157.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 383
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 389.
+  Previous value: 100
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v'
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 60.
+  Previous value: 5
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 61.
+  Previous value: `FD_SIZE'd18
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 127
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 132.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 128
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 133.
+  Previous value: 8
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 129
+  Text macro (BwEXTIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 134.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 130
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 135.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 140
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 145.
+  Previous value: 4'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 141
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 146.
+  Previous value: 4'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 142
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 147.
+  Previous value: 5'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 143
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 148.
+  Previous value: 3'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 144
+  Text macro (NumSeq) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 149.
+  Previous value: 1'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 145
+  Text macro (NumExtIn) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 150.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 146
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 151.
+  Previous value: 3'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 378
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 383.
+  Previous value: 30
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Fifo.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 60.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 61.
+  Previous value: `FD_SIZE'd9
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 66
+  Text macro (IFP_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 66.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 138
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 127.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 139
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 128.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 140
+  Text macro (BwEXTIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 129.
+  Previous value: 2
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 141
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 130.
+  Previous value: 0
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 151
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 140.
+  Previous value: 4'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 152
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 141.
+  Previous value: 4'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 153
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 142.
+  Previous value: 5'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 154
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 143.
+  Previous value: 3'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 155
+  Text macro (NumSeq) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 144.
+  Previous value: 1'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 156
+  Text macro (NumExtIn) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 145.
+  Previous value: 3'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 157
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 146.
+  Previous value: 3'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 389
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 378.
+  Previous value: 10
+
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Fifo.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Jtag.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Jtag.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Sync.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Sync.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Trace.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Trace.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9TraceOut.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9TraceOut.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAcaPipe.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAcaPipe.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddCmpAsy.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddCmpAsy.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddrComp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddrComp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmBuffer.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmBufferRst1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmCounter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmCounter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDataComp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDataComp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGen.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGen.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGenMux.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGenMux.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmFfEn.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmFfEn.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmSequencer.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmSequencer.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTraceEn.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTraceEn.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTrigger.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTrigger.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmViewData.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmViewData.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/a926cpmonitor_fpga.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/a926cpmonitor_fpga.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/EtmMonitor.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/EtmMonitor.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/glbl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/AHBTCMRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CLKINPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CLKOUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CoprocTBox.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CoprocVal.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/EtmMuxDelay.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/EtmMuxDemux.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/ExtArbiter.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/INPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/LockCheckA926EJS.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/MLAHB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/MLAHBDecoder.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/OUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/SRamArbiter.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TCMGasket.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TOUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TestLogic.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/TestChip/ARM926EJS_TC.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/TestChip/TestLogic.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/VFPtbench.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sClkGen.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sMICE.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sPLL.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sSynch.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM9EJSwrap.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkBlk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkBlk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkGate.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsDRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsIRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysCtl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/dummy_buffer.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/TestWrapper.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_1024x32BWm8.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_128x22.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_128x8bW.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_256x22.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x24.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x26.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x30.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_MUX2.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_ABC.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_AB.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_UDP_MUX2.v'
+Parsing design file '/home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v'
+Parsing design file '../verilog/ahb_led.v'
+Parsing design file '../verilog/ahb_sram_ctrl.v'
+Parsing design file '../verilog/rom/rom_16KX32.v'
+Parsing design file '../verilog/ram/RAM1_16Kx32B.v'
+Parsing design file '../verilog/matrix_top.v'
+Parsing design file '../verilog/soc_top.v'
+Parsing design file '../test_arm/tbench_top.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_add.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh.v'
+Parsing included file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh_function.inc'.
+Back to file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh.v'.
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_inc.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_mux_any.v'
+CPU time: .943 seconds to compile
+--- Compiling VHDL files ---
+                     Synopsys 1076 VHDL Analyzer
+                 Version O-2018.09-1 -- Oct 12, 2018
+              Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd'
+
+Error-[XSYMTABNOLIBMAP] Missing library map
+  Library logical name 'AHBLITE_AXI_BRIDGE_V3_0_14' is not mapped to a host 
+  directory.
+  The show_setup command shows all of the mappings for the libraries.  Please 
+  use this command to validate that the named library above is mapped to a 
+  physical directory in your synopsys_sim.setup file.
+
+
+Error-[OVNOSELECT1_LIB] Undefined identifier
+/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd, 57
+AHB_AXI_MATRIX_AHBLITE_AXI_BRIDGE_0_0
+  
+  USE ahblite_axi_bridge_v3_0_14.ahblite_axi_bridge;
+                                 ^
+  The symbol named 'AHBLITE_AXI_BRIDGE' cannot be found in library 
+  'AHBLITE_AXI_BRIDGE_V3_0_14'.
+
+
+Error-[VLIB_COIFR] Missing design unit
+/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd, 113
+analysis-Parsing
+  Design unit 'AHBLITE_AXI_BRIDGE' from library 
+  'AHBLITE_AXI_BRIDGE_V3_0_14/64' cannot be opened for reading.
+  Possible causes:
+  [1] Incorrect logical to physical mapping in synopsys_sim.setup file. 
+  [2] Intermediate file generation was prematurely terminated during analysis.
+  Reanalyze the design unit and resolve any errors that occur during analysis.
+
+SCRIPT_EXIT=1
+15:24:49 [END]
+OUTER_EXIT=0

@@ -1,0 +1,1585 @@
+=== BUILD START 15:38:42 ===
+--- Compiling Verilog files ---
+                         Chronologic VCS (TM)
+           Version O-2018.09-1 -- Fri Sep 18 15:38:42 2026
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffnrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx11.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx15.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx19.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx21.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx23.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx34.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx48.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx21.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx6.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx10.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx11.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx112.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx12.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx16.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx2.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx20.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx22.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx26.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx27.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx28.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx3.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx30.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx31.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx32.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx37.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx38.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx4.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx5.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx56.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx7.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx75.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx77.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx8.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx9.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCLZ.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCLZ.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsFwd.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsFwd.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIMM.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIMM.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsISyncr.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsISyncr.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJNullPtr.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJNullPtr.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJStack.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJStack.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLU.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLU.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/LogDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMainSeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMainSeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMem.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMem.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPSR.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPSR.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRam3r2wSDff.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRam3r2wSDff.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegC.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegC.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSat.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSat.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSatTimes2.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSatTimes2.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScanctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScanctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScandp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScandp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDecoder.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDecoder.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsConstants.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell18.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsDBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsIBIU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExt.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExtFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExt.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtAddrFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtDataFifo.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETMIF/a926ejsETMIF.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/DataRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/DirtyRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/TagRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/ValidRam128k.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheBiuIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDataIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDirtyIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRamGasket.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheTagIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926DCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926ICache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMRAM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsRAM.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/ETM9.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/ETM9.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9AddrCompress.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9AddrCompress.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9BufOut.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9BufOut.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Control.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Control.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v'
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 60.
+  Previous value: 6
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 61.
+  Previous value: `FD_SIZE'd45
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 66
+  Text macro (IFP_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 66.
+  Previous value: 3
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 132
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 138.
+  Previous value: 8
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 133
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 139.
+  Previous value: 16
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 135
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 141.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 145
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 151.
+  Previous value: 4'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 146
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 152.
+  Previous value: 4'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 147
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 153.
+  Previous value: 5'd16   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 148
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 154.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 151
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 157.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 383
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-large.v, 389.
+  Previous value: 100
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v'
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 60.
+  Previous value: 5
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 61.
+  Previous value: `FD_SIZE'd18
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 127
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 132.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 128
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 133.
+  Previous value: 8
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 129
+  Text macro (BwEXTIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 134.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 130
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 135.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 140
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 145.
+  Previous value: 4'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 141
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 146.
+  Previous value: 4'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 142
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 147.
+  Previous value: 5'd8   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 143
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 148.
+  Previous value: 3'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 144
+  Text macro (NumSeq) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 149.
+  Previous value: 1'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 145
+  Text macro (NumExtIn) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 150.
+  Previous value: 3'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 146
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 151.
+  Previous value: 3'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 378
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-medium.v, 383.
+  Previous value: 30
+
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Fifo.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 60
+  Text macro (FD_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 60.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 61
+  Text macro (FIFO_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 61.
+  Previous value: `FD_SIZE'd9
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 66
+  Text macro (IFP_SIZE) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 66.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 138
+  Text macro (BwAca) is redefined. The last definition will override previous 
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 127.
+  Previous value: 1
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 139
+  Text macro (BwMMDIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 128.
+  Previous value: 4
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 140
+  Text macro (BwEXTIN) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 129.
+  Previous value: 2
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 141
+  Text macro (BwExtO) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 130.
+  Previous value: 0
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 151
+  Text macro (NumAddCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 140.
+  Previous value: 4'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 152
+  Text macro (NumDataCmp) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 141.
+  Previous value: 4'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 153
+  Text macro (NumMmd) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 142.
+  Previous value: 5'd4   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 154
+  Text macro (NumCntr) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 143.
+  Previous value: 3'd1   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 155
+  Text macro (NumSeq) is redefined. The last definition will override previous
+  ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 144.
+  Previous value: 1'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 156
+  Text macro (NumExtIn) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 145.
+  Previous value: 3'd2   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 157
+  Text macro (NumExtOut) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 146.
+  Previous value: 3'd0   
+
+
+Warning-[TMR] Text macro redefined
+../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v, 389
+  Text macro (LONG_WAITS) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: 
+  ../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Defs-small.v, 378.
+  Previous value: 10
+
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Fifo.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Jtag.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Jtag.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Sync.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Sync.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Trace.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9Trace.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9TraceOut.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/Etm9TraceOut.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAcaPipe.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAcaPipe.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddCmpAsy.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddCmpAsy.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddrComp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmAddrComp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmBuffer.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmBufferRst1.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmCounter.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmCounter.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDataComp.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDataComp.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGen.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGen.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGenMux.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmEventGenMux.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmFfEn.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmFfEn.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmSequencer.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmSequencer.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTraceEn.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTraceEn.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTrigger.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmTrigger.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmViewData.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmViewData.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/a926cpmonitor_fpga.v'.
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPheader.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/a926cpmonitor_fpga.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/tbench.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/EtmMonitor.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/ETM9/EtmDefs.v'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/EtmMonitor.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/tbenchfpga/glbl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/AHBTCMRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CLKINPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CLKOUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CoprocTBox.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/CoprocVal.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/EtmMuxDelay.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/EtmMuxDemux.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/ExtArbiter.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/INPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/LockCheckA926EJS.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/MLAHB.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/MLAHBDecoder.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/OUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/SRamArbiter.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TCMGasket.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TOUTPAD.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/TestLogic.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/TestChip/ARM926EJS_TC.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/TestChip/TestLogic.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/VFPtbench.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sClkGen.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sMICE.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sPLL.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/TestChip/a9sSynch.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM9EJSwrap.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkBlk.v'
+Parsing included file '../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.vh'.
+Back to file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkBlk.v'.
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkGate.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsDRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsIRoute.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysCtl.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/dummy_buffer.v'
+Parsing design file '../ARM926EJS/ARM926EJS/verilog/ARM926EJS/TestWrapper.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_1024x32BWm8.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_128x22.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_128x8bW.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_256x22.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x24.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x26.v'
+Parsing design file '/home/ICer/work/RAM/RAM1_32x30.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_MUX2.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_ABC.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_AB.v'
+Parsing design file '/home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_UDP_MUX2.v'
+Parsing design file '/home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v'
+Parsing design file '../verilog/ahb_led.v'
+Parsing design file '../verilog/ahb_sram_ctrl.v'
+Parsing design file '../verilog/rom/rom_16KX32.v'
+Parsing design file '../verilog/ram/RAM1_16Kx32B.v'
+Parsing design file '../verilog/matrix_top.v'
+Parsing design file '../verilog/soc_top.v'
+Parsing design file '../test_arm/tbench_top.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_add.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh.v'
+Parsing included file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh_function.inc'.
+Back to file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh.v'.
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_inc.v'
+Parsing library directory file '/home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_mux_any.v'
+CPU time: .471 seconds to compile
+--- Compiling VHDL files ---
+                     Synopsys 1076 VHDL Analyzer
+                 Version O-2018.09-1 -- Oct 12, 2018
+              Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_1/sim/ahb_axi_matrix_ahblite_axi_bridge_0_1.vhd'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_0/sim/ahb_axi_matrix_axi_ahblite_bridge_0_0.vhd'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_1/sim/ahb_axi_matrix_axi_ahblite_bridge_0_1.vhd'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_1_0/sim/ahb_axi_matrix_axi_ahblite_bridge_1_0.vhd'
+Parsing design file '/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_1_1/sim/ahb_axi_matrix_axi_ahblite_bridge_1_1.vhd'
+--- Elaborating design ---
+Doing common elaboration 
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Fri Sep 18 15:38:43 2026
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Top Level Modules:
+       tbench_top
+TimeScale is 1 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+/home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v, 3122
+gen_master_slots[0], "axi_register_slice_v2_1_19_axi_register_slice #(.C_FAMILY(C_FAMILY), .C_AXI_PROTOCOL(((C_AXI_PROTOCOL == P_AXI3) ? P_AXI3 : P_AXI4)), .C_AXI_ID_WIDTH(C_AXI_ID_WIDTH), .C_AXI_ADDR_WIDTH(1), .C_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH), .C_AXI_SUPPORTS_USER_SIGNALS(C_AXI_SUPPORTS_USER_SIGNALS), .C_AXI_AWUSER_WIDTH(1), .C_AXI_ARUSER_WIDTH(1), .C_AXI_WUSER_WIDTH(C_AXI_WUSER_WIDTH), .C_AXI_RUSER_WIDTH(C_AXI_RUSER_WIDTH), .C_AXI_BUSER_WIDTH(C_AXI_BUSER_WIDTH), .C_REG_CONFIG_AW(P_BYPASS), .C_REG_CONFIG_AR(P_BYPASS), .C_REG_CONFIG_W(P_BYPASS), .C_REG_CONFIG_R((P_M_AXI_SUPPORTS_READ[0] ? P_FWD_REV : P_BYPASS)), .C_REG_CONFIG_B((P_M_AXI_SUPPORTS_WRITE[0] ? P_SIMPLE : P_BYPASS))) reg_slice_mi( .aresetn (ARESETN),  .aclk (ACLK),  .s_axi_awid ({C_AXI_ID_WIDTH {1'b0}}),  .s_a ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v, 3122
+gen_master_slots[1], "axi_register_slice_v2_1_19_axi_register_slice #(.C_FAMILY(C_FAMILY), .C_AXI_PROTOCOL(((C_AXI_PROTOCOL == P_AXI3) ? P_AXI3 : P_AXI4)), .C_AXI_ID_WIDTH(C_AXI_ID_WIDTH), .C_AXI_ADDR_WIDTH(1), .C_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH), .C_AXI_SUPPORTS_USER_SIGNALS(C_AXI_SUPPORTS_USER_SIGNALS), .C_AXI_AWUSER_WIDTH(1), .C_AXI_ARUSER_WIDTH(1), .C_AXI_WUSER_WIDTH(C_AXI_WUSER_WIDTH), .C_AXI_RUSER_WIDTH(C_AXI_RUSER_WIDTH), .C_AXI_BUSER_WIDTH(C_AXI_BUSER_WIDTH), .C_REG_CONFIG_AW(P_BYPASS), .C_REG_CONFIG_AR(P_BYPASS), .C_REG_CONFIG_W(P_BYPASS), .C_REG_CONFIG_R((P_M_AXI_SUPPORTS_READ[1] ? P_FWD_REV : P_BYPASS)), .C_REG_CONFIG_B((P_M_AXI_SUPPORTS_WRITE[1] ? P_SIMPLE : P_BYPASS))) reg_slice_mi( .aresetn (ARESETN),  .aclk (ACLK),  .s_axi_awid ({C_AXI_ID_WIDTH {1'b0}}),  .s_a ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v, 3122
+gen_master_slots[2], "axi_register_slice_v2_1_19_axi_register_slice #(.C_FAMILY(C_FAMILY), .C_AXI_PROTOCOL(((C_AXI_PROTOCOL == P_AXI3) ? P_AXI3 : P_AXI4)), .C_AXI_ID_WIDTH(C_AXI_ID_WIDTH), .C_AXI_ADDR_WIDTH(1), .C_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH), .C_AXI_SUPPORTS_USER_SIGNALS(C_AXI_SUPPORTS_USER_SIGNALS), .C_AXI_AWUSER_WIDTH(1), .C_AXI_ARUSER_WIDTH(1), .C_AXI_WUSER_WIDTH(C_AXI_WUSER_WIDTH), .C_AXI_RUSER_WIDTH(C_AXI_RUSER_WIDTH), .C_AXI_BUSER_WIDTH(C_AXI_BUSER_WIDTH), .C_REG_CONFIG_AW(P_BYPASS), .C_REG_CONFIG_AR(P_BYPASS), .C_REG_CONFIG_W(P_BYPASS), .C_REG_CONFIG_R((P_M_AXI_SUPPORTS_READ[2] ? P_FWD_REV : P_BYPASS)), .C_REG_CONFIG_B((P_M_AXI_SUPPORTS_WRITE[2] ? P_SIMPLE : P_BYPASS))) reg_slice_mi( .aresetn (ARESETN),  .aclk (ACLK),  .s_axi_awid ({C_AXI_ID_WIDTH {1'b0}}),  .s_a ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v, 3122
+gen_master_slots[3], "axi_register_slice_v2_1_19_axi_register_slice #(.C_FAMILY(C_FAMILY), .C_AXI_PROTOCOL(((C_AXI_PROTOCOL == P_AXI3) ? P_AXI3 : P_AXI4)), .C_AXI_ID_WIDTH(C_AXI_ID_WIDTH), .C_AXI_ADDR_WIDTH(1), .C_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH), .C_AXI_SUPPORTS_USER_SIGNALS(C_AXI_SUPPORTS_USER_SIGNALS), .C_AXI_AWUSER_WIDTH(1), .C_AXI_ARUSER_WIDTH(1), .C_AXI_WUSER_WIDTH(C_AXI_WUSER_WIDTH), .C_AXI_RUSER_WIDTH(C_AXI_RUSER_WIDTH), .C_AXI_BUSER_WIDTH(C_AXI_BUSER_WIDTH), .C_REG_CONFIG_AW(P_BYPASS), .C_REG_CONFIG_AR(P_BYPASS), .C_REG_CONFIG_W(P_BYPASS), .C_REG_CONFIG_R((P_M_AXI_SUPPORTS_READ[3] ? P_FWD_REV : P_BYPASS)), .C_REG_CONFIG_B((P_M_AXI_SUPPORTS_WRITE[3] ? P_SIMPLE : P_BYPASS))) reg_slice_mi( .aresetn (ARESETN),  .aclk (ACLK),  .s_axi_awid ({C_AXI_ID_WIDTH {1'b0}}),  .s_a ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v, 3122
+gen_master_slots[4], "axi_register_slice_v2_1_19_axi_register_slice #(.C_FAMILY(C_FAMILY), .C_AXI_PROTOCOL(((C_AXI_PROTOCOL == P_AXI3) ? P_AXI3 : P_AXI4)), .C_AXI_ID_WIDTH(C_AXI_ID_WIDTH), .C_AXI_ADDR_WIDTH(1), .C_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH), .C_AXI_SUPPORTS_USER_SIGNALS(C_AXI_SUPPORTS_USER_SIGNALS), .C_AXI_AWUSER_WIDTH(1), .C_AXI_ARUSER_WIDTH(1), .C_AXI_WUSER_WIDTH(C_AXI_WUSER_WIDTH), .C_AXI_RUSER_WIDTH(C_AXI_RUSER_WIDTH), .C_AXI_BUSER_WIDTH(C_AXI_BUSER_WIDTH), .C_REG_CONFIG_AW(P_BYPASS), .C_REG_CONFIG_AR(P_BYPASS), .C_REG_CONFIG_W(P_BYPASS), .C_REG_CONFIG_R((P_M_AXI_SUPPORTS_READ[4] ? P_FWD_REV : P_BYPASS)), .C_REG_CONFIG_B((P_M_AXI_SUPPORTS_WRITE[4] ? P_SIMPLE : P_BYPASS))) reg_slice_mi( .aresetn (ARESETN),  .aclk (ACLK),  .s_axi_awid ({C_AXI_ID_WIDTH {1'b0}}),  .s_a ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+/home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v, 802
+ahb_axi_matrix, "ahb_axi_matrix_axi_crossbar_0_0 axi_crossbar_0( .aclk (clk_100MHz_1),  .aresetn (rst_clk_100MHz_100M_peripheral_aresetn),  .m_axi_araddr ({axi_crossbar_0_M03_AXI_ARADDR, axi_crossbar_0_M02_AXI_ARADDR, axi_crossbar_0_M01_AXI_ARADDR, axi_crossbar_0_M00_AXI_ARADDR}),  .m_axi_arburst ({axi_crossbar_0_M03_AXI_ARBURST, axi_crossbar_0_M02_AXI_ARBURST, axi_crossbar_0_M01_AXI_ARBURST, axi_crossbar_0_M00_AXI_ARBURST}),  .m_axi_arcache ({axi_crossbar_0_M03_AXI_ARCACHE, axi_crossbar_0_M02_AXI_ARCACHE, axi_crossbar_0_M01_AXI_ARCACHE, axi_crossbar_0_M00_AXI_ARCACHE}),  .m_axi_arid ({axi_crossbar_0_M03_AXI_ARID, axi_crossbar_0_M02_AXI_ARID, axi_crossbar_0_M01_AXI_ARID, axi_crossbar_0_M00_AXI_ARID}),  .m_axi_arlen ({axi_crossbar_0_M03_AXI_ARLEN, axi_crossbar_0_M02_AXI_ ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Note-[SIMU-RESOLUTION] Simulation time resolution
+  Simulation time resolution is 1 PS
+
+
+Warning-[DRTZ] Detect delay value roundoff to 0
+  Delay from design or SDF file roundoff to 0 based on timescale
+  Please use switch -diag timescale to dump detailed information.
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+84 modules and 1 UDP read.
+recompiling module tbench_top
+recompiling module matrix_top
+recompiling module ahb_sram_ctrl
+3 of 84 modules done
+	However, due to incremental compilation, only 3 modules need to be compiled. 
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic -Wl,-E -Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib -L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib    _46375_archive_1.so _prev_archive_1.so _csrc0.so objs/udps/dxtHR.o  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o       linux64_scvhdl_0.so vh/scscomm.o vh/scsFilelist.o    -lzerosoft_rt_stubs -lerrorinf -lsnpsmalloc -lvfs /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUXAMD64/pli.a    -lvirsim -lvcsnew /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_main.o -lvcsmx -lreader_common /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libBA.a -lsimprofile -luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -Wl,-no-whole-archive         _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+CPU time: 4.560 seconds to compile + .558 seconds to elab + .422 seconds to link
+--- Running simulation ---
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Sep 18 15:38 2026
+*Verdi* Loading libsscore_vcsmx201809.so
+FSDB Dumper for VCS-MX, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'wave.fsdb'
+*Verdi* : Begin traversing the scope (tbench_top), layer (0).
+*Verdi* : End of traversing.
+Time      997270 ns: LED write, value = 0xa5
+Time      999150 ns: LED write, value = 0xa6
+Time     1000850 ns: LED write, value = 0xa7
+Time     1002550 ns: LED write, value = 0xa8
+Time     1004250 ns: LED write, value = 0xa9
+Time     1005950 ns: LED write, value = 0xaa
+Time     1007650 ns: LED write, value = 0xab
+Time     1009350 ns: LED write, value = 0xac
+Time     1011050 ns: LED write, value = 0xad
+Time     1012750 ns: LED write, value = 0xae
+Time     1014450 ns: LED write, value = 0xaf
+Time     1016150 ns: LED write, value = 0xb0
+Time     1017850 ns: LED write, value = 0xb1
+Time     1019550 ns: LED write, value = 0xb2
+Time     1021250 ns: LED write, value = 0xb3
+Time     1022950 ns: LED write, value = 0xb4
+Time     1024650 ns: LED write, value = 0xb5
+Time     1026350 ns: LED write, value = 0xb6
+Time     1028050 ns: LED write, value = 0xb7
+Time     1029750 ns: LED write, value = 0xb8
+Time     1031450 ns: LED write, value = 0xb9
+Time     1033150 ns: LED write, value = 0xba
+Time     1034850 ns: LED write, value = 0xbb
+Time     1036550 ns: LED write, value = 0xbc
+Time     1038250 ns: LED write, value = 0xbd
+Time     1039950 ns: LED write, value = 0xbe
+Time     1041650 ns: LED write, value = 0xbf
+Time     1043350 ns: LED write, value = 0xc0
+Time     1045050 ns: LED write, value = 0xc1
+Time     1046750 ns: LED write, value = 0xc2
+Time     1048450 ns: LED write, value = 0xc3
+Time     1050150 ns: LED write, value = 0xc4
+Time     1051850 ns: LED write, value = 0xc5
+Time     1053550 ns: LED write, value = 0xc6
+Time     1055250 ns: LED write, value = 0xc7
+Time     1056950 ns: LED write, value = 0xc8
+Time     1058650 ns: LED write, value = 0xc9
+Time     1060350 ns: LED write, value = 0xca
+Time     1062050 ns: LED write, value = 0xcb
+Time     1063750 ns: LED write, value = 0xcc
+Time     1065450 ns: LED write, value = 0xcd
+Time     1067150 ns: LED write, value = 0xce
+Time     1068850 ns: LED write, value = 0xcf
+Time     1070550 ns: LED write, value = 0xd0
+Time     1072250 ns: LED write, value = 0xd1
+Time     1073950 ns: LED write, value = 0xd2
+Time     1075650 ns: LED write, value = 0xd3
+Time     1077350 ns: LED write, value = 0xd4
+Time     1079050 ns: LED write, value = 0xd5
+Time     1080750 ns: LED write, value = 0xd6
+Time     1082450 ns: LED write, value = 0xd7
+Time     1084150 ns: LED write, value = 0xd8
+Time     1085850 ns: LED write, value = 0xd9
+Time     1087550 ns: LED write, value = 0xda
+Time     1089250 ns: LED write, value = 0xdb
+Time     1090950 ns: LED write, value = 0xdc
+Time     1092650 ns: LED write, value = 0xdd
+Time     1094350 ns: LED write, value = 0xde
+Time     1096050 ns: LED write, value = 0xdf
+Time     1097750 ns: LED write, value = 0xe0
+Time     1099450 ns: LED write, value = 0xe1
+Time     1101150 ns: LED write, value = 0xe2
+Time     1102850 ns: LED write, value = 0xe3
+Time     1104550 ns: LED write, value = 0xe4
+Time     1106250 ns: LED write, value = 0xe5
+Time     1107950 ns: LED write, value = 0xe6
+Time     1109650 ns: LED write, value = 0xe7
+Time     1111350 ns: LED write, value = 0xe8
+Time     1113050 ns: LED write, value = 0xe9
+Time     1114750 ns: LED write, value = 0xea
+Time     1116450 ns: LED write, value = 0xeb
+Time     1118150 ns: LED write, value = 0xec
+Time     1119850 ns: LED write, value = 0xed
+Time     1121550 ns: LED write, value = 0xee
+Time     1123250 ns: LED write, value = 0xef
+Time     1124950 ns: LED write, value = 0xf0
+Time     1126650 ns: LED write, value = 0xf1
+Time     1128350 ns: LED write, value = 0xf2
+Time     1130050 ns: LED write, value = 0xf3
+Time     1131750 ns: LED write, value = 0xf4
+Time     1133450 ns: LED write, value = 0xf5
+Time     1135150 ns: LED write, value = 0xf6
+Time     1136850 ns: LED write, value = 0xf7
+Time     1138550 ns: LED write, value = 0xf8
+Time     1140250 ns: LED write, value = 0xf9
+Time     1141950 ns: LED write, value = 0xfa
+Time     1143650 ns: LED write, value = 0xfb
+Time     1145350 ns: LED write, value = 0xfc
+Time     1147050 ns: LED write, value = 0xfd
+Time     1148750 ns: LED write, value = 0xfe
+Time     1150450 ns: LED write, value = 0xff
+Time     1152150 ns: LED write, value = 0x00
+Time     1153850 ns: LED write, value = 0x01
+Time     1155550 ns: LED write, value = 0x02
+Time     1157250 ns: LED write, value = 0x03
+Time     1158950 ns: LED write, value = 0x04
+Time     1160650 ns: LED write, value = 0x05
+Time     1162350 ns: LED write, value = 0x06
+Time     1164050 ns: LED write, value = 0x07
+Time     1165750 ns: LED write, value = 0x08
+Time     1167450 ns: LED write, value = 0x09
+Time     1169150 ns: LED write, value = 0x0a
+Time     1170850 ns: LED write, value = 0x0b
+Time     1172550 ns: LED write, value = 0x0c
+Time     1174250 ns: LED write, value = 0x0d
+Time     1175950 ns: LED write, value = 0x0e
+Time     1177650 ns: LED write, value = 0x0f
+Time     1179350 ns: LED write, value = 0x10
+Time     1181050 ns: LED write, value = 0x11
+Time     1182750 ns: LED write, value = 0x12
+Time     1184450 ns: LED write, value = 0x13
+Time     1186150 ns: LED write, value = 0x14
+Time     1187850 ns: LED write, value = 0x15
+Time     1189550 ns: LED write, value = 0x16
+Time     1191250 ns: LED write, value = 0x17
+Time     1192950 ns: LED write, value = 0x18
+Time     1194650 ns: LED write, value = 0x19
+Time     1196350 ns: LED write, value = 0x1a
+Time     1198050 ns: LED write, value = 0x1b
+Time     1199750 ns: LED write, value = 0x1c
+Time     1201450 ns: LED write, value = 0x1d
+Time     1203150 ns: LED write, value = 0x1e
+Time     1204850 ns: LED write, value = 0x1f
+Time     1206550 ns: LED write, value = 0x20
+Time     1208250 ns: LED write, value = 0x21
+Time     1209950 ns: LED write, value = 0x22
+Time     1211650 ns: LED write, value = 0x23
+Time     1213350 ns: LED write, value = 0x24
+Time     1215050 ns: LED write, value = 0x25
+Time     1216750 ns: LED write, value = 0x26
+Time     1218450 ns: LED write, value = 0x27
+Time     1220150 ns: LED write, value = 0x28
+Time     1221850 ns: LED write, value = 0x29
+Time     1223550 ns: LED write, value = 0x2a
+Time     1225250 ns: LED write, value = 0x2b
+Time     1226950 ns: LED write, value = 0x2c
+Time     1228650 ns: LED write, value = 0x2d
+Time     1230350 ns: LED write, value = 0x2e
+Time     1232050 ns: LED write, value = 0x2f
+Time     1233750 ns: LED write, value = 0x30
+Time     1235450 ns: LED write, value = 0x31
+Time     1237150 ns: LED write, value = 0x32
+Time     1238850 ns: LED write, value = 0x33
+Time     1240550 ns: LED write, value = 0x34
+Time     1242250 ns: LED write, value = 0x35
+Time     1243950 ns: LED write, value = 0x36
+Time     1245650 ns: LED write, value = 0x37
+Time     1247350 ns: LED write, value = 0x38
+Time     1249050 ns: LED write, value = 0x39
+Time     1250750 ns: LED write, value = 0x3a
+Time     1252450 ns: LED write, value = 0x3b
+Time     1254150 ns: LED write, value = 0x3c
+Time     1255850 ns: LED write, value = 0x3d
+Time     1257550 ns: LED write, value = 0x3e
+Time     1259250 ns: LED write, value = 0x3f
+Time     1260950 ns: LED write, value = 0x40
+Time     1262650 ns: LED write, value = 0x41
+Time     1264350 ns: LED write, value = 0x42
+Time     1266050 ns: LED write, value = 0x43
+Time     1267750 ns: LED write, value = 0x44
+Time     1269450 ns: LED write, value = 0x45
+Time     1271150 ns: LED write, value = 0x46
+Time     1272850 ns: LED write, value = 0x47
+Time     1274550 ns: LED write, value = 0x48
+Time     1276250 ns: LED write, value = 0x49
+Time     1277950 ns: LED write, value = 0x4a
+Time     1279650 ns: LED write, value = 0x4b
+Time     1281350 ns: LED write, value = 0x4c
+Time     1283050 ns: LED write, value = 0x4d
+Time     1284750 ns: LED write, value = 0x4e
+Time     1286450 ns: LED write, value = 0x4f
+Time     1288150 ns: LED write, value = 0x50
+Time     1289850 ns: LED write, value = 0x51
+Time     1291550 ns: LED write, value = 0x52
+Time     1293250 ns: LED write, value = 0x53
+Time     1294950 ns: LED write, value = 0x54
+Time     1296650 ns: LED write, value = 0x55
+Time     1298350 ns: LED write, value = 0x56
+Time     1300050 ns: LED write, value = 0x57
+Time     1301750 ns: LED write, value = 0x58
+Time     1303450 ns: LED write, value = 0x59
+Time     1305150 ns: LED write, value = 0x5a
+Time     1306850 ns: LED write, value = 0x5b
+Time     1308550 ns: LED write, value = 0x5c
+Time     1310250 ns: LED write, value = 0x5d
+Time     1311950 ns: LED write, value = 0x5e
+Time     1313650 ns: LED write, value = 0x5f
+Time     1315350 ns: LED write, value = 0x60
+Time     1317050 ns: LED write, value = 0x61
+Time     1318750 ns: LED write, value = 0x62
+Time     1320450 ns: LED write, value = 0x63
+Time     1322150 ns: LED write, value = 0x64
+Time     1323850 ns: LED write, value = 0x65
+Time     1325550 ns: LED write, value = 0x66
+Time     1327250 ns: LED write, value = 0x67
+Time     1328950 ns: LED write, value = 0x68
+Time     1330650 ns: LED write, value = 0x69
+Time     1332350 ns: LED write, value = 0x6a
+Time     1334050 ns: LED write, value = 0x6b
+Time     1335750 ns: LED write, value = 0x6c
+Time     1337450 ns: LED write, value = 0x6d
+Time     1339150 ns: LED write, value = 0x6e
+Time     1340850 ns: LED write, value = 0x6f
+Time     1342550 ns: LED write, value = 0x70
+Time     1344250 ns: LED write, value = 0x71
+Time     1345950 ns: LED write, value = 0x72
+Time     1347650 ns: LED write, value = 0x73
+Time     1349350 ns: LED write, value = 0x74
+Time     1351050 ns: LED write, value = 0x75
+Time     1352750 ns: LED write, value = 0x76
+Time     1354450 ns: LED write, value = 0x77
+Time     1356150 ns: LED write, value = 0x78
+Time     1357850 ns: LED write, value = 0x79
+Time     1359550 ns: LED write, value = 0x7a
+Time     1361250 ns: LED write, value = 0x7b
+Time     1362950 ns: LED write, value = 0x7c
+Time     1364650 ns: LED write, value = 0x7d
+Time     1366350 ns: LED write, value = 0x7e
+Time     1368050 ns: LED write, value = 0x7f
+Time     1369750 ns: LED write, value = 0x80
+Time     1371450 ns: LED write, value = 0x81
+Time     1373150 ns: LED write, value = 0x82
+Time     1374850 ns: LED write, value = 0x83
+Time     1376550 ns: LED write, value = 0x84
+Time     1378250 ns: LED write, value = 0x85
+Time     1379950 ns: LED write, value = 0x86
+Time     1381650 ns: LED write, value = 0x87
+Time     1383350 ns: LED write, value = 0x88
+Time     1385050 ns: LED write, value = 0x89
+Time     1386750 ns: LED write, value = 0x8a
+Time     1388450 ns: LED write, value = 0x8b
+Time     1390150 ns: LED write, value = 0x8c
+Time     1391850 ns: LED write, value = 0x8d
+Time     1393550 ns: LED write, value = 0x8e
+Time     1395250 ns: LED write, value = 0x8f
+Time     1396950 ns: LED write, value = 0x90
+Time     1398650 ns: LED write, value = 0x91
+Time     1400350 ns: LED write, value = 0x92
+Time     1402050 ns: LED write, value = 0x93
+Time     1403750 ns: LED write, value = 0x94
+Time     1405450 ns: LED write, value = 0x95
+Time     1407150 ns: LED write, value = 0x96
+Time     1408850 ns: LED write, value = 0x97
+Time     1410550 ns: LED write, value = 0x98
+Time     1412250 ns: LED write, value = 0x99
+Time     1413950 ns: LED write, value = 0x9a
+Time     1415650 ns: LED write, value = 0x9b
+Time     1417350 ns: LED write, value = 0x9c
+Time     1419050 ns: LED write, value = 0x9d
+Time     1420750 ns: LED write, value = 0x9e
+Time     1422450 ns: LED write, value = 0x9f
+Time     1424150 ns: LED write, value = 0xa0
+Time     1425850 ns: LED write, value = 0xa1
+Time     1427550 ns: LED write, value = 0xa2
+Time     1429250 ns: LED write, value = 0xa3
+Time     1430950 ns: LED write, value = 0xa4
+Time     1432650 ns: LED write, value = 0xa5
+Time     1434350 ns: LED write, value = 0xa6
+Time     1436050 ns: LED write, value = 0xa7
+Time     1437750 ns: LED write, value = 0xa8
+Time     1439450 ns: LED write, value = 0xa9
+Time     1441150 ns: LED write, value = 0xaa
+Time     1442850 ns: LED write, value = 0xab
+Time     1444550 ns: LED write, value = 0xac
+Time     1446250 ns: LED write, value = 0xad
+Time     1447950 ns: LED write, value = 0xae
+Time     1449650 ns: LED write, value = 0xaf
+Time     1451350 ns: LED write, value = 0xb0
+Time     1453050 ns: LED write, value = 0xb1
+Time     1454750 ns: LED write, value = 0xb2
+Time     1456450 ns: LED write, value = 0xb3
+Time     1458150 ns: LED write, value = 0xb4
+Time     1459850 ns: LED write, value = 0xb5
+Time     1461550 ns: LED write, value = 0xb6
+Time     1463250 ns: LED write, value = 0xb7
+Time     1464950 ns: LED write, value = 0xb8
+Time     1466650 ns: LED write, value = 0xb9
+Time     1468350 ns: LED write, value = 0xba
+Time     1470050 ns: LED write, value = 0xbb
+Time     1471750 ns: LED write, value = 0xbc
+Time     1473450 ns: LED write, value = 0xbd
+Time     1475150 ns: LED write, value = 0xbe
+Time     1476850 ns: LED write, value = 0xbf
+Time     1478550 ns: LED write, value = 0xc0
+Time     1480250 ns: LED write, value = 0xc1
+Time     1481950 ns: LED write, value = 0xc2
+Time     1483650 ns: LED write, value = 0xc3
+Time     1485350 ns: LED write, value = 0xc4
+Time     1487050 ns: LED write, value = 0xc5
+Time     1488750 ns: LED write, value = 0xc6
+Time     1490450 ns: LED write, value = 0xc7
+Time     1492150 ns: LED write, value = 0xc8
+Time     1493850 ns: LED write, value = 0xc9
+Time     1495550 ns: LED write, value = 0xca
+Time     1497250 ns: LED write, value = 0xcb
+Time     1498950 ns: LED write, value = 0xcc
+Time     1500650 ns: LED write, value = 0xcd
+Time     1502350 ns: LED write, value = 0xce
+Time     1504050 ns: LED write, value = 0xcf
+Time     1505750 ns: LED write, value = 0xd0
+Time     1507450 ns: LED write, value = 0xd1
+Time     1509150 ns: LED write, value = 0xd2
+Time     1510850 ns: LED write, value = 0xd3
+Time     1512550 ns: LED write, value = 0xd4
+Time     1514250 ns: LED write, value = 0xd5
+Time     1515950 ns: LED write, value = 0xd6
+Time     1517650 ns: LED write, value = 0xd7
+Time     1519350 ns: LED write, value = 0xd8
+Time     1521050 ns: LED write, value = 0xd9
+Time     1522750 ns: LED write, value = 0xda
+Time     1524450 ns: LED write, value = 0xdb
+Time     1526150 ns: LED write, value = 0xdc
+Time     1527850 ns: LED write, value = 0xdd
+Time     1529550 ns: LED write, value = 0xde
+Time     1531250 ns: LED write, value = 0xdf
+Time     1532950 ns: LED write, value = 0xe0
+Time     1534650 ns: LED write, value = 0xe1
+Time     1536350 ns: LED write, value = 0xe2
+Time     1538050 ns: LED write, value = 0xe3
+Time     1539750 ns: LED write, value = 0xe4
+Time     1541450 ns: LED write, value = 0xe5
+Time     1543150 ns: LED write, value = 0xe6
+Time     1544850 ns: LED write, value = 0xe7
+Time     1546550 ns: LED write, value = 0xe8
+Time     1548250 ns: LED write, value = 0xe9
+Time     1549950 ns: LED write, value = 0xea
+Time     1551650 ns: LED write, value = 0xeb
+Time     1553350 ns: LED write, value = 0xec
+Time     1555050 ns: LED write, value = 0xed
+Time     1556750 ns: LED write, value = 0xee
+Time     1558450 ns: LED write, value = 0xef
+Time     1560150 ns: LED write, value = 0xf0
+Time     1561850 ns: LED write, value = 0xf1
+Time     1563550 ns: LED write, value = 0xf2
+Time     1565250 ns: LED write, value = 0xf3
+Time     1566950 ns: LED write, value = 0xf4
+Time     1568650 ns: LED write, value = 0xf5
+Time     1570350 ns: LED write, value = 0xf6
+Time     1572050 ns: LED write, value = 0xf7
+Time     1573750 ns: LED write, value = 0xf8
+Time     1575450 ns: LED write, value = 0xf9
+Time     1577150 ns: LED write, value = 0xfa
+Time     1578850 ns: LED write, value = 0xfb
+Time     1580550 ns: LED write, value = 0xfc
+Time     1582250 ns: LED write, value = 0xfd
+Time     1583950 ns: LED write, value = 0xfe
+Time     1585650 ns: LED write, value = 0xff
+Time     1587350 ns: LED write, value = 0x00
+Time     1589050 ns: LED write, value = 0x01
+Time     1590750 ns: LED write, value = 0x02
+Time     1592450 ns: LED write, value = 0x03
+Time     1594150 ns: LED write, value = 0x04
+Time     1595850 ns: LED write, value = 0x05
+Time     1597550 ns: LED write, value = 0x06
+Time     1599250 ns: LED write, value = 0x07
+Time     1600950 ns: LED write, value = 0x08
+Time     1602650 ns: LED write, value = 0x09
+Time     1604350 ns: LED write, value = 0x0a
+Time     1606050 ns: LED write, value = 0x0b
+Time     1607750 ns: LED write, value = 0x0c
+Time     1609450 ns: LED write, value = 0x0d
+Time     1611150 ns: LED write, value = 0x0e
+Time     1612850 ns: LED write, value = 0x0f
+Time     1614550 ns: LED write, value = 0x10
+Time     1616250 ns: LED write, value = 0x11
+Time     1617950 ns: LED write, value = 0x12
+Time     1619650 ns: LED write, value = 0x13
+Time     1621350 ns: LED write, value = 0x14
+Time     1623050 ns: LED write, value = 0x15
+Time     1624750 ns: LED write, value = 0x16
+Time     1626450 ns: LED write, value = 0x17
+Time     1628150 ns: LED write, value = 0x18
+Time     1629850 ns: LED write, value = 0x19
+Time     1631550 ns: LED write, value = 0x1a
+Time     1633250 ns: LED write, value = 0x1b
+Time     1634950 ns: LED write, value = 0x1c
+Time     1636650 ns: LED write, value = 0x1d
+Time     1638350 ns: LED write, value = 0x1e
+Time     1640050 ns: LED write, value = 0x1f
+Time     1641750 ns: LED write, value = 0x20
+Time     1643450 ns: LED write, value = 0x21
+Time     1645150 ns: LED write, value = 0x22
+Time     1646850 ns: LED write, value = 0x23
+Time     1648550 ns: LED write, value = 0x24
+Time     1650250 ns: LED write, value = 0x25
+Time     1651950 ns: LED write, value = 0x26
+Time     1653650 ns: LED write, value = 0x27
+Time     1655350 ns: LED write, value = 0x28
+Time     1657050 ns: LED write, value = 0x29
+Time     1658750 ns: LED write, value = 0x2a
+Time     1660450 ns: LED write, value = 0x2b
+Time     1662150 ns: LED write, value = 0x2c
+Time     1663850 ns: LED write, value = 0x2d
+Time     1665550 ns: LED write, value = 0x2e
+Time     1667250 ns: LED write, value = 0x2f
+Time     1668950 ns: LED write, value = 0x30
+Time     1670650 ns: LED write, value = 0x31
+Time     1672350 ns: LED write, value = 0x32
+Time     1674050 ns: LED write, value = 0x33
+Time     1675750 ns: LED write, value = 0x34
+Time     1677450 ns: LED write, value = 0x35
+Time     1679150 ns: LED write, value = 0x36
+Time     1680850 ns: LED write, value = 0x37
+Time     1682550 ns: LED write, value = 0x38
+Time     1684250 ns: LED write, value = 0x39
+Time     1685950 ns: LED write, value = 0x3a
+Time     1687650 ns: LED write, value = 0x3b
+Time     1689350 ns: LED write, value = 0x3c
+Time     1691050 ns: LED write, value = 0x3d
+Time     1692750 ns: LED write, value = 0x3e
+Time     1694450 ns: LED write, value = 0x3f
+Time     1696150 ns: LED write, value = 0x40
+Time     1697850 ns: LED write, value = 0x41
+Time     1699550 ns: LED write, value = 0x42
+Time     1701250 ns: LED write, value = 0x43
+Time     1702950 ns: LED write, value = 0x44
+Time     1704650 ns: LED write, value = 0x45
+Time     1706350 ns: LED write, value = 0x46
+Time     1708050 ns: LED write, value = 0x47
+Time     1709750 ns: LED write, value = 0x48
+Time     1711450 ns: LED write, value = 0x49
+Time     1713150 ns: LED write, value = 0x4a
+Time     1714850 ns: LED write, value = 0x4b
+Time     1716550 ns: LED write, value = 0x4c
+Time     1718250 ns: LED write, value = 0x4d
+Time     1719950 ns: LED write, value = 0x4e
+Time     1721650 ns: LED write, value = 0x4f
+Time     1723350 ns: LED write, value = 0x50
+Time     1725050 ns: LED write, value = 0x51
+Time     1726750 ns: LED write, value = 0x52
+Time     1728450 ns: LED write, value = 0x53
+Time     1730150 ns: LED write, value = 0x54
+Time     1731850 ns: LED write, value = 0x55
+Time     1733550 ns: LED write, value = 0x56
+Time     1735250 ns: LED write, value = 0x57
+Time     1736950 ns: LED write, value = 0x58
+Time     1738650 ns: LED write, value = 0x59
+Time     1740350 ns: LED write, value = 0x5a
+Time     1742050 ns: LED write, value = 0x5b
+Time     1743750 ns: LED write, value = 0x5c
+Time     1745450 ns: LED write, value = 0x5d
+Time     1747150 ns: LED write, value = 0x5e
+Time     1748850 ns: LED write, value = 0x5f
+Time     1750550 ns: LED write, value = 0x60
+Time     1752250 ns: LED write, value = 0x61
+Time     1753950 ns: LED write, value = 0x62
+Time     1755650 ns: LED write, value = 0x63
+Time     1757350 ns: LED write, value = 0x64
+Time     1759050 ns: LED write, value = 0x65
+Time     1760750 ns: LED write, value = 0x66
+Time     1762450 ns: LED write, value = 0x67
+Time     1764150 ns: LED write, value = 0x68
+Time     1765850 ns: LED write, value = 0x69
+Time     1767550 ns: LED write, value = 0x6a
+Time     1769250 ns: LED write, value = 0x6b
+Time     1770950 ns: LED write, value = 0x6c
+Time     1772650 ns: LED write, value = 0x6d
+Time     1774350 ns: LED write, value = 0x6e
+Time     1776050 ns: LED write, value = 0x6f
+Time     1777750 ns: LED write, value = 0x70
+Time     1779450 ns: LED write, value = 0x71
+Time     1781150 ns: LED write, value = 0x72
+Time     1782850 ns: LED write, value = 0x73
+Time     1784550 ns: LED write, value = 0x74
+Time     1786250 ns: LED write, value = 0x75
+Time     1787950 ns: LED write, value = 0x76
+Time     1789650 ns: LED write, value = 0x77
+Time     1791350 ns: LED write, value = 0x78
+Time     1793050 ns: LED write, value = 0x79
+Time     1794750 ns: LED write, value = 0x7a
+Time     1796450 ns: LED write, value = 0x7b
+Time     1798150 ns: LED write, value = 0x7c
+Time     1799850 ns: LED write, value = 0x7d
+Time     1801550 ns: LED write, value = 0x7e
+Time     1803250 ns: LED write, value = 0x7f
+Time     1804950 ns: LED write, value = 0x80
+Time     1806650 ns: LED write, value = 0x81
+Time     1808350 ns: LED write, value = 0x82
+Time     1810050 ns: LED write, value = 0x83
+Time     1811750 ns: LED write, value = 0x84
+Time     1813450 ns: LED write, value = 0x85
+Time     1815150 ns: LED write, value = 0x86
+Time     1816850 ns: LED write, value = 0x87
+Time     1818550 ns: LED write, value = 0x88
+Time     1820250 ns: LED write, value = 0x89
+Time     1821950 ns: LED write, value = 0x8a
+Time     1823650 ns: LED write, value = 0x8b
+Time     1825350 ns: LED write, value = 0x8c
+Time     1827050 ns: LED write, value = 0x8d
+Time     1828750 ns: LED write, value = 0x8e
+Time     1830450 ns: LED write, value = 0x8f
+Time     1832150 ns: LED write, value = 0x90
+Time     1833850 ns: LED write, value = 0x91
+Time     1835550 ns: LED write, value = 0x92
+Time     1837250 ns: LED write, value = 0x93
+Time     1838950 ns: LED write, value = 0x94
+Time     1840650 ns: LED write, value = 0x95
+Time     1842350 ns: LED write, value = 0x96
+Time     1844050 ns: LED write, value = 0x97
+Time     1845750 ns: LED write, value = 0x98
+Time     1847450 ns: LED write, value = 0x99
+Time     1849150 ns: LED write, value = 0x9a
+Time     1850850 ns: LED write, value = 0x9b
+Time     1852550 ns: LED write, value = 0x9c
+Time     1854250 ns: LED write, value = 0x9d
+Time     1855950 ns: LED write, value = 0x9e
+Time     1857650 ns: LED write, value = 0x9f
+Time     1859350 ns: LED write, value = 0xa0
+Time     1861050 ns: LED write, value = 0xa1
+Time     1862750 ns: LED write, value = 0xa2
+Time     1864450 ns: LED write, value = 0xa3
+Time     1866150 ns: LED write, value = 0xa4
+Time     1867850 ns: LED write, value = 0xa5
+Time     1869550 ns: LED write, value = 0xa6
+Time     1871250 ns: LED write, value = 0xa7
+Time     1872950 ns: LED write, value = 0xa8
+Time     1874650 ns: LED write, value = 0xa9
+Time     1876350 ns: LED write, value = 0xaa
+Time     1878050 ns: LED write, value = 0xab
+Time     1879750 ns: LED write, value = 0xac
+Time     1881450 ns: LED write, value = 0xad
+Time     1883150 ns: LED write, value = 0xae
+Time     1884850 ns: LED write, value = 0xaf
+Time     1886550 ns: LED write, value = 0xb0
+Time     1888250 ns: LED write, value = 0xb1
+Time     1889950 ns: LED write, value = 0xb2
+Time     1891650 ns: LED write, value = 0xb3
+Time     1893350 ns: LED write, value = 0xb4
+Time     1895050 ns: LED write, value = 0xb5
+Time     1896750 ns: LED write, value = 0xb6
+Time     1898450 ns: LED write, value = 0xb7
+Time     1900150 ns: LED write, value = 0xb8
+Time     1901850 ns: LED write, value = 0xb9
+Time     1903550 ns: LED write, value = 0xba
+Time     1905250 ns: LED write, value = 0xbb
+Time     1906950 ns: LED write, value = 0xbc
+Time     1908650 ns: LED write, value = 0xbd
+Time     1910350 ns: LED write, value = 0xbe
+Time     1912050 ns: LED write, value = 0xbf
+Time     1913750 ns: LED write, value = 0xc0
+Time     1915450 ns: LED write, value = 0xc1
+Time     1917150 ns: LED write, value = 0xc2
+Time     1918850 ns: LED write, value = 0xc3
+Time     1920550 ns: LED write, value = 0xc4
+Time     1922250 ns: LED write, value = 0xc5
+Time     1923950 ns: LED write, value = 0xc6
+Time     1925650 ns: LED write, value = 0xc7
+Time     1927350 ns: LED write, value = 0xc8
+Time     1929050 ns: LED write, value = 0xc9
+Time     1930750 ns: LED write, value = 0xca
+Time     1932450 ns: LED write, value = 0xcb
+Time     1934150 ns: LED write, value = 0xcc
+Time     1935850 ns: LED write, value = 0xcd
+Time     1937550 ns: LED write, value = 0xce
+Time     1939250 ns: LED write, value = 0xcf
+Time     1940950 ns: LED write, value = 0xd0
+Time     1942650 ns: LED write, value = 0xd1
+Time     1944350 ns: LED write, value = 0xd2
+Time     1946050 ns: LED write, value = 0xd3
+Time     1947750 ns: LED write, value = 0xd4
+Time     1949450 ns: LED write, value = 0xd5
+Time     1951150 ns: LED write, value = 0xd6
+Time     1952850 ns: LED write, value = 0xd7
+Time     1954550 ns: LED write, value = 0xd8
+Time     1956250 ns: LED write, value = 0xd9
+Time     1957950 ns: LED write, value = 0xda
+Time     1959650 ns: LED write, value = 0xdb
+Time     1961350 ns: LED write, value = 0xdc
+Time     1963050 ns: LED write, value = 0xdd
+Time     1964750 ns: LED write, value = 0xde
+Time     1966450 ns: LED write, value = 0xdf
+Time     1968150 ns: LED write, value = 0xe0
+Time     1969850 ns: LED write, value = 0xe1
+Time     1971550 ns: LED write, value = 0xe2
+Time     1973250 ns: LED write, value = 0xe3
+Time     1974950 ns: LED write, value = 0xe4
+Time     1976650 ns: LED write, value = 0xe5
+Time     1978350 ns: LED write, value = 0xe6
+Time     1980050 ns: LED write, value = 0xe7
+Time     1981750 ns: LED write, value = 0xe8
+Time     1983450 ns: LED write, value = 0xe9
+Time     1985150 ns: LED write, value = 0xea
+Time     1986850 ns: LED write, value = 0xeb
+Time     1988550 ns: LED write, value = 0xec
+Time     1990250 ns: LED write, value = 0xed
+Time     1991950 ns: LED write, value = 0xee
+Time     1993650 ns: LED write, value = 0xef
+Time     1995350 ns: LED write, value = 0xf0
+Time     1997050 ns: LED write, value = 0xf1
+Time     1998750 ns: LED write, value = 0xf2
+$finish called from file "../test_arm/tbench_top.v", line 16.
+$finish at simulation time           2000000000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2000000000 ps
+CPU Time:      9.480 seconds;       Data structure size:   1.4Mb
+Fri Sep 18 15:38:57 2026
+--- Simulation finished ---
+=== BUILD/RUN EXIT=0 15:38:57 ===
+OUTER=0

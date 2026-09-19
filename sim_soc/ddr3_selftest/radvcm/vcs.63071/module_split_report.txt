@@ -1,0 +1,1194 @@
+/////////////Global View (Both Module/Class) For Each Split Category///////////////////////
+Total splitted  Module/Class 142
+1. Not split, Split Group Count 109[Count ratio 76.7606%]
+2. Generate Block Unrolling, Split Group Count 27[Count ratio 19.0141%]
+3. Sizing Parameter Values Different, Split Group Count 6[Count ratio 4.22535%]
+
+/////////////Global View (Only Module) For Each Split Category///////////////////////
+Total splitted  Module 141[Original Module count:129]
+1. Not split, Split Group Count 108[Count ratio 76.5957%][Weight ratio 58.8404%]
+2. Generate Block Unrolling, Split Group Count 27[Count ratio 19.1489%][Weight ratio 37.281%]
+3. Sizing Parameter Values Different, Split Group Count 6[Count ratio 4.25532%][Weight ratio 3.87857%]
+   Packages [Weight ratio 0.200032%]
+
+
+/////////////Global View (Only Class) For Each Split Category///////////////////////
+Total splitted  Class 1[Original Class count:2]
+1. Not split, Split Group Count 1[Count ratio 100%][Weight ratio 0.0367707%]
+
+
+//////////////Module/Class View For Each Split Category///////////////////////
+Module:  ddr3, Total weight ratio 18.2382%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/model/ddr3.v:95
+    ddr3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3(Id:283),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_model, matrix_ddr_tb.v:142
+
+
+Module:  axi_crossbar_v2_1_20_crossbar, Total weight ratio 14.6994%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2239
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_crossbar_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_crossbar_0000(Id:16),Total 1 Elinstance, Total 1 related virObj listed below:
+                crossbar_samd, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:5701
+
+
+Module:  axi_crossbar_v2_1_20_axi_crossbar, Total weight ratio 9.58979%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4884
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_axi_crossbar_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_axi_crossbar_0000(Id:14),Total 1 Elinstance, Total 1 related virObj listed below:
+                inst, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v:334
+
+
+Module:  ddr3_dfi_phy, Total weight ratio 7.3659%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_dfi_phy.v:30
+    ddr3_dfi_phy, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_dfi_phy(Id:199),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ddr3_phy, ../../verilog/ddr3/ddr3_top.v:180
+
+
+Module:  axi_crossbar_v2_1_20_si_transactor, Total weight ratio 3.5594%, Total Splitted Groups 2[1.40845%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3800
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000[create by generate block unroll], Total Splitted Groups 2
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000(Id:23),Total 2 Elinstance, Total 2 related virObj listed below:
+                si_transactor_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2657
+                si_transactor_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2657
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000_0000(Id:287),First different parameter is C_RMESG_WIDTH(value:3)
+            Total 2 Elinstance, Total 2 related virObj listed below:
+                si_transactor_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2763
+                si_transactor_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2763
+
+
+Module:  vioi_tri_outlogic_ship, Total weight ratio 2.88723%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.vioi_tri_outlogic_ship, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.vioi_tri_outlogic_ship(Id:204),Total 20 Elinstance, Total 1 related virObj listed below:
+                SHIP, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:54
+
+
+Module:  IDELAYE2, Total weight ratio 2.88282%, Total Splitted Groups 2[1.40845%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/IDELAYE2.v:25
+    UNISIMS_VER.IDELAYE2_0000[create by generate block unroll], Total Splitted Groups 2
+        1. Generate Block Unrolling, Split Group Count 1
+            Group UNISIMS_VER.IDELAYE2_0000(Id:242),Total 2 Elinstance, Total 2 related virObj listed below:
+                u_dqs_delay0, ../../verilog/ddr3/ddr3_dfi_phy.v:1380
+                u_dqs_delay1, ../../verilog/ddr3/ddr3_dfi_phy.v:1407
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group UNISIMS_VER.IDELAYE2_0000_0000(Id:286),First different parameter is SIGNAL_PATTERN(value:"DATA")
+            Total 16 Elinstance, Total 16 related virObj listed below:[Only print 10 virObj]
+                u_dq_delay0, ../../verilog/ddr3/ddr3_dfi_phy.v:1452
+                u_dq_delay1, ../../verilog/ddr3/ddr3_dfi_phy.v:1529
+                u_dq_delay2, ../../verilog/ddr3/ddr3_dfi_phy.v:1606
+                u_dq_delay3, ../../verilog/ddr3/ddr3_dfi_phy.v:1683
+                u_dq_delay4, ../../verilog/ddr3/ddr3_dfi_phy.v:1760
+                u_dq_delay5, ../../verilog/ddr3/ddr3_dfi_phy.v:1837
+                u_dq_delay6, ../../verilog/ddr3/ddr3_dfi_phy.v:1914
+                u_dq_delay7, ../../verilog/ddr3/ddr3_dfi_phy.v:1991
+                u_dq_delay8, ../../verilog/ddr3/ddr3_dfi_phy.v:2068
+                u_dq_delay9, ../../verilog/ddr3/ddr3_dfi_phy.v:2145
+
+
+Module:  generic_baseblocks_v2_1_0_mux_enc, Total weight ratio 2.58277%, Total Splitted Groups 5[3.52113%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000[create by generate block unroll], Total Splitted Groups 3
+        1. Sizing Parameter Values Different, Split Group Count 2
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000_0000(Id:294),First different parameter is C_DATA_WIDTH(value:5)
+            Total 2 Elinstance, Total 1 related virObj listed below:
+                si_amesg_mux_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:672
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000_0001(Id:295),First different parameter is C_DATA_WIDTH(value:38)
+            Total 5 Elinstance, Total 1 related virObj listed below:
+                mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4641
+
+        2. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000(Id:19),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_mesg, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:658
+
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0001(Id:51),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_resp_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4276
+
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0002[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0002(Id:114),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_resp_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4276
+
+
+Module:  vioi_inlogic_ship, Total weight ratio 2.54012%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.vioi_inlogic_ship, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.vioi_inlogic_ship(Id:246),Total 16 Elinstance, Total 1 related virObj listed below:
+                SHIP, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:54
+
+
+Module:  ahb_axi_matrix, Total weight ratio 2.07386%, Total Splitted Groups 1[0.704225%], ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:13
+    ahb_axi_matrix, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix(Id:7),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahb_axi_matrix_i, ../../vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v:309
+
+
+Module:  ddr3_axi_pmem, Total weight ratio 1.34139%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_axi_pmem.v:31
+    ddr3_axi_pmem, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_axi_pmem(Id:193),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_axi, ../../verilog/ddr3/ddr3_axi.v:211
+
+
+Module:  ISERDESE2, Total weight ratio 1.32669%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/ISERDESE2.v:26
+    UNISIMS_VER.ISERDESE2_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group UNISIMS_VER.ISERDESE2_0000(Id:244),Total 16 Elinstance, Total 16 related virObj listed below:[Only print 10 virObj]
+                u_serdes_dq_in0, ../../verilog/ddr3/ddr3_dfi_phy.v:1478
+                u_serdes_dq_in1, ../../verilog/ddr3/ddr3_dfi_phy.v:1555
+                u_serdes_dq_in2, ../../verilog/ddr3/ddr3_dfi_phy.v:1632
+                u_serdes_dq_in3, ../../verilog/ddr3/ddr3_dfi_phy.v:1709
+                u_serdes_dq_in4, ../../verilog/ddr3/ddr3_dfi_phy.v:1786
+                u_serdes_dq_in5, ../../verilog/ddr3/ddr3_dfi_phy.v:1863
+                u_serdes_dq_in6, ../../verilog/ddr3/ddr3_dfi_phy.v:1940
+                u_serdes_dq_in7, ../../verilog/ddr3/ddr3_dfi_phy.v:2017
+                u_serdes_dq_in8, ../../verilog/ddr3/ddr3_dfi_phy.v:2094
+                u_serdes_dq_in9, ../../verilog/ddr3/ddr3_dfi_phy.v:2171
+
+
+Module:  xil_iserdese2_vl_mod22, Total weight ratio 1.24579%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod22, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod22(Id:249),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_data_fifo_v2_1_18_axic_reg_srl_fifo, Total weight ratio 1.21784%, Total Splitted Groups 2[1.40845%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:889
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0000(Id:126),Total 2 Elinstance, Total 1 related virObj listed below:
+                wrouter_aw_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4798
+
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0001(Id:158),Total 5 Elinstance, Total 1 related virObj listed below:
+                wmux_aw_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4620
+
+
+Module:  matrix_ddr_tb, Total weight ratio 1.15166%, Total Splitted Groups 1[0.704225%], matrix_ddr_tb.v:10
+    matrix_ddr_tb, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group matrix_ddr_tb(Id:5),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  axi_crossbar_v2_1_20_addr_decoder, Total weight ratio 1.13254%, Total Splitted Groups 2[1.40845%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:794
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0000(Id:150),Total 10 Elinstance, Total 10 related virObj listed below:
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0001(Id:25),Total 4 Elinstance, Total 1 related virObj listed below:
+                addr_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3969
+
+
+Module:  ddr3_core, Total weight ratio 1.09871%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_core.v:31
+    ddr3_core, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_core(Id:195),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_core, ../../verilog/ddr3/ddr3_axi.v:267
+
+
+Module:  xil_oserdese2_vl_mod34, Total weight ratio 1.0384%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod34, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod34(Id:206),Total 1 Elinstance, Total 1 related virObj listed below:
+                BUT, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  ddr3_dfi_seq, Total weight ratio 0.883967%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_dfi_seq.v:31
+    ddr3_dfi_seq, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_dfi_seq(Id:197),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_seq, ../../verilog/ddr3/ddr3_core.v:577
+
+
+Module:  axi_crossbar_v2_1_20_addr_arbiter, Total weight ratio 0.85455%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:423
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_arbiter_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_arbiter_0000(Id:17),Total 2 Elinstance, Total 2 related virObj listed below:
+                addr_arbiter_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3252
+                addr_arbiter_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3293
+
+
+Module:  xil_iserdese2_vl_mod8, Total weight ratio 0.791304%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod8(Id:248),Total 1 Elinstance, Total 1 related virObj listed below:
+                BUT, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_data_fifo_v2_1_18_axic_srl_fifo, Total weight ratio 0.74718%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:698
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_srl_fifo_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_srl_fifo_0000(Id:97),Total 13 Elinstance, Total 7 related virObj listed below:
+                debug_r_seq_fifo_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4368
+                debug_r_seq_fifo_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4368
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+
+
+Module:  xil_oserdese2_vl_mod14, Total weight ratio 0.664813%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod14, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod14(Id:221),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_load_gen_heal, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  OSERDESE2, Total weight ratio 0.664813%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/OSERDESE2.v:25
+    UNISIMS_VER.OSERDESE2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.OSERDESE2(Id:202),Total 20 Elinstance, Total 20 related virObj listed below:[Only print 10 virObj]
+                u_serdes_dq0, ../../verilog/ddr3/ddr3_dfi_phy.v:345
+                u_serdes_dq1, ../../verilog/ddr3/ddr3_dfi_phy.v:398
+                u_serdes_dq2, ../../verilog/ddr3/ddr3_dfi_phy.v:451
+                u_serdes_dq3, ../../verilog/ddr3/ddr3_dfi_phy.v:504
+                u_serdes_dq4, ../../verilog/ddr3/ddr3_dfi_phy.v:557
+                u_serdes_dq5, ../../verilog/ddr3/ddr3_dfi_phy.v:610
+                u_serdes_dq6, ../../verilog/ddr3/ddr3_dfi_phy.v:663
+                u_serdes_dq7, ../../verilog/ddr3/ddr3_dfi_phy.v:716
+                u_serdes_dq8, ../../verilog/ddr3/ddr3_dfi_phy.v:769
+                u_serdes_dq9, ../../verilog/ddr3/ddr3_dfi_phy.v:822
+
+
+Module:  xil_oserdese2_vl_mod19, Total weight ratio 0.65893%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod19, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod19(Id:226),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_odr_ff, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod11, Total weight ratio 0.645693%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod11, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod11(Id:275),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_inputmux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod25, Total weight ratio 0.610393%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod25, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod25(Id:269),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_outmux_rank1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod24, Total weight ratio 0.607451%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod24, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod24(Id:211),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_outlogic, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod16, Total weight ratio 0.60598%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod16, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod16(Id:209),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_ndinv_outlogic, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod32, Total weight ratio 0.601568%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod32, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod32(Id:237),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_tdr_ff, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod23, Total weight ratio 0.510377%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod23, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod23(Id:279),Total 1 Elinstance, Total 1 related virObj listed below:
+                Inandgate, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod17, Total weight ratio 0.485373%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod17, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod17(Id:265),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_rank1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_crossbar_v2_1_20_arbiter_resp, Total weight ratio 0.464781%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:1025
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_arbiter_resp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_arbiter_resp(Id:50),Total 4 Elinstance, Total 1 related virObj listed below:
+                arbiter_resp_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4258
+
+
+Module:  IDELAYCTRL, Total weight ratio 0.453014%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/IDELAYCTRL.v:27
+    UNISIMS_VER.IDELAYCTRL, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.IDELAYCTRL(Id:243),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_dly_ref, ../../verilog/ddr3/ddr3_dfi_phy.v:1430
+
+
+Module:  axi_register_slice_v2_1_19_axi_register_slice, Total weight ratio 0.438306%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2716
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axi_register_slice_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axi_register_slice_0000(Id:135),Total 5 Elinstance, Total 5 related virObj listed below:
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+
+
+Module:  xil_iserdese2_vl_mod13, Total weight ratio 0.42654%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod13, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod13(Id:257),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iclkdivmux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod14, Total weight ratio 0.417715%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod14, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod14(Id:252),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_clks, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod3, Total weight ratio 0.407419%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod3(Id:259),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_bitslip_ctrl, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  ddr3_axi, Total weight ratio 0.388298%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_axi.v:31
+    ddr3_axi, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_axi(Id:191),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ddr3_axi, ../../verilog/ddr3/ddr3_top.v:116
+
+
+Module:  xil_oserdese2_vl_mod31, Total weight ratio 0.375061%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod31, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod31(Id:232),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_sreg6, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod8, Total weight ratio 0.370648%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod8(Id:218),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_dff8_rank1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  axi_crossbar_v2_1_20_decerr_slave, Total weight ratio 0.369177%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3501
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_decerr_slave_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_decerr_slave_0000(Id:188),Total 1 Elinstance, Total 1 related virObj listed below:
+                decerr_slave_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3387
+
+
+Module:  vioi_tri_outlogic_shell, Total weight ratio 0.342702%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.vioi_tri_outlogic_shell, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.vioi_tri_outlogic_shell(Id:205),Total 1 Elinstance, Total 1 related virObj listed below:
+                SHELL, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  vioi_inlogic_shell, Total weight ratio 0.327994%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.vioi_inlogic_shell, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.vioi_inlogic_shell(Id:247),Total 1 Elinstance, Total 1 related virObj listed below:
+                SHELL, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod26, Total weight ratio 0.323582%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod26, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod26(Id:273),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_outmux_rank3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_register_slice_v2_1_19_axic_register_slice, Total weight ratio 0.32064%, Total Splitted Groups 4[2.8169%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:488
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000[create by generate block unroll], Total Splitted Groups 2
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000(Id:141),Total 10 Elinstance, Total 2 related virObj listed below:
+                aw_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2971
+                ar_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3349
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000_0000(Id:296),First different parameter is C_DATA_WIDTH(value:37)
+            Total 5 Elinstance, Total 1 related virObj listed below:
+                w_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3097
+
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0001(Id:144),Total 5 Elinstance, Total 1 related virObj listed below:
+                b_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3223
+
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0002[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0002(Id:147),Total 5 Elinstance, Total 1 related virObj listed below:
+                r_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3475
+
+
+Module:  xil_oserdese2_vl_mod33, Total weight ratio 0.317698%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod33, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod33(Id:235),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_trilogic, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  ahb_axi_matrix_axi_crossbar_0_0, Total weight ratio 0.308873%, Total Splitted Groups 1[0.704225%], ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v:56
+    ahb_axi_matrix_axi_crossbar_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_crossbar_0_0(Id:13),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_crossbar_0, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:834
+
+
+Module:  ahb_axi_matrix_wrapper, Total weight ratio 0.289753%, Total Splitted Groups 1[0.704225%], ../../vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v:12
+    ahb_axi_matrix_wrapper, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_wrapper(Id:6),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_matrix, matrix_ddr_tb.v:57
+
+
+Module:  ddr3_top, Total weight ratio 0.275044%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_top.v:19
+    ddr3_top, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_top(Id:190),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ddr3, matrix_ddr_tb.v:123
+
+
+Module:  axi_infrastructure_v1_1_0_vector2axi, Total weight ratio 0.273574%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_infrastructure_v1_1/hdl/axi_infrastructure_v1_1_vl_rfs.v:474
+    AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_vector2axi_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_vector2axi_0000(Id:138),Total 5 Elinstance, Total 1 related virObj listed below:
+                vector2axi_0, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3613
+
+
+Module:  generic_baseblocks_v2_1_0_comparator_static, Total weight ratio 0.26622%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_comparator_static_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_comparator_static_0000(Id:30),Total 16 Elinstance, Total 4 related virObj listed below:
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+
+
+Module:  axi_infrastructure_v1_1_0_axi2vector, Total weight ratio 0.264749%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_infrastructure_v1_1/hdl/axi_infrastructure_v1_1_vl_rfs.v:60
+    AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_axi2vector_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_axi2vector_0000(Id:136),Total 5 Elinstance, Total 1 related virObj listed below:
+                axi2vector_0, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2922
+
+
+Module:  ddr3_axi_pmem_fifo, Total weight ratio 0.264749%, Total Splitted Groups 2[1.40845%], ../../verilog/ddr3/ddr3_axi_pmem.v:513
+    ddr3_axi_pmem_fifo, Total Splitted Groups 2
+        1. Not split, Split Group Count 1
+            Group ddr3_axi_pmem_fifo(Id:194),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_request, ../../verilog/ddr3/ddr3_axi_pmem.v:392
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group ddr3_axi_pmem_fifo_0000(Id:285),First different parameter is WIDTH(value:145)
+            Total 1 Elinstance, Total 1 related virObj listed below:
+                u_response, ../../verilog/ddr3/ddr3_axi_pmem.v:465
+
+
+Module:  IOBUFDS, Total weight ratio 0.254453%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/IOBUFDS.v:38
+    UNISIMS_VER.IOBUFDS, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.IOBUFDS(Id:201),Total 2 Elinstance, Total 2 related virObj listed below:
+                u_pad_dqs0, ../../verilog/ddr3/ddr3_dfi_phy.v:300
+                u_pad_dqs1, ../../verilog/ddr3/ddr3_dfi_phy.v:313
+
+
+Module:  xil_iserdese2_vl_mod16, Total weight ratio 0.25004%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod16, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod16(Id:264),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_rank1_d, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod9, Total weight ratio 0.235332%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod9, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod9(Id:220),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_dff8_rank2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod18, Total weight ratio 0.211799%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod18, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod18(Id:214),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_odata_optinv, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod5, Total weight ratio 0.210328%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod5(Id:228),Total 2 Elinstance, Total 2 related virObj listed below:
+                Iddrmux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Its_ddrmux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod21, Total weight ratio 0.208857%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod21, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod21(Id:212),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_optinv2_clkpm, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod32, Total weight ratio 0.200032%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod32, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod32(Id:266),Total 1 Elinstance, Total 1 related virObj listed below:
+                Irank1_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  std, Total weight ratio 0.200032%, Total Splitted Groups 1[0.704225%], :1
+    std, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group std(Id:1),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  xil_iserdese2_vl_mod4, Total weight ratio 0.194149%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod4(Id:263),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iioi_bitslip_decode, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod33, Total weight ratio 0.189737%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod33, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod33(Id:267),Total 3 Elinstance, Total 3 related virObj listed below:
+                Irank1_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Irank1_ff3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Irank1_ff4, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod12, Total weight ratio 0.189737%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod12, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod12(Id:208),Total 4 Elinstance, Total 4 related virObj listed below:
+                IFF0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                IFF1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Imisrff0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Imisrff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod6, Total weight ratio 0.189737%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod6, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod6(Id:238),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_dff4_phaser, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod20, Total weight ratio 0.188266%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod20, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod20(Id:270),Total 2 Elinstance, Total 2 related virObj listed below:
+                Irank12delay, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Irank23delay, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod15, Total weight ratio 0.186795%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod15, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod15(Id:250),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_inv, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  SRLC32E, Total weight ratio 0.176499%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/SRLC32E.v:30
+    UNISIMS_VER.SRLC32E_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group UNISIMS_VER.SRLC32E_0000(Id:103),Total 115 Elinstance, Total 1 related virObj listed below:
+                srl_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1182
+
+
+Module:  xil_iserdese2_vl_mod18, Total weight ratio 0.176499%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod18, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod18(Id:271),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_rank2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod19, Total weight ratio 0.176499%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod19, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod19(Id:272),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iserdes_rank3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod10, Total weight ratio 0.155908%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod10, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod10(Id:277),Total 2 Elinstance, Total 2 related virObj listed below:
+                Iinmux_async_ctrl, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iinmux_sync_ctrl, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod30, Total weight ratio 0.145612%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod30, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod30(Id:225),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iself_heal, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  axi_crossbar_v2_1_20_wdata_mux, Total weight ratio 0.144141%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4561
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_mux_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_mux_0000(Id:156),Total 5 Elinstance, Total 5 related virObj listed below:
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+
+
+Module:  xil_oserdese2_vl_mod15, Total weight ratio 0.141199%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod15, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod15(Id:240),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_misr, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod28, Total weight ratio 0.133845%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod28, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod28(Id:230),Total 2 Elinstance, Total 2 related virObj listed below:
+                Io_sddr_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                t_sddr_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  ddr3_dfi_fifo, Total weight ratio 0.132374%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_dfi_seq.v:432
+    ddr3_dfi_fifo, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_dfi_fifo(Id:198),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_write_fifo, ../../verilog/ddr3/ddr3_dfi_seq.v:127
+
+
+Module:  ddr3_fifo, Total weight ratio 0.132374%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_core.v:643
+    ddr3_fifo, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ddr3_fifo(Id:196),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_id_fifo, ../../verilog/ddr3/ddr3_core.v:546
+
+
+Module:  axi_crossbar_v2_1_20_wdata_router, Total weight ratio 0.120608%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4736
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_router, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_router(Id:125),Total 2 Elinstance, Total 2 related virObj listed below:
+                wdata_router_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2849
+                wdata_router_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2849
+
+
+Module:  xil_oserdese2_vl_mod29, Total weight ratio 0.119137%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod29, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod29(Id:231),Total 4 Elinstance, Total 4 related virObj listed below:
+                Io_sddr_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Io_sddr_ff3, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                t_sddr_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                t_sddr_ff3, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  B_OSERDESE2, Total weight ratio 0.117666%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:3
+    SECUREIP.B_OSERDESE2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.B_OSERDESE2(Id:203),Total 20 Elinstance, Total 1 related virObj listed below:
+                B_OSERDESE2_INST, /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/OSERDESE2.v:382
+
+
+Module:  xil_oserdese2_vl_mod7, Total weight ratio 0.117666%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod7(Id:239),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_dff4, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  B_ISERDESE2, Total weight ratio 0.117666%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:3
+    SECUREIP.B_ISERDESE2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.B_ISERDESE2(Id:245),Total 16 Elinstance, Total 1 related virObj listed below:
+                B_ISERDESE2_INST, /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/ISERDESE2.v:594
+
+
+Module:  ddr3_axi_retime, Total weight ratio 0.116195%, Total Splitted Groups 1[0.704225%], ../../verilog/ddr3/ddr3_axi_retime.v:31
+    ddr3_axi_retime_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group ddr3_axi_retime_0000(Id:192),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_retime, ../../verilog/ddr3/ddr3_axi.v:134
+
+
+Module:  xil_iserdese2_vl_mod7, Total weight ratio 0.110312%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod7(Id:274),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_iclk_enable, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod27, Total weight ratio 0.110312%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod27, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod27(Id:216),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_reset_synch, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod17, Total weight ratio 0.0941329%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod17, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod17(Id:227),Total 5 Elinstance, Total 5 related virObj listed below:
+                Ickoclk_p1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Icknonoverlap1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Inonoverlapck, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ick_nonoverlap0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Icknonoverlap1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  glbl, Total weight ratio 0.0941329%, Total Splitted Groups 1[0.704225%], ../../verilog/glbl.v:6
+    glbl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group glbl(Id:284),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  xil_iserdese2_vl_mod2, Total weight ratio 0.0882496%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod2(Id:262),Total 3 Elinstance, Total 3 related virObj listed below:
+                Iff0_mux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imxbs1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imxbs2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod2, Total weight ratio 0.0882496%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod2(Id:222),Total 4 Elinstance, Total 4 related virObj listed below:
+                Iload_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Imxddrlatch, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Itdr_ff_mux1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Itdr_ff_mux2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod13, Total weight ratio 0.0867787%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod13, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod13(Id:207),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ielp, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod9, Total weight ratio 0.0779538%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod9, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod9(Id:278),Total 4 Elinstance, Total 4 related virObj listed below:
+                Imux_async_p, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imux_async_m, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imux_sync_m, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imux_sync_p, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_crossbar_v2_1_20_splitter, Total weight ratio 0.067658%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4461
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_splitter, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_splitter(Id:20),Total 3 Elinstance, Total 3 related virObj listed below:
+                splitter_aw_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3354
+                splitter_aw_si, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2831
+                splitter_aw_si, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2831
+
+
+Module:  xil_oserdese2_vl_mod1, Total weight ratio 0.0661872%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod1(Id:233),Total 6 Elinstance, Total 6 related virObj listed below:
+                Irank2_ff3_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank2_ff4_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank2_ff5_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank2_ff6_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank2_ff7_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank2_ff8_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod1, Total weight ratio 0.0661872%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod1(Id:255),Total 7 Elinstance, Total 7 related virObj listed below:
+                u_iff56, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ckdvbmx, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imx_rnk1_dq3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imx_rnk1_dq4, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imx_rnk1_dq5, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Imx_rnk1_dq6, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_vioi_3to1_mux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod34, Total weight ratio 0.0647164%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod34, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod34(Id:268),Total 6 Elinstance, Total 6 related virObj listed below:
+                I_ssh1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I_ssh2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I_ssh3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I_ssh4, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I_ssh5, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I_ssh6, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  axi_data_fifo_v2_1_18_ndeep_srl, Total weight ratio 0.0573622%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_ndeep_srl_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_ndeep_srl_0000(Id:100),Total 115 Elinstance, Total 12 related virObj listed below:[Only print 10 virObj]
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+
+
+Module:  xil_iserdese2_vl_mod6, Total weight ratio 0.0558914%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod6, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod6(Id:258),Total 34 Elinstance, Total 34 related virObj listed below:[Only print 10 virObj]
+                Imxclkdiv, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Ibitslipcnt_ff0, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Ibitslipcnt_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Ibitslipcnt_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Ibitslipcnt_ff3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iff2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iff3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iff4, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iff5, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Irank1_ff5, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod10, Total weight ratio 0.0558914%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod10, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod10(Id:219),Total 34 Elinstance, Total 34 related virObj listed below:[Only print 10 virObj]
+                Iff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff3, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff4, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff5, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff6, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff7, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iff8, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank1_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irank1_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod22, Total weight ratio 0.0558914%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod22, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod22(Id:215),Total 9 Elinstance, Total 9 related virObj listed below:
+                Ivioi_optinv_std1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std3, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std4, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std5, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std6, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std7, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std8, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ivioi_optinv_std1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod11, Total weight ratio 0.0470664%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod11, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod11(Id:217),Total 5 Elinstance, Total 5 related virObj listed below:
+                Iset_ff2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iset_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iset_ff0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iset_ff1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iset_ff0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod30, Total weight ratio 0.0470664%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod30, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod30(Id:260),Total 2 Elinstance, Total 2 related virObj listed below:
+                Iff0, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                Iff1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  IOBUF, Total weight ratio 0.0455956%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/IOBUF.v:31
+    UNISIMS_VER.IOBUF, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.IOBUF(Id:241),Total 16 Elinstance, Total 16 related virObj listed below:[Only print 10 virObj]
+                u_pad_dq0, ../../verilog/ddr3/ddr3_dfi_phy.v:382
+                u_pad_dq1, ../../verilog/ddr3/ddr3_dfi_phy.v:435
+                u_pad_dq2, ../../verilog/ddr3/ddr3_dfi_phy.v:488
+                u_pad_dq3, ../../verilog/ddr3/ddr3_dfi_phy.v:541
+                u_pad_dq4, ../../verilog/ddr3/ddr3_dfi_phy.v:594
+                u_pad_dq5, ../../verilog/ddr3/ddr3_dfi_phy.v:647
+                u_pad_dq6, ../../verilog/ddr3/ddr3_dfi_phy.v:700
+                u_pad_dq7, ../../verilog/ddr3/ddr3_dfi_phy.v:753
+                u_pad_dq8, ../../verilog/ddr3/ddr3_dfi_phy.v:806
+                u_pad_dq9, ../../verilog/ddr3/ddr3_dfi_phy.v:859
+
+
+Module:  xil_iserdese2_vl_mod24, Total weight ratio 0.0441248%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod24, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod24(Id:276),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iioi_datain_optinv, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  OBUFDS, Total weight ratio 0.042654%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/OBUFDS.v:29
+    UNISIMS_VER.OBUFDS, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.OBUFDS(Id:200),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_pad_ck, ../../verilog/ddr3/ddr3_dfi_phy.v:172
+
+
+Module:  xil_oserdese2_vl_mod4, Total weight ratio 0.0411831%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod4(Id:229),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iddr_latch, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod27, Total weight ratio 0.0397123%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod27, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod27(Id:256),Total 7 Elinstance, Total 7 related virObj listed below:
+                u_pg0, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg0, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_pg3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod25, Total weight ratio 0.0397123%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod25, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod25(Id:223),Total 7 Elinstance, Total 7 related virObj listed below:
+                u_pg0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg3, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                u_pg2, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Class:  mailbox, Total weight ratio 0.0367707%, Total Splitted Groups 1[0.704225%]
+(Shared Class Information:TotalGroup 1, TotalMasterGroup 0, TotalSharedGroup 0, TotalSavedGroups 0[0%])
+    mailbox, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group mailbox(Id:2),Total 1 Elinstance, Total 1 related virObj listed below:
+                _vcs_vtb_sq_mbox, :1
+
+
+Module:  xil_oserdese2_vl_mod0, Total weight ratio 0.0279457%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod0(Id:213),Total 23 Elinstance, Total 23 related virObj listed below:[Only print 10 virObj]
+                Ioclkdivmux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclkp1mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclkm1mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclkp2mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclkm2mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclksp1mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iclksm1mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ioclkdivfmux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Irst_mux, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Imux1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod3, Total weight ratio 0.0279457%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod3(Id:234),Total 1 Elinstance, Total 1 related virObj listed below:
+                Itbye, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod0, Total weight ratio 0.0279457%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod0(Id:254),Total 31 Elinstance, Total 31 related virObj listed below:[Only print 10 virObj]
+                u_ioptinv1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ioptinv2, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ioptinv3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ioclkp, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ioclkm, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_iff3_rank1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_iff4_rank1, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_clkdivp_ctl_mux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_clkdiv_ctl_mux, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_ckdv125mx, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod23, Total weight ratio 0.025004%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod23, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod23(Id:224),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ilatch, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod31, Total weight ratio 0.025004%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod31, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod31(Id:261),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ilatch, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod29, Total weight ratio 0.0235332%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod29, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod29(Id:280),Total 4 Elinstance, Total 4 related virObj listed below:
+                I230, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I229, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I227, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                I231, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  MUXF7, Total weight ratio 0.0235332%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/MUXF7.v:27
+    UNISIMS_VER.MUXF7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.MUXF7(Id:54),Total 50 Elinstance, Total 50 related virObj listed below:[Only print 10 virObj]
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+
+
+Module:  xil_oserdese2_vl_mod26, Total weight ratio 0.0235332%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod26, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod26(Id:210),Total 4 Elinstance, Total 4 related virObj listed below:
+                Ireadback_rdq_o1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Ireadback_rdq_t1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iread_back_elp0, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                Iread_back_elp1, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod21, Total weight ratio 0.0205916%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod21, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod21(Id:251),Total 1 Elinstance, Total 1 related virObj listed below:
+                I_vioi_iserdes_sr, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod12, Total weight ratio 0.0176499%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod12, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod12(Id:281),Total 1 Elinstance, Total 1 related virObj listed below:
+                Iirdbk, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_oserdese2_vl_mod20, Total weight ratio 0.0132374%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+    SECUREIP.xil_oserdese2_vl_mod20, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_oserdese2_vl_mod20(Id:236),Total 4 Elinstance, Total 4 related virObj listed below:
+                It1_delay, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                It2_delay, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                It3_delay, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+                It4_delay, /home/Xilinx/Vivado/2019.1/data/secureip/oserdese2/oserdese2_002.vp:5
+
+
+Module:  MHDL_VL_TOP, Total weight ratio 0.00882496%, Total Splitted Groups 1[0.704225%], .mhdlinst.dat:1
+    MHDL_VL_TOP, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group MHDL_VL_TOP(Id:4),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  xil_iserdese2_vl_mod28, Total weight ratio 0.00882496%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod28, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod28(Id:282),Total 1 Elinstance, Total 1 related virObj listed below:
+                Ivioi_pcidly, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  xil_iserdese2_vl_mod5, Total weight ratio 0.00735413%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+    SECUREIP.xil_iserdese2_vl_mod5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group SECUREIP.xil_iserdese2_vl_mod5(Id:253),Total 4 Elinstance, Total 4 related virObj listed below:
+                u_delay_iclkpdly_ddr3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_delay_iclkmdly_ddr3, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_delay_iclkpdly, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+                u_delay_iclkmdly, /home/Xilinx/Vivado/2019.1/data/secureip/iserdese2/iserdese2_002.vp:5
+
+
+Module:  generic_baseblocks_v2_1_0_carry_and, Total weight ratio 0.00735413%, Total Splitted Groups 1[0.704225%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_carry_and_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_carry_and_0000(Id:32),Total 80 Elinstance, Total 5 related virObj listed below:
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+
+
+Class:  _vcs_Dummy_Class, Total weight ratio 0%, Total Splitted Groups 0[0%]
+(Shared Class Information:TotalGroup 0, TotalMasterGroup 0, TotalSharedGroup 0, TotalSavedGroups 0[-nan%])
+    _vcs_Dummy_Class, Total Splitted Groups 0
+
+Module:  mxDefParamHelper$$, Total weight ratio 0%, Total Splitted Groups 1[0.704225%]
+    mxDefParamHelper$$, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group mxDefParamHelper$$(Id:3),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  ahb_axi_matrix_ahblite_axi_bridge_0_0, Total weight ratio 0%, Total Splitted Groups 1[0.704225%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd:59
+    ahb_axi_matrix_ahblite_axi_bridge_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_ahblite_axi_bridge_0_0(Id:8),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahblite_axi_bridge_0, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:587
+
+
+Module:  ahb_axi_matrix_ahblite_axi_bridge_0_1, Total weight ratio 0%, Total Splitted Groups 1[0.704225%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_1/sim/ahb_axi_matrix_ahblite_axi_bridge_0_1.vhd:59
+    ahb_axi_matrix_ahblite_axi_bridge_0_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_ahblite_axi_bridge_0_1(Id:9),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahblite_axi_bridge_1, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:637
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_0_0, Total weight ratio 0%, Total Splitted Groups 1[0.704225%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_0/sim/ahb_axi_matrix_axi_ahblite_bridge_0_0.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_0_0(Id:10),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_0, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:687
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_0_1, Total weight ratio 0%, Total Splitted Groups 1[0.704225%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_1/sim/ahb_axi_matrix_axi_ahblite_bridge_0_1.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_0_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_0_1(Id:11),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_1, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:736
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_1_1, Total weight ratio 0%, Total Splitted Groups 1[0.704225%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_1_1/sim/ahb_axi_matrix_axi_ahblite_bridge_1_1.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_1_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_1_1(Id:12),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_3, ../../vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:785
+
+

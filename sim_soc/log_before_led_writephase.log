@@ -1,0 +1,68 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Sep 18 15:34 2026
+ucli% run 997000000
+*Verdi* Loading libsscore_vcsmx201809.so
+*Verdi* Cannot load libsscore_vcsmx201809.so from following LD_LIBRARY_PATH
+(null)
+*Verdi* Failed to load FSDB dumper.
+997000000 PS
+ucli% for {set i 0} {$i < 40} {incr i} {
+  run 20000
+  set a3 [get -radix hex tbench_top.dut.u_matrix_top.M_AHB_3_haddr]
+  set w3 [get -radix hex tbench_top.dut.u_matrix_top.M_AHB_3_hwdata]
+  set t3 [get -radix bin tbench_top.dut.u_matrix_top.M_AHB_3_htrans]
+  set r3 [get -radix hex tbench_top.dut.u_matrix_top.M_AHB_3_hresp]
+  set la [get -radix hex tbench_top.dut.u_matrix_top.led_addr]
+  set lw [get -radix hex tbench_top.dut.u_matrix_top.led_wdata]
+  set lc [get -radix bin tbench_top.dut.u_matrix_top.led_ce_n]
+  set lwe [get -radix bin tbench_top.dut.u_matrix_top.led_we_b_en]
+  set lr [get -radix hex tbench_top.dut.u_matrix_top.u_sram_led.led_reg]
+  puts "Q $i A3=$a3 W3=$w3 T3=$t3 R3=$r3 LA=$la LW=$lw CE=$lc WE=$lwe REG=$lr"
+}
+Q 0 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 1 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 2 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 3 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 4 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 5 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 6 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 7 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 8 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 9 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 10 A3='h00000000 W3='h00000000 T3='b00 R3='hx LA='h0000 LW='h00000000 CE='b1 WE='b1111 REG='h00
+Q 11 A3='h80000000 W3='h00000000 T3='b10 R3='hx LA='h0000 LW='h00000000 CE='b0 WE='b0000 REG='h00
+Time      997250 ns: LED write, value = 0x00
+Q 12 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 13 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 14 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 15 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 16 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 17 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 18 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 19 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 20 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 21 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 22 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 23 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 24 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 25 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 26 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 27 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 28 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 29 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 30 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 31 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 32 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 33 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 34 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 35 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 36 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 37 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 38 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+Q 39 A3='h80000000 W3='hxxxxxxxx T3='b00 R3='hx LA='h0000 LW='hxxxxxxxx CE='b1 WE='b1111 REG='h00
+ucli% quit
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 997800000 ps
+CPU Time:      3.310 seconds;       Data structure size:   1.4Mb
+Fri Sep 18 15:34:11 2026

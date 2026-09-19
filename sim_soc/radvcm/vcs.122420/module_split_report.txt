@@ -1,0 +1,1927 @@
+/////////////Global View (Both Module/Class) For Each Split Category///////////////////////
+Total splitted  Module/Class 232
+1. Not split, Split Group Count 197[Count ratio 84.9138%]
+2. Generate Block Unrolling, Split Group Count 24[Count ratio 10.3448%]
+3. Sizing Parameter Values Different, Split Group Count 11[Count ratio 4.74138%]
+
+/////////////Global View (Only Module) For Each Split Category///////////////////////
+Total splitted  Module 231[Original Module count:214]
+1. Not split, Split Group Count 196[Count ratio 84.8485%][Weight ratio 85.4226%]
+2. Generate Block Unrolling, Split Group Count 24[Count ratio 10.3896%][Weight ratio 13.4247%]
+3. Sizing Parameter Values Different, Split Group Count 11[Count ratio 4.7619%][Weight ratio 1.15269%]
+   Packages [Weight ratio 0.376576%]
+
+
+/////////////Global View (Only Class) For Each Split Category///////////////////////
+Total splitted  Class 1[Original Class count:2]
+1. Not split, Split Group Count 1[Count ratio 100%][Weight ratio 0.0143512%]
+
+
+//////////////Module/Class View For Each Split Category///////////////////////
+Module:  a9ejsJDec, Total weight ratio 8.63945%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v:22
+    a9ejsJDec, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsJDec(Id:23),Total 1 Elinstance, Total 1 related virObj listed below:
+                uJDEC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:546
+
+
+Module:  a926ejsMMU, Total weight ratio 7.97355%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:23
+    a926ejsMMU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsMMU(Id:148),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMMU, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:2050
+
+
+Module:  axi_crossbar_v2_1_20_crossbar, Total weight ratio 5.73705%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2239
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_crossbar_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_crossbar_0000(Id:193),Total 1 Elinstance, Total 1 related virObj listed below:
+                crossbar_samd, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:5701
+
+
+Module:  axi_crossbar_v2_1_20_axi_crossbar, Total weight ratio 3.7428%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4884
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_axi_crossbar_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_axi_crossbar_0000(Id:191),Total 1 Elinstance, Total 1 related virObj listed below:
+                inst, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v:334
+
+
+Module:  a926DataCache, Total weight ratio 2.76175%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:43
+    a926DataCache, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926DataCache(Id:137),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDC, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DCache.v:253
+
+
+Module:  a926ejsCPctl, Total weight ratio 2.60331%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:35
+    a926ejsCPctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsCPctl(Id:88),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCPctl, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v:503
+
+
+Module:  a926InstrCache, Total weight ratio 2.5993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:43
+    a926InstrCache, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926InstrCache(Id:116),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIC, ../ARM926EJS/ARM926EJS/verilog/Cache/a926ICache.v:215
+
+
+Module:  a9ejsJStack, Total weight ratio 2.58954%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJStack.v:23
+    a9ejsJStack, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsJStack(Id:24),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSCTL, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v:624
+
+
+Module:  TestWrapper, Total weight ratio 2.54189%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/TestWrapper.v:22
+    TestWrapper, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group TestWrapper(Id:10),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTestWrapper, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:916
+
+
+Module:  a9ejsLogStatus, Total weight ratio 2.34729%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v:22
+    a9ejsLogStatus, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsLogStatus(Id:76),Total 1 Elinstance, Total 1 related virObj listed below:
+                uLogStatus, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:924
+
+
+Module:  ARM926EJSCore, Total weight ratio 2.05682%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:26
+    ARM926EJSCore, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ARM926EJSCore(Id:9),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCORE, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:331
+
+
+Module:  a9ejsIPipe, Total weight ratio 1.85992%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:30
+    a9ejsIPipe, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsIPipe(Id:20),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIPIPE, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:428
+
+
+Module:  a9ejsPipeCtl, Total weight ratio 1.74741%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v:26
+    a9ejsPipeCtl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsPipeCtl(Id:40),Total 1 Elinstance, Total 1 related virObj listed below:
+                uPIPECTL, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:841
+
+
+Module:  a926CacheFB, Total weight ratio 1.69804%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:44
+    a926CacheFB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheFB(Id:121),Total 2 Elinstance, Total 2 related virObj listed below:
+                uFB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:2831
+                uFB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2886
+
+
+Module:  a926ejsDBIU, Total weight ratio 1.59471%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsDBIU.v:20
+    a926ejsDBIU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDBIU(Id:110),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDBIU, ../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsBIU.v:205
+
+
+Module:  a9ejsShALUADec, Total weight ratio 1.47703%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUADec.v:18
+    a9ejsShALUADec, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsShALUADec(Id:32),Total 1 Elinstance, Total 1 related virObj listed below:
+                uShALUADec, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v:367
+
+
+Module:  a9ejsREG, Total weight ratio 1.4489%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:44
+    a9ejsREG, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsREG(Id:26),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREG, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v:165
+
+
+Module:  axi_crossbar_v2_1_20_si_transactor, Total weight ratio 1.3892%, Total Splitted Groups 2[0.862069%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3800
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000[create by generate block unroll], Total Splitted Groups 2
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000(Id:200),Total 2 Elinstance, Total 2 related virObj listed below:
+                si_transactor_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2657
+                si_transactor_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2657
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_si_transactor_0000_0000(Id:378),First different parameter is C_RMESG_WIDTH(value:3)
+            Total 2 Elinstance, Total 2 related virObj listed below:
+                si_transactor_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2763
+                si_transactor_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2763
+
+
+Module:  a926ejsUTLB, Total weight ratio 1.35705%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:22
+    a926ejsUTLB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsUTLB(Id:163),Total 2 Elinstance, Total 2 related virObj listed below:
+                uDuTLB, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:2122
+                uIuTLB, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:2181
+
+
+Module:  a926CacheDataIntf, Total weight ratio 1.30137%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDataIntf.v:44
+    a926CacheDataIntf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheDataIntf(Id:128),Total 2 Elinstance, Total 2 related virObj listed below:
+                uDataIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:2959
+                uDataIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:3014
+
+
+Module:  a9ejsPSR, Total weight ratio 1.28357%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPSR.v:24
+    a9ejsPSR, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsPSR(Id:42),Total 1 Elinstance, Total 1 related virObj listed below:
+                uPSR, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:974
+
+
+Module:  a926ejsSysCtl, Total weight ratio 1.27267%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysCtl.v:21
+    a926ejsSysCtl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsSysCtl(Id:112),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSysCtl, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1591
+
+
+Module:  a9ejsJInBuf, Total weight ratio 1.1768%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v:23
+    a9ejsJInBuf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsJInBuf(Id:21),Total 1 Elinstance, Total 1 related virObj listed below:
+                uJINBUF, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:498
+
+
+Module:  a9ejsMulDP, Total weight ratio 1.14178%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v:22
+    a9ejsMulDP, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsMulDP(Id:49),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMulDP, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v:258
+
+
+Module:  a9ejsRam3r2wSDff, Total weight ratio 1.10505%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRam3r2wSDff.v:23
+    a9ejsRam3r2wSDff, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsRam3r2wSDff(Id:48),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREGBANKMEM, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v:471
+
+
+Module:  a926CacheEWB, Total weight ratio 1.08782%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v:44
+    a926CacheEWB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheEWB(Id:144),Total 1 Elinstance, Total 1 related virObj listed below:
+                uEWB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2856
+
+
+Module:  a9ejsShALUSeq, Total weight ratio 1.08266%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUSeq.v:27
+    a9ejsShALUSeq, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsShALUSeq(Id:33),Total 1 Elinstance, Total 1 related virObj listed below:
+                uShALUSeq, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v:392
+
+
+Module:  a926ejsIBIU, Total weight ratio 1.04994%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsIBIU.v:20
+    a926ejsIBIU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsIBIU(Id:111),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIBIU, ../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsBIU.v:264
+
+
+Module:  generic_baseblocks_v2_1_0_mux_enc, Total weight ratio 1.00803%, Total Splitted Groups 5[2.15517%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000[create by generate block unroll], Total Splitted Groups 3
+        1. Sizing Parameter Values Different, Split Group Count 2
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000_0000(Id:385),First different parameter is C_DATA_WIDTH(value:5)
+            Total 2 Elinstance, Total 1 related virObj listed below:
+                si_amesg_mux_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:672
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000_0001(Id:386),First different parameter is C_DATA_WIDTH(value:38)
+            Total 5 Elinstance, Total 1 related virObj listed below:
+                mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4641
+
+        2. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0000(Id:196),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_mesg, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:658
+
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0001(Id:228),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_resp_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4276
+
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0002[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_mux_enc_0002(Id:291),Total 2 Elinstance, Total 1 related virObj listed below:
+                mux_resp_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4276
+
+
+Module:  a926ejsIExt, Total weight ratio 0.984495%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExt.v:25
+    a926ejsIExt, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsIExt(Id:107),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIExt, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1478
+
+
+Module:  a9ejsCoreCtl, Total weight ratio 0.965551%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:25
+    a9ejsCoreCtl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsCoreCtl(Id:19),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCORECTL, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:483
+
+
+Module:  a9ejsShALUTDec, Total weight ratio 0.963255%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUTDec.v:27
+    a9ejsShALUTDec, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsShALUTDec(Id:31),Total 1 Elinstance, Total 1 related virObj listed below:
+                uShALUTDec, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v:345
+
+
+Module:  a926CacheValidIntf, Total weight ratio 0.960385%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:44
+    a926CacheValidIntf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheValidIntf(Id:129),Total 2 Elinstance, Total 2 related virObj listed below:
+                uValidIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:3031
+                uValidIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:3086
+
+
+Module:  ARM926EJS, Total weight ratio 0.926516%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:23
+    ARM926EJS, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ARM926EJS(Id:8),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ARM926EJS, ../verilog/soc_top.v:80
+
+
+Module:  a926ejsDExt, Total weight ratio 0.911591%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExt.v:24
+    a926ejsDExt, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDExt(Id:102),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDExt, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1437
+
+
+Module:  a9ejsMainSeq, Total weight ratio 0.845575%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMainSeq.v:23
+    a9ejsMainSeq, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsMainSeq(Id:35),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMAINSEQ, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:731
+
+
+Module:  a9ejsMem, Total weight ratio 0.832372%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMem.v:23
+    a9ejsMem, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsMem(Id:43),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMEM, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:1034
+
+
+Module:  ARM9EJS, Total weight ratio 0.831798%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:22
+    ARM9EJS, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ARM9EJS(Id:17),Total 1 Elinstance, Total 1 related virObj listed below:
+                uARM9, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM9EJSwrap.v:174
+
+
+Module:  ahb_axi_matrix, Total weight ratio 0.753727%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:13
+    ahb_axi_matrix, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix(Id:183),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahb_axi_matrix_i, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v:225
+
+
+Module:  a9ejsShALUCtl, Total weight ratio 0.749709%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShALUCtl.v:25
+    a9ejsShALUCtl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsShALUCtl(Id:30),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSHALUCTL, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:636
+
+
+Module:  a926CachePWB, Total weight ratio 0.73995%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:44
+    a926CachePWB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CachePWB(Id:141),Total 1 Elinstance, Total 1 related virObj listed below:
+                uPWB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2783
+
+
+Module:  a926ejsCPdp, Total weight ratio 0.721006%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:34
+    a926ejsCPdp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsCPdp(Id:82),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCPdp, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v:423
+
+
+Module:  a9ejsShifter, Total weight ratio 0.706655%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v:24
+    a9ejsShifter, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsShifter(Id:53),Total 1 Elinstance, Total 1 related virObj listed below:
+                uShifter, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:177
+
+
+Module:  a9ejsMASeq, Total weight ratio 0.696322%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:23
+    a9ejsMASeq, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsMASeq(Id:36),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMASEQ, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:790
+
+
+Module:  a9ejsICEctl, Total weight ratio 0.646954%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v:37
+    a9ejsICEctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsICEctl(Id:68),Total 1 Elinstance, Total 1 related virObj listed below:
+                uICEctl, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v:226
+
+
+Module:  a9ejsWRegDecoder, Total weight ratio 0.644084%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDecoder.v:35
+    a9ejsWRegDecoder, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsWRegDecoder(Id:45),Total 1 Elinstance, Total 1 related virObj listed below:
+                uWREGDECODER, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v:447
+
+
+Module:  a9ejsRegBank, Total weight ratio 0.637195%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegBank.v:27
+    a9ejsRegBank, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsRegBank(Id:47),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREGBANK, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v:204
+
+
+Module:  a9ejsTapScanctl, Total weight ratio 0.580364%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScanctl.v:28
+    a9ejsTapScanctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsTapScanctl(Id:67),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTapScanctl, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v:182
+
+
+Module:  a9ejsAU, Total weight ratio 0.497127%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v:23
+    a9ejsAU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsAU(Id:60),Total 1 Elinstance, Total 1 related virObj listed below:
+                uAU, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:214
+
+
+Module:  axi_data_fifo_v2_1_18_axic_reg_srl_fifo, Total weight ratio 0.475313%, Total Splitted Groups 2[0.862069%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:889
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0000(Id:303),Total 2 Elinstance, Total 1 related virObj listed below:
+                wrouter_aw_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4798
+
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_reg_srl_fifo_0001(Id:335),Total 5 Elinstance, Total 1 related virObj listed below:
+                wmux_aw_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4620
+
+
+Module:  a9ejsWRegDec, Total weight ratio 0.454647%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWRegDec.v:30
+    a9ejsWRegDec, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsWRegDec(Id:44),Total 1 Elinstance, Total 1 related virObj listed below:
+                uWREGDEC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:1099
+
+
+Module:  a9ejsIMM, Total weight ratio 0.447185%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIMM.v:25
+    a9ejsIMM, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsIMM(Id:34),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIMM, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:706
+
+
+Module:  a9ejsRegC, Total weight ratio 0.443166%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegC.v:40
+    a9ejsRegC, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsRegC(Id:28),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREGC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v:209
+
+
+Module:  axi_crossbar_v2_1_20_addr_decoder, Total weight ratio 0.442018%, Total Splitted Groups 2[0.862069%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:794
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0000(Id:327),Total 10 Elinstance, Total 10 related virObj listed below:
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+                bid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2952
+                rid_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2911
+
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_decoder_0001(Id:202),Total 4 Elinstance, Total 1 related virObj listed below:
+                addr_decoder_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3969
+
+
+Module:  a926CacheUTag, Total weight ratio 0.433407%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:44
+    a926CacheUTag, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheUTag(Id:134),Total 2 Elinstance, Total 2 related virObj listed below:
+                uUTag, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:3122
+                uUTag, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:3208
+
+
+Module:  a926CacheDirtyIntf, Total weight ratio 0.402409%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDirtyIntf.v:44
+    a926CacheDirtyIntf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheDirtyIntf(Id:145),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDirtyIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:3135
+
+
+Module:  a926ejsSysDebug, Total weight ratio 0.372558%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:41
+    a926ejsSysDebug, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsSysDebug(Id:146),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSysDebug, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1991
+
+
+Module:  a9ejsFwd, Total weight ratio 0.369688%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsFwd.v:24
+    a9ejsFwd, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsFwd(Id:29),Total 1 Elinstance, Total 1 related virObj listed below:
+                uFWD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v:235
+
+
+Module:  a9ejsWptctl, Total weight ratio 0.367966%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptctl.v:30
+    a9ejsWptctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsWptctl(Id:70),Total 2 Elinstance, Total 2 related virObj listed below:
+                uWptctl0, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v:261
+                uWptctl1, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v:309
+
+
+Module:  a926ejsTCMCtrl, Total weight ratio 0.361651%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v:23
+    a926ejsTCMCtrl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsTCMCtrl(Id:169),Total 2 Elinstance, Total 2 related virObj listed below:
+                uITCMCtrl, ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCM.v:216
+                uDTCMCtrl, ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCM.v:249
+
+
+Module:  a9ejsSatTimes2, Total weight ratio 0.354189%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSatTimes2.v:27
+    a9ejsSatTimes2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsSatTimes2(Id:58),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSatTimes2, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:195
+
+
+Module:  a9ejsDbgCommsctl, Total weight ratio 0.345578%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsctl.v:28
+    a9ejsDbgCommsctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsDbgCommsctl(Id:69),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDbgCommsctl, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEctl.v:225
+
+
+Module:  a9ejsMulCtl, Total weight ratio 0.334671%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulCtl.v:22
+    a9ejsMulCtl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsMulCtl(Id:39),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMULCTL, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:816
+
+
+Module:  axi_crossbar_v2_1_20_addr_arbiter, Total weight ratio 0.333523%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:423
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_arbiter_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_addr_arbiter_0000(Id:194),Total 2 Elinstance, Total 2 related virObj listed below:
+                addr_arbiter_aw, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3252
+                addr_arbiter_ar, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3293
+
+
+Module:  a9ejsAGU, Total weight ratio 0.316301%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v:21
+    a9ejsAGU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsAGU(Id:63),Total 1 Elinstance, Total 1 related virObj listed below:
+                uAGU, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:271
+
+
+Module:  a926ejsTCM, Total weight ratio 0.300802%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCM.v:20
+    a926ejsTCM, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsTCM(Id:168),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTCM, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:2239
+
+
+Module:  _vcs_unit__287366586, Total weight ratio 0.298506%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffnrx1.v:1
+    _vcs_unit__287366586, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group _vcs_unit__287366586(Id:3),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  a9ejsCoreDP, Total weight ratio 0.295061%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v:24
+    a9ejsCoreDP, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsCoreDP(Id:46),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCOREDP, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:676
+
+
+Module:  axi_data_fifo_v2_1_18_axic_srl_fifo, Total weight ratio 0.291617%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:698
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_srl_fifo_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_axic_srl_fifo_0000(Id:274),Total 13 Elinstance, Total 7 related virObj listed below:
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_w_seq_fifo, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3017
+                debug_r_seq_fifo_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4368
+                debug_r_seq_fifo_multi_thread, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4368
+
+
+Module:  DW01_add, Total weight ratio 0.289321%, Total Splitted Groups 8[3.44828%], /home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_add.v:36
+    DW01_add, Total Splitted Groups 8
+        1. Sizing Parameter Values Different, Split Group Count 7
+            Group DW01_add_0000(Id:371),First different parameter is width(value:9)
+            Total 1 Elinstance, Total 1 related virObj listed below:
+                uOP1INC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v:5057
+            Group DW01_add_0001(Id:372),First different parameter is width(value:17)
+            Total 1 Elinstance, Total 1 related virObj listed below:
+                uOP12INC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJDec.v:5064
+            Group DW01_add_0002(Id:373),First different parameter is width(value:4)
+            Total 2 Elinstance, Total 2 related virObj listed below:
+                uJCONDE, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:1727
+                uJCONEX, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:1737
+            Group DW01_add_0003(Id:374),First different parameter is width(value:5)
+            Total 2 Elinstance, Total 2 related virObj listed below:
+                uJCONME, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:1749
+                uJCONDA, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsIPipe.v:1759
+            Group DW01_add_0004(Id:375),First different parameter is width(value:48)
+            Total 1 Elinstance, Total 1 related virObj listed below:
+                uADD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMulDP.v:893
+            Group DW01_add_0005(Id:376),First different parameter is width(value:32)
+            Total 3 Elinstance, Total 3 related virObj listed below:
+                uABC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v:102
+                uADD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v:218
+                uAGUADD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v:149
+            Group DW01_add_0006(Id:377),First different parameter is width(value:31)
+            Total 1 Elinstance, Total 1 related virObj listed below:
+                uIADDRINC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v:267
+
+        2. Not split, Split Group Count 1
+            Group DW01_add(Id:22),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREADPTRINC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJInBuf.v:918
+
+
+Module:  matrix_top, Total weight ratio 0.287025%, Total Splitted Groups 1[0.431034%], ../verilog/matrix_top.v:1
+    matrix_top, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group matrix_top(Id:181),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_matrix_top, ../verilog/soc_top.v:267
+
+
+Module:  a9ejsArmShifter, Total weight ratio 0.28071%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:24
+    a9ejsArmShifter, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsArmShifter(Id:54),Total 1 Elinstance, Total 1 related virObj listed below:
+                uArmShifter, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsShifter.v:611
+
+
+Module:  soc_top, Total weight ratio 0.265785%, Total Splitted Groups 1[0.431034%], ../verilog/soc_top.v:1
+    soc_top, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group soc_top(Id:7),Total 1 Elinstance, Total 1 related virObj listed below:
+                dut, ../test_arm/tbench_top.v:41
+
+
+Module:  a926ejsFCSE, Total weight ratio 0.263489%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v:22
+    a926ejsFCSE, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsFCSE(Id:13),Total 1 Elinstance, Total 1 related virObj listed below:
+                uFCSE, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1162
+
+
+Module:  a9ejsDbg, Total weight ratio 0.262915%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v:31
+    a9ejsDbg, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsDbg(Id:65),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDbg, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:816
+
+
+Module:  a9ejsICEdp, Total weight ratio 0.261767%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v:37
+    a9ejsICEdp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsICEdp(Id:73),Total 1 Elinstance, Total 1 related virObj listed below:
+                uICEdp, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v:156
+
+
+Module:  a926ejsTCMWB, Total weight ratio 0.260618%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMWB.v:24
+    a926ejsTCMWB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsTCMWB(Id:170),Total 1 Elinstance, Total 1 related virObj listed below:
+                uWB, ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v:121
+
+
+Module:  a926ejsUTLBentry, Total weight ratio 0.234786%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v:22
+    a926ejsUTLBentry, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsUTLBentry(Id:165),Total 9 Elinstance, Total 9 related virObj listed below:
+                u0, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:836
+                u1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:850
+                u2, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:864
+                u3, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:878
+                u4, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:892
+                u5, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:906
+                u6, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:920
+                u7, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:934
+                u8, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:948
+
+
+Module:  a926CacheTagIntf, Total weight ratio 0.22962%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheTagIntf.v:44
+    a926CacheTagIntf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheTagIntf(Id:126),Total 2 Elinstance, Total 2 related virObj listed below:
+                uTagIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:2907
+                uTagIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2962
+
+
+Module:  a926ejsCP15, Total weight ratio 0.227898%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v:62
+    a926ejsCP15, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsCP15(Id:81),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCP15, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1327
+
+
+Module:  a9ejsTapScandp, Total weight ratio 0.227324%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsTapScandp.v:27
+    a9ejsTapScandp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsTapScandp(Id:72),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTapScandp, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v:123
+
+
+Module:  a9ejsExecute, Total weight ratio 0.22675%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:24
+    a9ejsExecute, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsExecute(Id:50),Total 1 Elinstance, Total 1 related virObj listed below:
+                uExecute, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreDP.v:283
+
+
+Module:  a9ejsRegFwd, Total weight ratio 0.190584%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsRegFwd.v:25
+    a9ejsRegFwd, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsRegFwd(Id:25),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREGFWD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCoreCtl.v:544
+
+
+Module:  a9ejsDbgctl, Total weight ratio 0.183122%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgctl.v:31
+    a9ejsDbgctl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsDbgctl(Id:66),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDbgctl, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v:191
+
+
+Module:  a926DCache, Total weight ratio 0.182548%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926DCache.v:43
+    a926DCache, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926DCache(Id:136),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDCache, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1892
+
+
+Module:  a926CacheRGen, Total weight ratio 0.1814%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:44
+    a926CacheRGen, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheRGen(Id:125),Total 2 Elinstance, Total 2 related virObj listed below:
+                uRGen, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:2879
+                uRGen, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2934
+
+
+Module:  axi_crossbar_v2_1_20_arbiter_resp, Total weight ratio 0.1814%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:1025
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_arbiter_resp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_arbiter_resp(Id:227),Total 4 Elinstance, Total 1 related virObj listed below:
+                arbiter_resp_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4258
+
+
+Module:  a9ejsWptdp, Total weight ratio 0.176807%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsWptdp.v:30
+    a9ejsWptdp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsWptdp(Id:75),Total 2 Elinstance, Total 2 related virObj listed below:
+                uWptdp0, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v:154
+                uWptdp1, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v:182
+
+
+Module:  axi_register_slice_v2_1_19_axi_register_slice, Total weight ratio 0.171067%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2716
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axi_register_slice_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axi_register_slice_0000(Id:312),Total 5 Elinstance, Total 5 related virObj listed below:
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+                reg_slice_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3122
+
+
+Module:  a926ICache, Total weight ratio 0.170493%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926ICache.v:43
+    a926ICache, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ICache(Id:115),Total 1 Elinstance, Total 1 related virObj listed below:
+                uICache, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1815
+
+
+Module:  a9ejsLU, Total weight ratio 0.154419%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLU.v:23
+    a9ejsLU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsLU(Id:62),Total 1 Elinstance, Total 1 related virObj listed below:
+                uLU, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:251
+
+
+Module:  a926ejsDExtAddrFifo, Total weight ratio 0.145235%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtAddrFifo.v:30
+    a926ejsDExtAddrFifo, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDExtAddrFifo(Id:105),Total 1 Elinstance, Total 1 related virObj listed below:
+                uAddrFifo, ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtWB.v:121
+
+
+Module:  axi_crossbar_v2_1_20_decerr_slave, Total weight ratio 0.144086%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3501
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_decerr_slave_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_decerr_slave_0000(Id:365),Total 1 Elinstance, Total 1 related virObj listed below:
+                decerr_slave_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3387
+
+
+Module:  ahb_sram_ctrl, Total weight ratio 0.130883%, Total Splitted Groups 1[0.431034%], ../verilog/ahb_sram_ctrl.v:7
+    ahb_sram_ctrl, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_sram_ctrl(Id:367),Total 2 Elinstance, Total 2 related virObj listed below:
+                u_ahb_rom, ../verilog/matrix_top.v:247
+                u_sram0, ../verilog/matrix_top.v:302
+
+
+Module:  axi_register_slice_v2_1_19_axic_register_slice, Total weight ratio 0.125143%, Total Splitted Groups 4[1.72414%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:488
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000[create by generate block unroll], Total Splitted Groups 2
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000(Id:318),Total 10 Elinstance, Total 2 related virObj listed below:
+                aw_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2971
+                ar_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3349
+
+        2. Sizing Parameter Values Different, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0000_0000(Id:387),First different parameter is C_DATA_WIDTH(value:37)
+            Total 5 Elinstance, Total 1 related virObj listed below:
+                w_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3097
+
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0001[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0001(Id:321),Total 5 Elinstance, Total 1 related virObj listed below:
+                b_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3223
+
+    AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0002[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_REGISTER_SLICE_V2_1_19.axi_register_slice_v2_1_19_axic_register_slice_0002(Id:324),Total 5 Elinstance, Total 1 related virObj listed below:
+                r_pipe, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3475
+
+
+Module:  a9ejsDbgdp, Total weight ratio 0.122273%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgdp.v:31
+    a9ejsDbgdp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsDbgdp(Id:71),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDbgdp, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbg.v:302
+
+
+Module:  a9ejsJArrayBndChk, Total weight ratio 0.121698%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJArrayBndChk.v:22
+    a9ejsJArrayBndChk, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsJArrayBndChk(Id:52),Total 1 Elinstance, Total 1 related virObj listed below:
+                uJABC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:162
+
+
+Module:  ARM9EJSwrap, Total weight ratio 0.12055%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM9EJSwrap.v:21
+    ARM9EJSwrap, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ARM9EJSwrap(Id:16),Total 1 Elinstance, Total 1 related virObj listed below:
+                u9EJ, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1186
+
+
+Module:  ahb_axi_matrix_axi_crossbar_0_0, Total weight ratio 0.12055%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_crossbar_0_0/sim/ahb_axi_matrix_axi_crossbar_0_0.v:56
+    ahb_axi_matrix_axi_crossbar_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_crossbar_0_0(Id:190),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_crossbar_0, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:802
+
+
+Module:  a926ejsDExtWB, Total weight ratio 0.118254%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtWB.v:26
+    a926ejsDExtWB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDExtWB(Id:104),Total 1 Elinstance, Total 1 related virObj listed below:
+                uWB, ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExt.v:587
+
+
+Module:  a926ejsDExtDataFifo, Total weight ratio 0.11768%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtDataFifo.v:30
+    a926ejsDExtDataFifo, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDExtDataFifo(Id:106),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDataFifo, ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExtWB.v:132
+
+
+Module:  a926ejsETMIF, Total weight ratio 0.116532%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ETMIF/a926ejsETMIF.v:26
+    a926ejsETMIF, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsETMIF(Id:80),Total 1 Elinstance, Total 1 related virObj listed below:
+                ETMIF, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1261
+
+
+Module:  a9ejsDbgCommsdp, Total weight ratio 0.112514%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsDbgCommsdp.v:28
+    a9ejsDbgCommsdp, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsDbgCommsdp(Id:74),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDbgCommsdp, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsICEdp.v:128
+
+
+Module:  axi_infrastructure_v1_1_0_vector2axi, Total weight ratio 0.106773%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_infrastructure_v1_1/hdl/axi_infrastructure_v1_1_vl_rfs.v:474
+    AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_vector2axi_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_vector2axi_0000(Id:315),Total 5 Elinstance, Total 1 related virObj listed below:
+                vector2axi_0, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:3613
+
+
+Module:  a926ejsIExtFifo, Total weight ratio 0.106773%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExtFifo.v:23
+    a926ejsIExtFifo, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsIExtFifo(Id:108),Total 1 Elinstance, Total 1 related virObj listed below:
+                ua926ejsIExtFifo, ../ARM926EJS/ARM926EJS/verilog/IExt/a926ejsIExt.v:1015
+
+
+Module:  generic_baseblocks_v2_1_0_comparator_static, Total weight ratio 0.103903%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_comparator_static_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_comparator_static_0000(Id:207),Total 16 Elinstance, Total 4 related virObj listed below:
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+                addr_decode_comparator, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:892
+
+
+Module:  axi_infrastructure_v1_1_0_axi2vector, Total weight ratio 0.103329%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_infrastructure_v1_1/hdl/axi_infrastructure_v1_1_vl_rfs.v:60
+    AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_axi2vector_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_INFRASTRUCTURE_V1_1_0.axi_infrastructure_v1_1_0_axi2vector_0000(Id:313),Total 5 Elinstance, Total 1 related virObj listed below:
+                axi2vector_0, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_register_slice_v2_1/hdl/axi_register_slice_v2_1_vl_rfs.v:2922
+
+
+Module:  a9ejsCLZ, Total weight ratio 0.101607%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsCLZ.v:22
+    a9ejsCLZ, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsCLZ(Id:59),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCLZ, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:208
+
+
+Module:  a926ejsBIU, Total weight ratio 0.0998846%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/BIU/a926ejsBIU.v:20
+    a926ejsBIU, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsBIU(Id:109),Total 1 Elinstance, Total 1 related virObj listed below:
+                uBIU, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1505
+
+
+Module:  a9ejsISyncr, Total weight ratio 0.0941441%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsISyncr.v:25
+    a9ejsISyncr, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsISyncr(Id:41),Total 1 Elinstance, Total 1 related virObj listed below:
+                uISYNCR, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsPipeCtl.v:508
+
+
+Module:  ahb_axi_matrix_wrapper, Total weight ratio 0.080941%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.srcs/sources_1/bd/ahb_axi_matrix/hdl/ahb_axi_matrix_wrapper.v:12
+    ahb_axi_matrix_wrapper, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_wrapper(Id:182),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ahb_axi_matrix, ../verilog/matrix_top.v:149
+
+
+Module:  RAM1_128x8bW, Total weight ratio 0.0786448%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_128x8bW.v:1
+    RAM1_128x8bW, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_128x8bW(Id:177),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDCDirty, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:846
+
+
+Module:  std, Total weight ratio 0.0780707%, Total Splitted Groups 1[0.431034%], :1
+    std, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group std(Id:1),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  a926ejsDRoute, Total weight ratio 0.0769226%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsDRoute.v:22
+    a926ejsDRoute, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsDRoute(Id:114),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDRoute, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1783
+
+
+Module:  DW01_mux_any, Total weight ratio 0.0711821%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_mux_any.v:34
+    DW01_mux_any, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group DW01_mux_any(Id:27),Total 6 Elinstance, Total 6 related virObj listed below:
+                uRRMuxA1, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:883
+                uRRMuxA2, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:888
+                uRRMuxA, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:894
+                uRRMuxB1, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:900
+                uRRMuxB2, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:906
+                uRRMuxB, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsREG.v:912
+
+
+Module:  SRLC32E, Total weight ratio 0.0688859%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/SRLC32E.v:30
+    UNISIMS_VER.SRLC32E_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group UNISIMS_VER.SRLC32E_0000(Id:280),Total 115 Elinstance, Total 1 related virObj listed below:
+                srl_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1182
+
+
+Module:  disass, Total weight ratio 0.0665897%, Total Splitted Groups 1[0.431034%], /home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v:65
+    disass, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group disass(Id:77),Total 3 Elinstance, Total 3 related virObj listed below:
+                udisass_ex, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v:860
+                udisass, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsLogStatus.v:880
+                uDisass, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:533
+
+
+Module:  a9sMICE, Total weight ratio 0.0660157%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TestChip/a9sMICE.v:27
+    a9sMICE, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9sMICE(Id:180),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMICE, ../verilog/soc_top.v:248
+
+
+Module:  a926ejsCPjtag, Total weight ratio 0.0654416%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v:35
+    a926ejsCPjtag, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsCPjtag(Id:100),Total 1 Elinstance, Total 1 related virObj listed below:
+                uCPjtag, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCP15.v:613
+
+
+Module:  DW01_bsh, Total weight ratio 0.0625714%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_bsh.v:36
+    DW01_bsh, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group DW01_bsh(Id:55),Total 1 Elinstance, Total 1 related virObj listed below:
+                uBSH, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:42
+
+
+Module:  RAM1_1024x32BWm8, Total weight ratio 0.0597011%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_1024x32BWm8.v:5
+    RAM1_1024x32BWm8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_1024x32BWm8(Id:173),Total 8 Elinstance, Total 8 related virObj listed below:
+                uICData0, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:591
+                uICData1, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:604
+                uICData2, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:617
+                uICData3, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:630
+                uDCData0, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:717
+                uDCData1, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:730
+                uDCData2, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:743
+                uDCData3, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:756
+
+
+Module:  ahb_slave_led, Total weight ratio 0.0585531%, Total Splitted Groups 1[0.431034%], ../verilog/ahb_slave_led.v:1
+    ahb_slave_led, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_slave_led(Id:370),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_led1, ../verilog/matrix_top.v:357
+
+
+Module:  RAM1_16Kx32B, Total weight ratio 0.0562569%, Total Splitted Groups 1[0.431034%], ../verilog/ram/RAM1_16Kx32B.v:5
+    RAM1_16Kx32B, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_16Kx32B(Id:369),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_ram_16K, ../verilog/matrix_top.v:345
+
+
+Module:  axi_crossbar_v2_1_20_wdata_mux, Total weight ratio 0.0562569%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4561
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_mux_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_mux_0000(Id:333),Total 5 Elinstance, Total 5 related virObj listed below:
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+                wdata_mux_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2973
+
+
+Module:  tbench_top, Total weight ratio 0.0516645%, Total Splitted Groups 1[0.431034%], ../test_arm/tbench_top.v:2
+    tbench_top, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group tbench_top(Id:6),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  axi_crossbar_v2_1_20_wdata_router, Total weight ratio 0.0470721%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4736
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_router, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_wdata_router(Id:302),Total 2 Elinstance, Total 2 related virObj listed below:
+                wdata_router_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2849
+                wdata_router_w, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2849
+
+
+Module:  a926CacheBiuIntf, Total weight ratio 0.034443%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheBiuIntf.v:44
+    a926CacheBiuIntf, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926CacheBiuIntf(Id:133),Total 2 Elinstance, Total 2 related virObj listed below:
+                uBiuIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:3095
+                uBiuIntf, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:3181
+
+
+Module:  a9ejsSat, Total weight ratio 0.0321468%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsSat.v:28
+    a9ejsSat, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsSat(Id:61),Total 1 Elinstance, Total 1 related virObj listed below:
+                uSat, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAU.v:548
+
+
+Module:  RAM1_32x24, Total weight ratio 0.0269803%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_32x24.v:5
+    RAM1_32x24, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_32x24(Id:175),Total 2 Elinstance, Total 2 related virObj listed below:
+                uICValid, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:698
+                uDCValid, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:828
+
+
+Module:  RAM1_32x26, Total weight ratio 0.0269803%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_32x26.v:5
+    RAM1_32x26, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_32x26(Id:179),Total 2 Elinstance, Total 2 related virObj listed below:
+                uMMU2, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:875
+                uMMU0, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:895
+
+
+Module:  RAM1_128x22, Total weight ratio 0.0269803%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_128x22.v:5
+    RAM1_128x22, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_128x22(Id:174),Total 4 Elinstance, Total 4 related virObj listed below:
+                uICTag0, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:648
+                uICTag1, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:658
+                uICTag2, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:668
+                uICTag3, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:678
+
+
+Module:  RAM1_256x22, Total weight ratio 0.0269803%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_256x22.v:5
+    RAM1_256x22, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_256x22(Id:176),Total 4 Elinstance, Total 4 related virObj listed below:
+                uDCTag0, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:778
+                uDCTag1, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:788
+                uDCTag2, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:798
+                uDCTag3, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:808
+
+
+Module:  axi_crossbar_v2_1_20_splitter, Total weight ratio 0.0264063%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:4461
+    AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_splitter, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group AXI_CROSSBAR_V2_1_20.axi_crossbar_v2_1_20_splitter(Id:197),Total 3 Elinstance, Total 3 related virObj listed below:
+                splitter_aw_mi, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3354
+                splitter_aw_si, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2831
+                splitter_aw_si, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:2831
+
+
+Module:  a926ejsClkBlk, Total weight ratio 0.0252582%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsClkBlk.v:23
+    a926ejsClkBlk, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsClkBlk(Id:12),Total 1 Elinstance, Total 1 related virObj listed below:
+                uClkBlk, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1129
+
+
+Module:  RAM1_32x30, Total weight ratio 0.0241101%, Total Splitted Groups 1[0.431034%], /home/ICer/work/RAM/RAM1_32x30.v:1
+    RAM1_32x30, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group RAM1_32x30(Id:178),Total 2 Elinstance, Total 2 related virObj listed below:
+                uMMU3, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:865
+                uMMU1, ../ARM926EJS/ARM926EJS/verilog/MAIN_ARM926EJS/ARM926EJS.v:885
+
+
+Module:  DW01_inc, Total weight ratio 0.023536%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/dw/dw01/src_ver/DW01_inc.v:37
+    DW01_inc, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group DW01_inc(Id:64),Total 1 Elinstance, Total 1 related virObj listed below:
+                uDADDRINC, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsAGU.v:470
+
+
+Module:  axi_data_fifo_v2_1_18_ndeep_srl, Total weight ratio 0.0223879%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135
+    AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_ndeep_srl_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group AXI_DATA_FIFO_V2_1_18.axi_data_fifo_v2_1_18_ndeep_srl_0000(Id:277),Total 115 Elinstance, Total 12 related virObj listed below:[Only print 10 virObj]
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:1060
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+                srl_nx1, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v:811
+
+
+Module:  a926ejsIRoute, Total weight ratio 0.0206658%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsIRoute.v:22
+    a926ejsIRoute, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsIRoute(Id:113),Total 1 Elinstance, Total 1 related virObj listed below:
+                uIRoute, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1770
+
+
+Module:  a9ejsClkBlk, Total weight ratio 0.0177955%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v:24
+    a9ejsClkBlk, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsClkBlk(Id:18),Total 1 Elinstance, Total 1 related virObj listed below:
+                uClkBlk, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:438
+
+
+Module:  rom_16KX32, Total weight ratio 0.0166474%, Total Splitted Groups 1[0.431034%], ../verilog/rom/rom_16KX32.v:4
+    rom_16KX32, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group rom_16KX32(Id:368),Total 1 Elinstance, Total 1 related virObj listed below:
+                u_rom, ../verilog/matrix_top.v:267
+
+
+Module:  a926gdffrnx9, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx9.v:27
+    a926gdffrnx9, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx9(Id:164),Total 1 Elinstance, Total 1 related virObj listed below:
+                uUhitD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:274
+
+
+Module:  a926gdffrnx2, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx2.v:27
+    a926gdffrnx2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx2(Id:93),Total 11 Elinstance, Total 11 related virObj listed below:[Only print 10 virObj]
+                udffCP15EXD1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:767
+                uLFSR12, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:160
+                uSel, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v:568
+                uMMUCP15add2pipeD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:721
+                u6REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1150
+                u4REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1152
+                u2REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1154
+                u0REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1156
+                uDESCcbD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1954
+                ucbL2D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:249
+
+
+Module:  a926gdffsnx3, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx3.v:27
+    a926gdffsnx3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffsnx3(Id:155),Total 2 Elinstance, Total 2 related virObj listed below:
+                u7REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1149
+                u3REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1153
+
+
+Module:  a926gdffrnx20, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx20.v:27
+    a926gdffrnx20, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx20(Id:152),Total 2 Elinstance, Total 2 related virObj listed below:
+                u2DTCMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1006
+                u2ITCMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1038
+
+
+Module:  a926gdffrnx18, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx18.v:27
+    a926gdffrnx18, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx18(Id:151),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTTBRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:857
+
+
+Module:  a926gdffrnx5, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx5.v:27
+    a926gdffrnx5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx5(Id:92),Total 7 Elinstance, Total 7 related virObj listed below:
+                udffCPEXD1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:762
+                udffCP15st, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1915
+                uDlDuPm0Pm1RdP, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1300
+                uPWCopy, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:358
+                uPWPtr, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:491
+                uMMUCP15add5pipeD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:731
+                uMvalpageD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3469
+
+
+Module:  a926gdffrnx4, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx4.v:27
+    a926gdffrnx4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx4(Id:84),Total 13 Elinstance, Total 13 related virObj listed below:[Only print 10 virObj]
+                udffP15R01A, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:586
+                udffP15R09DC, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:632
+                udffP15R09IC, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:633
+                udffCPBURST, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:647
+                udffCPBURSTEX, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:657
+                uCP15Way, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:1987
+                uLfWayTDE, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:191
+                uEv, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:309
+                uWr1CS, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:1014
+                uCP15Way, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1984
+
+
+Module:  a926gdffrnx3, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx3.v:27
+    a926gdffrnx3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx3(Id:85),Total 12 Elinstance, Total 12 related virObj listed below:[Only print 10 virObj]
+                udffP15R01B, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:587
+                udffP15R01C, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:588
+                udffP15R15TC, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:739
+                udffP15R15CD, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:761
+                udffMISCOpex, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1403
+                uCount, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:487
+                uCnt, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:304
+                u1LOCKRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1090
+                uMCAMRegRdEnD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1197
+                uMPARegRdEnD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1233
+
+
+Module:  a926gdffrnx7, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx7.v:27
+    a926gdffrnx7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx7(Id:86),Total 3 Elinstance, Total 3 related virObj listed below:
+                udffP15R13F, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:664
+                udffP15R15DS, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:711
+                uLfAddr, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:873
+
+
+Module:  a926gdffrnx32, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx32.v:27
+    a926gdffrnx32, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx32(Id:87),Total 10 Elinstance, Total 10 related virObj listed below:
+                udffP15R13E, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:674
+                udffP15R15TA, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:730
+                udffCPINSTR, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:607
+                udffrINSTR, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:932
+                udffIDED1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1056
+                uFBStop, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:877
+                u1DACRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:881
+                uMwayD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3442
+                uMvalid0D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3576
+                uMvalid1D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3643
+
+
+Module:  a926gdffsnx1, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffsnx1.v:27
+    a926gdffsnx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffsnx1(Id:89),Total 11 Elinstance, Total 11 related virObj listed below:[Only print 10 virObj]
+                udffCHSDE1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:643
+                udffCHSEX1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:645
+                udffInMREQ, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:665
+                udffCPINSTV, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:699
+                udffCHSE1del, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:827
+                uCSB0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:1146
+                uLFSR0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:159
+                uCSB0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1144
+                u5REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1151
+                u1REMAPRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1155
+
+
+Module:  a926gdffrnx1, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx1.v:27
+    a926gdffrnx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx1(Id:90),Total 66 Elinstance, Total 66 related virObj listed below:[Only print 10 virObj]
+                udffCHSDE0, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:644
+                udffCHSEX0, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:646
+                udffCPABT, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:692
+                udffCPTRAN, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:701
+                udffITorJBIT, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:712
+                udffMaybeCP, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:735
+                udffCPextEX1st, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:786
+                udffCPanyEX1st, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:789
+                udffCPEXLast, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:821
+                udffCHSE0del, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:828
+
+
+Module:  a926gdffrnx6, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx6.v:27
+    a926gdffrnx6, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx6(Id:94),Total 5 Elinstance, Total 5 related virObj listed below:
+                udffCPME, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:840
+                uFBcs, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:1403
+                uCP15CS, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:2094
+                uCP15CS, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2091
+                uCS, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v:617
+
+
+Module:  a926gdffrnx48, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx48.v:27
+    a926gdffrnx48, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx48(Id:101),Total 1 Elinstance, Total 1 related virObj listed below:
+                udffSC15ShftR, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPjtag.v:212
+
+
+Module:  a926gdffrnx15, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx15.v:27
+    a926gdffrnx15, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx15(Id:99),Total 1 Elinstance, Total 1 related virObj listed below:
+                udffSC15ctl, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2115
+
+
+Module:  a926gdffrnx30, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx30.v:27
+    a926gdffrnx30, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx30(Id:139),Total 2 Elinstance, Total 2 related virObj listed below:
+                uLfAddr, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:873
+                uPWBufFBR, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:398
+
+
+Module:  a926gdffrnx19, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx19.v:27
+    a926gdffrnx19, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx19(Id:122),Total 1 Elinstance, Total 1 related virObj listed below:
+                uFBState, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:456
+
+
+Module:  a926gdffrnx8, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx8.v:27
+    a926gdffrnx8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx8(Id:124),Total 7 Elinstance, Total 7 related virObj listed below:
+                uFBDirty, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:920
+                uLfWayFB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheRGen.v:187
+                uVR8, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:872
+                uVR16, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:873
+                uValid, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:374
+                usCDIRTYRD, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDirtyIntf.v:368
+                uDCTRLRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1349
+
+
+Module:  a926gdffrnx16, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx16.v:27
+    a926gdffrnx16, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx16(Id:132),Total 1 Elinstance, Total 1 related virObj listed below:
+                uVR32, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:874
+
+
+Module:  a926gdffrnx12, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx12.v:27
+    a926gdffrnx12, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx12(Id:140),Total 1 Elinstance, Total 1 related virObj listed below:
+                uFBEWBcs, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1400
+
+
+Module:  a926gdffrnx34, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx34.v:27
+    a926gdffrnx34, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx34(Id:142),Total 2 Elinstance, Total 2 related virObj listed below:
+                uPWBuf0R, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:370
+                uPWBuf1R, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:384
+
+
+Module:  a926gdffrnx27, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx27.v:27
+    a926gdffrnx27, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx27(Id:119),Total 2 Elinstance, Total 2 related virObj listed below:
+                uLfVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:872
+                uLfVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:872
+
+
+Module:  a926gdffrnx10, Total weight ratio 0.0154993%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffrnx10.v:27
+    a926gdffrnx10, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffrnx10(Id:120),Total 3 Elinstance, Total 3 related virObj listed below:
+                uCP15Grp, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:1875
+                uCP15Grp, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1872
+                uCP15Idx, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:2478
+
+
+Module:  GTECH_ADD_ABC, Total weight ratio 0.0149253%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_ABC.v:29
+    GTECH_ADD_ABC, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group GTECH_ADD_ABC(Id:37),Total 15 Elinstance, Total 15 related virObj listed below:[Only print 10 virObj]
+                U0, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:150
+                U1, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:151
+                U2, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:152
+                U3, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:153
+                U4, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:154
+                U5, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:157
+                U6, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:158
+                U7, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:160
+                U10, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:165
+                U11, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:168
+
+
+Class:  mailbox, Total weight ratio 0.0143512%, Total Splitted Groups 1[0.431034%]
+(Shared Class Information:TotalGroup 1, TotalMasterGroup 0, TotalSharedGroup 0, TotalSavedGroups 0[0%])
+    mailbox, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group mailbox(Id:2),Total 1 Elinstance, Total 1 related virObj listed below:
+                _vcs_vtb_sq_mbox, :1
+
+
+Module:  a926dffsnx1, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffsnx1.v:27
+    a926dffsnx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffsnx1(Id:91),Total 10 Elinstance, Total 10 related virObj listed below:
+                udffCPCLKEN, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:663
+                uCReadyCS1, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:947
+                uCIdle, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:1050
+                uCReadyCS1, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:945
+                uCIdle, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:1048
+                uReset1D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1031
+                uSysClkEnD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:451
+                uUTLBreadyout, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:532
+                uUTLBntrans, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:542
+                uUTLBnrw, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:548
+
+
+Module:  a926dffrnx2, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx2.v:27
+    a926dffrnx2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx2(Id:150),Total 9 Elinstance, Total 9 related virObj listed below:
+                u1CTRLRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:843
+                uDEBUGRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1124
+                uDESCackD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2002
+                uMramrdD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3306
+                uMInvMVADelD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3312
+                uUloadD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:676
+                uUhitEnD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:714
+                uUmatchEnD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:715
+                uUTLBinvalD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:746
+
+
+Module:  a926dffrnx1, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx1.v:27
+    a926dffrnx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx1(Id:14),Total 62 Elinstance, Total 62 related virObj listed below:[Only print 10 virObj]
+                uMMUEn, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v:273
+                udffRstD1, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:558
+                udffCPPASS, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:675
+                udffCPCANCL, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:685
+                udffDBGACK, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2104
+                udffSC15En, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2105
+                udffCP15init, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2127
+                udffAccCmplt, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2147
+                udffAccUnderway, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:2167
+                usNSRd, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:738
+
+
+Module:  a926dffrnx4, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx4.v:27
+    a926dffrnx4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx4(Id:160),Total 2 Elinstance, Total 2 related virObj listed below:
+                uMpageDel1D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3295
+                uMpageDel2D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3296
+
+
+Module:  a926dffrnx8, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx8.v:27
+    a926dffrnx8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx8(Id:158),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMMUCtrlD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1715
+
+
+Module:  a926dffrnx3, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx3.v:27
+    a926dffrnx3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx3(Id:156),Total 1 Elinstance, Total 1 related virObj listed below:
+                uREQStateD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1433
+
+
+Module:  a926dffrnx5, Total weight ratio 0.0132031%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffrnx5.v:27
+    a926dffrnx5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffrnx5(Id:157),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMMUStateD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1713
+
+
+Module:  a926ejsSysDebugDisass, Total weight ratio 0.011481%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:516
+    a926ejsSysDebugDisass, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926ejsSysDebugDisass(Id:147),Total 3 Elinstance, Total 3 related virObj listed below:
+                uDisassFe, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:438
+                uDisassDe, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:446
+                uDisassEx, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsSysDebug.v:454
+
+
+Module:  a9ejsJNullPtr, Total weight ratio 0.011481%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsJNullPtr.v:23
+    a9ejsJNullPtr, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a9ejsJNullPtr(Id:51),Total 1 Elinstance, Total 1 related virObj listed below:
+                uNPD, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsExecute.v:151
+
+
+Module:  PartialTestCell18, Total weight ratio 0.0103329%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell18.v:24
+    PartialTestCell18, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group PartialTestCell18(Id:171),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTestRADDR, ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v:292
+
+
+Module:  PartialTestCell, Total weight ratio 0.0103329%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/TCM/PartialTestCell.v:24
+    PartialTestCell, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group PartialTestCell(Id:172),Total 1 Elinstance, Total 1 related virObj listed below:
+                uTestRCS, ../ARM926EJS/ARM926EJS/verilog/TCM/a926ejsTCMCtrl.v:314
+
+
+Module:  a926gdffx2, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx2.v:27
+    a926gdffx2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx2(Id:103),Total 3 Elinstance, Total 3 related virObj listed below:
+                uMASPipe2, ../ARM926EJS/ARM926EJS/verilog/DExt/a926ejsDExt.v:284
+                uDESCacD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2000
+                uAP, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2023
+
+
+Module:  a926gdffx3, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx3.v:27
+    a926gdffx3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx3(Id:138),Total 2 Elinstance, Total 2 related virObj listed below:
+                unSeq, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:827
+                uLmvaD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2886
+
+
+Module:  a926gdffx75, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx75.v:27
+    a926gdffx75, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx75(Id:166),Total 1 Elinstance, Total 1 related virObj listed below:
+                uUdataD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v:93
+
+
+Module:  a926gdffx37, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx37.v:27
+    a926gdffx37, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx37(Id:143),Total 3 Elinstance, Total 3 related virObj listed below:
+                uPWBuf0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:374
+                uPWBuf1, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:388
+                uPWBufFB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CachePWB.v:402
+
+
+Module:  a926gdffx4, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx4.v:27
+    a926gdffx4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx4(Id:97),Total 9 Elinstance, Total 9 related virObj listed below:
+                udffCacheOprex, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1946
+                uCopyCS, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDataIntf.v:492
+                usEvicWay, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:707
+                uDESCdomainD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1948
+                uDESCsizeD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2170
+                uMissTLBsize, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2187
+                uIHitTLBsize, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2259
+                uDHitTLBsize, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2301
+                uBHitTLBsize, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2410
+
+
+Module:  a926gdffx112, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx112.v:27
+    a926gdffx112, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx112(Id:162),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMrdD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3410
+
+
+Module:  a926gdffx38, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx38.v:27
+    a926gdffx38, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx38(Id:131),Total 1 Elinstance, Total 1 related virObj listed below:
+                usFB, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:752
+
+
+Module:  a926gdffx20, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx20.v:27
+    a926gdffx20, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx20(Id:130),Total 1 Elinstance, Total 1 related virObj listed below:
+                usVALIDRD, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheValidIntf.v:487
+
+
+Module:  a926gdffx22, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx22.v:27
+    a926gdffx22, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx22(Id:127),Total 9 Elinstance, Total 9 related virObj listed below:
+                uTagRd, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheTagIntf.v:395
+                u1MCAMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1191
+                u1MPARegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1227
+                u1LCAMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1263
+                u1LPARegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1299
+                uImvaD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1788
+                uDESCpaD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2041
+                uPA, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2057
+                uPAD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLB.v:326
+
+
+Module:  a926gdffx8, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx8.v:27
+    a926gdffx8, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx8(Id:123),Total 71 Elinstance, Total 71 related virObj listed below:[Only print 10 virObj]
+                uFb00, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:796
+                uFb01, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:797
+                uFb02, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:798
+                uFb03, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:799
+                uFb10, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:801
+                uFb11, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:802
+                uFb12, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:803
+                uFb13, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:804
+                uFb20, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:806
+                uFb21, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheFB.v:807
+
+
+Module:  a926gdffx31, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx31.v:27
+    a926gdffx31, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx31(Id:135),Total 9 Elinstance, Total 9 related virObj listed below:
+                uEntry0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:339
+                uEntry1, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:340
+                uEntry2, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:341
+                uEntry3, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:342
+                uEntry4, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:343
+                uEntry5, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:344
+                uEntry6, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:345
+                uEntry7, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:346
+                usNSeqRd, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:840
+
+
+Module:  a926gdffx30, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx30.v:27
+    a926gdffx30, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx30(Id:118),Total 9 Elinstance, Total 9 related virObj listed below:
+                usNSeqRd, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:839
+                uLdata0D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2909
+                uLdata1D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2951
+                uLdata2D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2993
+                uLdata3D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3035
+                uLdata4D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3077
+                uLdata5D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3119
+                uLdata6D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3161
+                uLdata7D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3203
+
+
+Module:  a926gdffx27, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx27.v:27
+    a926gdffx27, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx27(Id:117),Total 10 Elinstance, Total 10 related virObj listed below:
+                uNSVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:805
+                uMatch0, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:228
+                uMatch1, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:229
+                uMatch2, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:230
+                uMatch3, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:231
+                uMatch4, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:232
+                uMatch5, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:233
+                uMatch6, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:234
+                uMatch7, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheUTag.v:235
+                uNSVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:805
+
+
+Module:  a926gdffx26, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx26.v:27
+    a926gdffx26, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx26(Id:159),Total 8 Elinstance, Total 8 related virObj listed below:
+                uLtag0D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2906
+                uLtag1D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2948
+                uLtag2D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2990
+                uLtag3D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3032
+                uLtag4D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3074
+                uLtag5D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3116
+                uLtag6D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3158
+                uLtag7D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3200
+
+
+Module:  a926gdffx7, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx7.v:27
+    a926gdffx7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx7(Id:15),Total 2 Elinstance, Total 2 related virObj listed below:
+                uSmpIA, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v:278
+                uSmpDA, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/a926ejsFCSE.v:279
+
+
+Module:  a926gdffx1, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx1.v:27
+    a926gdffx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx1(Id:96),Total 9 Elinstance, Total 9 related virObj listed below:
+                udffRnWEX, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1360
+                udffRnWME, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1361
+                uMMUBIUDnI, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1826
+                uDUTLBntransD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2716
+                uIUTLBntransD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2717
+                uDUTLBlockD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2720
+                uIUTLBlockD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2721
+                uDUTLBnrwD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2724
+                uIUTLBnrwD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:2725
+
+
+Module:  a926gdffx32, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx32.v:27
+    a926gdffx32, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx32(Id:83),Total 12 Elinstance, Total 12 related virObj listed below:[Only print 10 virObj]
+                udffiDBGRD, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:273
+                udffCPDIN, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:305
+                udffSC15data, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:334
+                udffCPDOUT, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:346
+                udffJTAGWD, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPdp.v:364
+                uCRD, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheDataIntf.v:928
+                uCACHEBIUWD, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheEWB.v:603
+                uMMURegWrD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:658
+                uDFARegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:984
+                uDmvaD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1783
+
+
+Module:  a926gdffx5, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx5.v:27
+    a926gdffx5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx5(Id:95),Total 8 Elinstance, Total 8 related virObj listed below:
+                udffRegIDEX, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1357
+                udffRegIDME, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1358
+                uVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926InstrCache.v:806
+                usHit, ../ARM926EJS/ARM926EJS/verilog/Cache/a926CacheTagIntf.v:364
+                uVA, ../ARM926EJS/ARM926EJS/verilog/Cache/a926DataCache.v:806
+                u0MCAMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1192
+                u0LCAMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1264
+                uMindexD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3341
+
+
+Module:  a926gdffx11, Total weight ratio 0.00975884%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926gdffx11.v:27
+    a926gdffx11, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926gdffx11(Id:98),Total 2 Elinstance, Total 2 related virObj listed below:
+                udffMMUOprex, ../ARM926EJS/ARM926EJS/verilog/CP15/a926ejsCPctl.v:1963
+                uMMUOpD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:652
+
+
+Module:  MUXF7, Total weight ratio 0.00918479%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/verilog/src/unisims/MUXF7.v:27
+    UNISIMS_VER.MUXF7, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group UNISIMS_VER.MUXF7(Id:231),Total 50 Elinstance, Total 50 related virObj listed below:[Only print 10 virObj]
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+                mux_s2_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2562
+
+
+Module:  GTECH_MUX2, Total weight ratio 0.00803669%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_MUX2.v:29
+    GTECH_MUX2, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group GTECH_MUX2(Id:56),Total 32 Elinstance, Total 32 related virObj listed below:[Only print 10 virObj]
+                UForceMux00, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:48
+                UForceMux01, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:49
+                UForceMux02, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:50
+                UForceMux03, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:51
+                UForceMux04, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:52
+                UForceMux05, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:53
+                UForceMux06, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:54
+                UForceMux07, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:55
+                UForceMux08, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:56
+                UForceMux09, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsArmShifter.v:57
+
+
+Module:  a926dffx3, Total weight ratio 0.00746264%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx3.v:27
+    a926dffx3, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffx3(Id:167),Total 1 Elinstance, Total 1 related virObj listed below:
+                uUhitD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v:122
+
+
+Module:  a926dffx5, Total weight ratio 0.00746264%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx5.v:27
+    a926dffx5, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffx5(Id:161),Total 1 Elinstance, Total 1 related virObj listed below:
+                uMindexDelD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:3343
+
+
+Module:  a926dffx1, Total weight ratio 0.00746264%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx1.v:27
+    a926dffx1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffx1(Id:154),Total 3 Elinstance, Total 3 related virObj listed below:
+                uReset2D1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1032
+                uITCMInitD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1041
+                uUapfaultD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsUTLBentry.v:135
+
+
+Module:  a926dffx4, Total weight ratio 0.00746264%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx4.v:27
+    a926dffx4, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffx4(Id:153),Total 2 Elinstance, Total 2 related virObj listed below:
+                u1DTCMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1007
+                u1ITCMRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:1039
+
+
+Module:  a926dffx9, Total weight ratio 0.00746264%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/a926dffs/a926dffx9.v:27
+    a926dffx9, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group a926dffx9(Id:149),Total 2 Elinstance, Total 2 related virObj listed below:
+                uDTCMInfoRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:799
+                uITCMInfoRegD1, ../ARM926EJS/ARM926EJS/verilog/MMU/a926ejsMMU.v:824
+
+
+Module:  GTECH_ADD_AB, Total weight ratio 0.00688859%, Total Splitted Groups 1[0.431034%], /home/synopsys/syn/O-2018.06-SP1/packages/gtech/src_ver/GTECH_ADD_AB.v:29
+    GTECH_ADD_AB, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group GTECH_ADD_AB(Id:38),Total 7 Elinstance, Total 7 related virObj listed below:
+                U8, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:161
+                U9, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:164
+                U13, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:172
+                U14, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:175
+                U22, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:195
+                U25, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:202
+                U26, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsMASeq.v:205
+
+
+Module:  disass_timing, Total weight ratio 0.00631454%, Total Splitted Groups 1[0.431034%], /home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v:42
+    disass_timing, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group disass_timing(Id:78),Total 1 Elinstance, Total 1 related virObj listed below:
+                thetiming, /home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v:103
+
+
+Module:  disass_inout, Total weight ratio 0.00401835%, Total Splitted Groups 1[0.431034%], /home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v:13
+    disass_inout, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group disass_inout(Id:79),Total 1 Elinstance, Total 1 related virObj listed below:
+                theinout, /home/ICer/work/ARM926EJS/ARM926EJS/verilog/modelgen/disass/RH_Linux_x86/disass.v:55
+
+
+Module:  MHDL_VL_TOP, Total weight ratio 0.0034443%, Total Splitted Groups 1[0.431034%], .mhdlinst.dat:1
+    MHDL_VL_TOP, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group MHDL_VL_TOP(Id:5),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  generic_baseblocks_v2_1_0_carry_and, Total weight ratio 0.00287025%, Total Splitted Groups 1[0.431034%], /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62
+    GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_carry_and_0000[create by generate block unroll], Total Splitted Groups 1
+        1. Generate Block Unrolling, Split Group Count 1
+            Group GENERIC_BASEBLOCKS_V2_1_0.generic_baseblocks_v2_1_0_carry_and_0000(Id:209),Total 80 Elinstance, Total 5 related virObj listed below:
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+                compare_inst, /home/Xilinx/Vivado/2019.1/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2214
+
+
+Module:  dummy_buffer, Total weight ratio 0.00172215%, Total Splitted Groups 1[0.431034%], ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/dummy_buffer.v:20
+    dummy_buffer, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group dummy_buffer(Id:11),Total 6 Elinstance, Total 6 related virObj listed below:
+                uHRESET_CT, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1046
+                uDBGnTRST_CT, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1050
+                uDBGTCKEN_CT, ../ARM926EJS/ARM926EJS/verilog/ARM926EJS/ARM926EJSCore.v:1054
+                uCTBUF_TCkEn, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/ARM9EJS.v:467
+                uCTBUF_CoreClkEn, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v:89
+                uCTBUF_TCkEnData, ../ARM926EJS/ARM926EJS/verilog/ARM9EJS/a9ejsClkBlk.v:118
+
+
+Class:  _vcs_Dummy_Class, Total weight ratio 0%, Total Splitted Groups 0[0%]
+(Shared Class Information:TotalGroup 0, TotalMasterGroup 0, TotalSharedGroup 0, TotalSavedGroups 0[-nan%])
+    _vcs_Dummy_Class, Total Splitted Groups 0
+
+Module:  mxDefParamHelper$$, Total weight ratio 0%, Total Splitted Groups 1[0.431034%]
+    mxDefParamHelper$$, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group mxDefParamHelper$$(Id:4),Total 1 Elinstance, Total 0 related virObj listed below:
+
+
+Module:  ahb_axi_matrix_ahblite_axi_bridge_0_1, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_1/sim/ahb_axi_matrix_ahblite_axi_bridge_0_1.vhd:59
+    ahb_axi_matrix_ahblite_axi_bridge_0_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_ahblite_axi_bridge_0_1(Id:185),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahblite_axi_bridge_1, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:556
+
+
+Module:  ahb_axi_matrix_ahblite_axi_bridge_0_0, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_ahblite_axi_bridge_0_0/sim/ahb_axi_matrix_ahblite_axi_bridge_0_0.vhd:59
+    ahb_axi_matrix_ahblite_axi_bridge_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_ahblite_axi_bridge_0_0(Id:184),Total 1 Elinstance, Total 1 related virObj listed below:
+                ahblite_axi_bridge_0, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:506
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_0_0, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_0/sim/ahb_axi_matrix_axi_ahblite_bridge_0_0.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_0_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_0_0(Id:186),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_0, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:606
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_1_1, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_1_1/sim/ahb_axi_matrix_axi_ahblite_bridge_1_1.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_1_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_1_1(Id:189),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_3, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:753
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_1_0, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_1_0/sim/ahb_axi_matrix_axi_ahblite_bridge_1_0.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_1_0, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_1_0(Id:188),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_2, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:704
+
+
+Module:  ahb_axi_matrix_axi_ahblite_bridge_0_1, Total weight ratio 0%, Total Splitted Groups 1[0.431034%], /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/ip/ahb_axi_matrix_axi_ahblite_bridge_0_1/sim/ahb_axi_matrix_axi_ahblite_bridge_0_1.vhd:59
+    ahb_axi_matrix_axi_ahblite_bridge_0_1, Total Splitted Groups 1
+        1. Not split, Split Group Count 1
+            Group ahb_axi_matrix_axi_ahblite_bridge_0_1(Id:187),Total 1 Elinstance, Total 1 related virObj listed below:
+                axi_ahblite_bridge_1, /home/ICer/work/vivado/ahb_matrix/ahb_matrix.ip_user_files/bd/ahb_axi_matrix/sim/ahb_axi_matrix.v:655
+
+

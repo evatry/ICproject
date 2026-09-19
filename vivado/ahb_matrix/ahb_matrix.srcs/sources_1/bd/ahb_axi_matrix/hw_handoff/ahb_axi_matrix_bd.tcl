@@ -1,0 +1,278 @@
+
+################################################################
+# This is a generated script based on design: ahb_axi_matrix
+#
+# Though there are limitations about the generated script,
+# the main purpose of this utility is to make learning
+# IP Integrator Tcl commands easier.
+################################################################
+
+namespace eval _tcl {
+proc get_script_folder {} {
+   set script_path [file normalize [info script]]
+   set script_folder [file dirname $script_path]
+   return $script_folder
+}
+}
+variable script_folder
+set script_folder [_tcl::get_script_folder]
+
+################################################################
+# Check if script is running in correct Vivado version.
+################################################################
+set scripts_vivado_version 2019.1
+set current_vivado_version [version -short]
+
+if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
+   puts ""
+   catch {common::send_msg_id "BD_TCL-109" "ERROR" "This script was generated using Vivado <$scripts_vivado_version> and is being run in <$current_vivado_version> of Vivado. Please run the script in Vivado <$scripts_vivado_version> then open the design in Vivado <$current_vivado_version>. Upgrade the design by running \"Tools => Report => Report IP Status...\", then run write_bd_tcl to create an updated script."}
+
+   return 1
+}
+
+################################################################
+# START
+################################################################
+
+# To test this script, run the following commands from Vivado Tcl console:
+# source ahb_axi_matrix_script.tcl
+
+# If there is no project opened, this script will create a
+# project, but make sure you do not have an existing project
+# <./myproj/project_1.xpr> in the current working folder.
+
+set list_projs [get_projects -quiet]
+if { $list_projs eq "" } {
+   create_project project_1 myproj -part xc7k325tffg900-2
+}
+
+
+# CHANGE DESIGN NAME HERE
+variable design_name
+set design_name ahb_axi_matrix
+
+# If you do not already have an existing IP Integrator design open,
+# you can create a design using the following command:
+#    create_bd_design $design_name
+
+# Creating design if needed
+set errMsg ""
+set nRet 0
+
+set cur_design [current_bd_design -quiet]
+set list_cells [get_bd_cells -quiet]
+
+if { ${design_name} eq "" } {
+   # USE CASES:
+   #    1) Design_name not set
+
+   set errMsg "Please set the variable <design_name> to a non-empty value."
+   set nRet 1
+
+} elseif { ${cur_design} ne "" && ${list_cells} eq "" } {
+   # USE CASES:
+   #    2): Current design opened AND is empty AND names same.
+   #    3): Current design opened AND is empty AND names diff; design_name NOT in project.
+   #    4): Current design opened AND is empty AND names diff; design_name exists in project.
+
+   if { $cur_design ne $design_name } {
+      common::send_msg_id "BD_TCL-001" "INFO" "Changing value of <design_name> from <$design_name> to <$cur_design> since current design is empty."
+      set design_name [get_property NAME $cur_design]
+   }
+   common::send_msg_id "BD_TCL-002" "INFO" "Constructing design in IPI design <$cur_design>..."
+
+} elseif { ${cur_design} ne "" && $list_cells ne "" && $cur_design eq $design_name } {
+   # USE CASES:
+   #    5) Current design opened AND has components AND same names.
+
+   set errMsg "Design <$design_name> already exists in your project, please set the variable <design_name> to another value."
+   set nRet 1
+} elseif { [get_files -quiet ${design_name}.bd] ne "" } {
+   # USE CASES: 
+   #    6) Current opened design, has components, but diff names, design_name exists in project.
+   #    7) No opened design, design_name exists in project.
+
+   set errMsg "Design <$design_name> already exists in your project, please set the variable <design_name> to another value."
+   set nRet 2
+
+} else {
+   # USE CASES:
+   #    8) No opened design, design_name not in project.
+   #    9) Current opened design, has components, but diff names, design_name not in project.
+
+   common::send_msg_id "BD_TCL-003" "INFO" "Currently there is no design <$design_name> in project, so creating one..."
+
+   create_bd_design $design_name
+
+   common::send_msg_id "BD_TCL-004" "INFO" "Making design <$design_name> as current_bd_design."
+   current_bd_design $design_name
+
+}
+
+common::send_msg_id "BD_TCL-005" "INFO" "Currently the variable <design_name> is equal to \"$design_name\"."
+
+if { $nRet != 0 } {
+   catch {common::send_msg_id "BD_TCL-114" "ERROR" $errMsg}
+   return $nRet
+}
+
+##################################################################
+# DESIGN PROCs
+##################################################################
+
+
+
+# Procedure to create entire design; Provide argument to make
+# procedure reusable. If parentCell is "", will use root.
+proc create_root_design { parentCell } {
+
+  variable script_folder
+  variable design_name
+
+  if { $parentCell eq "" } {
+     set parentCell [get_bd_cells /]
+  }
+
+  # Get object for parentCell
+  set parentObj [get_bd_cells $parentCell]
+  if { $parentObj == "" } {
+     catch {common::send_msg_id "BD_TCL-100" "ERROR" "Unable to find parent cell <$parentCell>!"}
+     return
+  }
+
+  # Make sure parentObj is hier blk
+  set parentType [get_property TYPE $parentObj]
+  if { $parentType ne "hier" } {
+     catch {common::send_msg_id "BD_TCL-101" "ERROR" "Parent <$parentObj> has TYPE = <$parentType>. Expected to be <hier>."}
+     return
+  }
+
+  # Save current instance; Restore later
+  set oldCurInst [current_bd_instance .]
+
+  # Set parent object as current
+  current_bd_instance $parentObj
+
+
+  # Create interface ports
+  set AHB_INTERFACE [ create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:ahblite_rtl:2.0 AHB_INTERFACE ]
+
+  set AHB_INTERFACE_1 [ create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:ahblite_rtl:2.0 AHB_INTERFACE_1 ]
+
+  set M_AHB [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:ahblite_rtl:2.0 M_AHB ]
+
+  set M_AHB_1 [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:ahblite_rtl:2.0 M_AHB_1 ]
+
+  set M_AHB_3 [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:ahblite_rtl:2.0 M_AHB_3 ]
+
+  set M_DDR_AXI [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:aximm_rtl:1.0 M_DDR_AXI ]
+  set_property -dict [ list \
+   CONFIG.ADDR_WIDTH {32} \
+   CONFIG.DATA_WIDTH {32} \
+   CONFIG.HAS_BURST {0} \
+   CONFIG.HAS_QOS {0} \
+   CONFIG.HAS_REGION {0} \
+   CONFIG.NUM_READ_OUTSTANDING {2} \
+   CONFIG.NUM_WRITE_OUTSTANDING {2} \
+   CONFIG.PROTOCOL {AXI4} \
+   ] $M_DDR_AXI
+
+
+  # Create ports
+  set clk_100MHz [ create_bd_port -dir I -type clk clk_100MHz ]
+  set_property -dict [ list \
+   CONFIG.FREQ_HZ {100000000} \
+ ] $clk_100MHz
+  set hreset [ create_bd_port -dir I hreset ]
+
+  # Create instance: ahblite_axi_bridge_0, and set properties
+  set ahblite_axi_bridge_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:ahblite_axi_bridge:3.0 ahblite_axi_bridge_0 ]
+
+  # Create instance: ahblite_axi_bridge_1, and set properties
+  set ahblite_axi_bridge_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:ahblite_axi_bridge:3.0 ahblite_axi_bridge_1 ]
+
+  # Create instance: axi_ahblite_bridge_0, and set properties
+  set axi_ahblite_bridge_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ahblite_bridge:3.0 axi_ahblite_bridge_0 ]
+
+  # Create instance: axi_ahblite_bridge_1, and set properties
+  set axi_ahblite_bridge_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ahblite_bridge:3.0 axi_ahblite_bridge_1 ]
+
+  # Create instance: axi_ahblite_bridge_3, and set properties
+  set axi_ahblite_bridge_3 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ahblite_bridge:3.0 axi_ahblite_bridge_3 ]
+
+  # Create instance: axi_crossbar_0, and set properties
+  set axi_crossbar_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_crossbar:2.1 axi_crossbar_0 ]
+  set_property -dict [ list \
+   CONFIG.ADDR_WIDTH {32} \
+   CONFIG.M00_A00_ADDR_WIDTH {16} \
+   CONFIG.M00_A00_BASE_ADDR {0x00000000FFFF0000} \
+   CONFIG.M00_S00_READ_CONNECTIVITY {1} \
+   CONFIG.M00_S00_WRITE_CONNECTIVITY {1} \
+   CONFIG.M00_S01_READ_CONNECTIVITY {1} \
+   CONFIG.M00_S01_WRITE_CONNECTIVITY {1} \
+   CONFIG.M01_A00_ADDR_WIDTH {16} \
+   CONFIG.M01_A00_BASE_ADDR {0x0000000010000000} \
+   CONFIG.M01_S00_READ_CONNECTIVITY {1} \
+   CONFIG.M01_S00_WRITE_CONNECTIVITY {1} \
+   CONFIG.M01_S01_READ_CONNECTIVITY {1} \
+   CONFIG.M01_S01_WRITE_CONNECTIVITY {1} \
+   CONFIG.M02_A00_ADDR_WIDTH {22} \
+   CONFIG.M02_A00_BASE_ADDR {0x0000000040000000} \
+   CONFIG.M02_S00_READ_CONNECTIVITY {1} \
+   CONFIG.M02_S00_WRITE_CONNECTIVITY {1} \
+   CONFIG.M02_S01_READ_CONNECTIVITY {1} \
+   CONFIG.M02_S01_WRITE_CONNECTIVITY {1} \
+   CONFIG.M03_A00_ADDR_WIDTH {20} \
+   CONFIG.M03_A00_BASE_ADDR {0x0000000080000000} \
+   CONFIG.M03_S00_READ_CONNECTIVITY {1} \
+   CONFIG.M03_S00_WRITE_CONNECTIVITY {1} \
+   CONFIG.M03_S01_READ_CONNECTIVITY {1} \
+   CONFIG.M03_S01_WRITE_CONNECTIVITY {1} \
+   CONFIG.NUM_MI {4} \
+   CONFIG.NUM_SI {2} \
+ ] $axi_crossbar_0
+
+  # Create interface connections
+  connect_bd_intf_net -intf_net AHB_INTERFACE_1 [get_bd_intf_ports AHB_INTERFACE] [get_bd_intf_pins ahblite_axi_bridge_0/AHB_INTERFACE]
+  connect_bd_intf_net -intf_net AHB_INTERFACE_1_1 [get_bd_intf_ports AHB_INTERFACE_1] [get_bd_intf_pins ahblite_axi_bridge_1/AHB_INTERFACE]
+  connect_bd_intf_net -intf_net ahblite_axi_bridge_0_M_AXI [get_bd_intf_pins ahblite_axi_bridge_0/M_AXI] [get_bd_intf_pins axi_crossbar_0/S00_AXI]
+  connect_bd_intf_net -intf_net ahblite_axi_bridge_1_M_AXI [get_bd_intf_pins ahblite_axi_bridge_1/M_AXI] [get_bd_intf_pins axi_crossbar_0/S01_AXI]
+  connect_bd_intf_net -intf_net axi_ahblite_bridge_0_M_AHB [get_bd_intf_ports M_AHB] [get_bd_intf_pins axi_ahblite_bridge_0/M_AHB]
+  connect_bd_intf_net -intf_net axi_ahblite_bridge_1_M_AHB [get_bd_intf_ports M_AHB_1] [get_bd_intf_pins axi_ahblite_bridge_1/M_AHB]
+  connect_bd_intf_net -intf_net axi_ahblite_bridge_3_M_AHB [get_bd_intf_ports M_AHB_3] [get_bd_intf_pins axi_ahblite_bridge_3/M_AHB]
+  connect_bd_intf_net -intf_net axi_crossbar_0_M00_AXI [get_bd_intf_pins axi_ahblite_bridge_0/AXI4] [get_bd_intf_pins axi_crossbar_0/M00_AXI]
+  connect_bd_intf_net -intf_net axi_crossbar_0_M01_AXI [get_bd_intf_pins axi_ahblite_bridge_1/AXI4] [get_bd_intf_pins axi_crossbar_0/M01_AXI]
+  connect_bd_intf_net -intf_net axi_crossbar_0_M02_AXI [get_bd_intf_ports M_DDR_AXI] [get_bd_intf_pins axi_crossbar_0/M02_AXI]
+  connect_bd_intf_net -intf_net axi_crossbar_0_M03_AXI [get_bd_intf_pins axi_ahblite_bridge_3/AXI4] [get_bd_intf_pins axi_crossbar_0/M03_AXI]
+
+  # Create port connections
+  connect_bd_net -net clk_100MHz_1 [get_bd_ports clk_100MHz] [get_bd_pins ahblite_axi_bridge_0/s_ahb_hclk] [get_bd_pins ahblite_axi_bridge_1/s_ahb_hclk] [get_bd_pins axi_ahblite_bridge_0/s_axi_aclk] [get_bd_pins axi_ahblite_bridge_1/s_axi_aclk] [get_bd_pins axi_ahblite_bridge_3/s_axi_aclk] [get_bd_pins axi_crossbar_0/aclk]
+  connect_bd_net -net rst_clk_100MHz_100M_peripheral_aresetn [get_bd_ports hreset] [get_bd_pins ahblite_axi_bridge_0/s_ahb_hresetn] [get_bd_pins ahblite_axi_bridge_1/s_ahb_hresetn] [get_bd_pins axi_ahblite_bridge_0/s_axi_aresetn] [get_bd_pins axi_ahblite_bridge_1/s_axi_aresetn] [get_bd_pins axi_ahblite_bridge_3/s_axi_aresetn] [get_bd_pins axi_crossbar_0/aresetn]
+
+  # Create address segments
+  create_bd_addr_seg -range 0x00010000 -offset 0x10000000 [get_bd_addr_spaces AHB_INTERFACE] [get_bd_addr_segs M_AHB_1/Reg] SEG_M_AHB_1_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x10000000 [get_bd_addr_spaces AHB_INTERFACE_1] [get_bd_addr_segs M_AHB_1/Reg] SEG_M_AHB_1_Reg
+  create_bd_addr_seg -range 0x01000000 -offset 0x80000000 [get_bd_addr_spaces AHB_INTERFACE] [get_bd_addr_segs M_AHB_3/Reg] SEG_M_AHB_3_Reg
+  create_bd_addr_seg -range 0x01000000 -offset 0x80000000 [get_bd_addr_spaces AHB_INTERFACE_1] [get_bd_addr_segs M_AHB_3/Reg] SEG_M_AHB_3_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0xFFFF0000 [get_bd_addr_spaces AHB_INTERFACE] [get_bd_addr_segs M_AHB/Reg] SEG_M_AHB_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0xFFFF0000 [get_bd_addr_spaces AHB_INTERFACE_1] [get_bd_addr_segs M_AHB/Reg] SEG_M_AHB_Reg
+  create_bd_addr_seg -range 0x10000000 -offset 0x40000000 [get_bd_addr_spaces AHB_INTERFACE] [get_bd_addr_segs M_DDR_AXI/Reg] SEG_M_DDR_AXI_Reg
+  create_bd_addr_seg -range 0x10000000 -offset 0x40000000 [get_bd_addr_spaces AHB_INTERFACE_1] [get_bd_addr_segs M_DDR_AXI/Reg] SEG_M_DDR_AXI_Reg
+
+
+  # Restore current instance
+  current_bd_instance $oldCurInst
+
+  validate_bd_design
+  save_bd_design
+}
+# End of create_root_design()
+
+
+##################################################################
+# MAIN FLOW
+##################################################################
+
+create_root_design ""
+
+
