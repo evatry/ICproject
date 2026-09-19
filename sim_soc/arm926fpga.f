@@ -427,6 +427,12 @@
 //../verilog/ahb_slave_sram.v
 ../verilog/ahb_sram_ctrl.v
 //../verilog/data_ahb_top.v
+// ---- APB 外设子系统 (AHB->APB 桥 + LED/TIMER/UART) ----
+../verilog/ahb2apb.v
+../verilog/apb_bus.v
+../verilog/apb_led.v
+../verilog/apb_timer.v
+../verilog/apb_uart.v
 ../verilog/rom/rom_16KX32.v
 ../verilog/ram/RAM1_16Kx32B.v
 ../verilog/matrix_top.v

@@ -1,0 +1,29 @@
+# ============================================================
+#  ARM926EJ-S 验证模型是第三方专有代码，不入库。
+#  sim_soc/arm926fpga.f 里用的是相对路径 ../ARM926EJS/...，
+#  所以本地先建一个软链接：
+#      ln -sfn /home/ICer/work/ARM926EJS ARM926EJS
+# ============================================================
+/ARM926EJS
+
+# ---- 仿真/编译产物（可由 run_2_step.sh 重新生成）----
+sim_soc/csrc/
+sim_soc/simv
+sim_soc/simv.daidir/
+sim_soc/wave.fsdb
+sim_soc/ucli.key
+sim_soc/ddr3_data/
+sim_soc/memory.vh.apb_bak
+sim_soc/memory.vh.led_bak
+sim_soc/*.o
+sim_soc/radvcm/vcs.*/
+
+# 注意：AN.DB/、64/、verdiLog/、1.log、log.eis 等历史上已经入库，
+#       .gitignore 不影响已跟踪文件，这里不动它们。
+
+# ---- ARM 程序编译产物（build_*.sh 可重新生成）----
+software/*.o
+software/*.elf
+software/*.bin
+software/*.dis
+software/*.memory.vh

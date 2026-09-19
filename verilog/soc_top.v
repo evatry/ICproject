@@ -9,6 +9,8 @@ module soc_top(
                 TDI,
                 nTRST,
                 led,
+                uart_rxd,
+                uart_txd,
                 // ---- DDR3 ----
                 clk_ddr,
                 clk_ddr90,
@@ -39,6 +41,8 @@ input               TMS;
 input               TDI;
 input               nTRST;
 output [7:0]        led;    
+input               uart_rxd;      // 串口接收
+output              uart_txd;      // 串口发送
 
 // ---- DDR3 ----
 input               clk_ddr;
@@ -110,6 +114,7 @@ wire                rom_ce_n;
 wire                rom_oe_n;
 wire [31:0]         rom_data;
 wire [7:0]          led;
+wire                irq;            // APB 外设中断汇总（高有效）
 
 
 assign  TESTMODE = 1'b0;
@@ -209,7 +214,7 @@ ARM926EJS  u_ARM926EJS(
     // Inputs
     .CLK              (CLK),
     .nFIQ             (1'b1     ),                      //nFIQint),
-    .nIRQ             (1'b1     ),                      //nIRQint),
+    .nIRQ             (~irq     ),                      //nIRQint), 低有效，来自 APB 外设
     .VINITHI          (1'b1     ),                      //1: boot from 0xffff0000 0: boot from 0
     .BIGENDINIT       (1'b0     ),                      //1:Big endian  0:little endian  BIGENDINIT),
     .DHCLKEN          (1'b1     ),                      // must tie 1 , if HCLK and CLK are the same frequency HCLKEN),
@@ -330,6 +335,9 @@ matrix_top u_matrix_top (
     .HCLK                       (HCLK),                                            // I  u_matrix_top
     .HRESETn                    (HRESETn),                                         // I  u_matrix_top
     .led                        (led[7:0]),                                        // O  u_matrix_top
+    .uart_rxd                   (uart_rxd),                                        // I  u_matrix_top
+    .uart_txd                   (uart_txd),                                        // O  u_matrix_top
+    .irq                        (irq),                                             // O  u_matrix_top
 
     // ---- DDR3 ----
     .clk_ddr                    (clk_ddr),

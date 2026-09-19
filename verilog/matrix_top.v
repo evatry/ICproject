@@ -25,6 +25,9 @@ module matrix_top(
         HCLK,
         HRESETn,
         led,
+        uart_rxd,
+        uart_txd,
+        irq,
         // ---- DDR3 ----
         clk_ddr,
         clk_ddr90,
@@ -71,6 +74,9 @@ input         M_AHB_hwrite;
 input         HCLK;
 input         HRESETn;
 output [7:0]  led;
+input         uart_rxd;         // 串口接收（来自 testbench / 外部）
+output        uart_txd;         // 串口发送
+output        irq;              // APB 外设中断汇总（高有效），到 ARM 的 nIRQ
 
 // ---- DDR3 ----
 input         clk_ddr;          // 4 x HCLK
@@ -506,58 +512,117 @@ ahb_sram_ctrl #(
     .D      (sram_wdata[31:0]   )    //I 32-bit Data Input
 );
 
-assign M_AHB_3_hresp = slave_3_hresp[0];
-// // ========== LED Slave Instance ==========
-//    ahb_slave_led u_led1 (
-//        .HCLK    (HCLK),                                // I  u_led 
-//        .HRESETn (HRESETn),                             // I  u_led
-//        .HWRITE  (M_AHB_2_hwrite),                      // I  u_led
-//        .HTRANS  (M_AHB_2_htrans[1:0]),                 // I  u_led
-//        .HADDR   (M_AHB_2_haddr[31:0]),                 // I  u_led
-//        .HWDATA  (M_AHB_2_hwdata[31:0]),                // I  u_led
-//        .HRDATA  (M_AHB_2_hrdata[31:0]),                // I  u_led
-//        .HREADY  (M_AHB_2_hready),                      // O  u_led
-//        .HRESP   (slave_2_hresp[1:0]),                  // O  u_led
-//        .led_out (led[7:0])                             // O  u_led
-//    );
+// ============================================================
+//  APB 外设子系统：挂在 M_AHB_3 (0x8000_0000 / 16M) 这条线上
+//
+//    AHB 主(ARM) --M_AHB_3--> ahb2apb --> apb_bus(地址译码)
+//                                          |-- 0x8000_0000  apb_led
+//                                          |-- 0x8000_1000  apb_timer
+//                                          |-- 0x8000_2000  apb_uart
+//
+//  中断：timer_irq | uart_irq -> irq -> ARM nIRQ
+// ============================================================
+wire        apb_psel;
+wire        apb_penable;
+wire        apb_pwrite;
+wire [31:0] apb_paddr;
+wire [31:0] apb_pwdata;
+wire [31:0] apb_prdata;
+wire        apb_pready;
+wire        apb_pslverr;
 
+wire        psel_led,   psel_timer,   psel_uart;
+wire [31:0] prdata_led, prdata_timer, prdata_uart;
+wire        pready_led, pready_timer, pready_uart;
+wire        perr_led,   perr_timer,   perr_uart;
+wire        timer_irq,  uart_irq;
 
-ahb_sram_ctrl #(
-    .AHB_ADDR_WIDTH(32),
-    .SRAM_ADDR_WIDTH(14),
-    .DATA_WIDTH(32),
-    .WAIT_CYCLES(0)
-) u_led1 (
-    .HCLK               (HCLK),
-    .HRESETn            (HRESETn),
-    .HWRITE             (M_AHB_3_hwrite),
-    .HTRANS             (M_AHB_3_htrans[1:0]),
-    .HADDR              (M_AHB_3_haddr[31:0]),
-    .HWDATA             (M_AHB_3_hwdata[31:0]),
-    .HSIZE              (M_AHB_3_hsize[2:0]),
-    .HRDATA             (M_AHB_3_hrdata[31:0]),
-    .HREADY             (M_AHB_3_hready),
-    .HRESP              (slave_3_hresp[1:0]),
-
-    .SRAM_A             (led_addr[13:0]),
-    .SRAM_WDATA         (led_wdata[31:0]),
-    .SRAM_RDATA         (led_rdata[31:0]),
-    .SRAM_CE_N          (led_ce_n),
-    .SRAM_OE_N          (led_oe_n),
-    .SRAM_WE_N          (led_we_b_en[3:0])
+ahb2apb u_ahb2apb (
+    .HCLK    (HCLK),
+    .HRESETn (HRESETn),
+    .HSEL    (1'b1),                     // 该口只会收到外设窗口的传输
+    .HADDR   (M_AHB_3_haddr[31:0]),
+    .HTRANS  (M_AHB_3_htrans[1:0]),
+    .HWRITE  (M_AHB_3_hwrite),
+    .HWDATA  (M_AHB_3_hwdata[31:0]),
+    .HRDATA  (M_AHB_3_hrdata[31:0]),
+    .HREADY  (M_AHB_3_hready),
+    .HRESP   (M_AHB_3_hresp),
+    .PSEL    (apb_psel),
+    .PENABLE (apb_penable),
+    .PWRITE  (apb_pwrite),
+    .PADDR   (apb_paddr[31:0]),
+    .PWDATA  (apb_pwdata[31:0]),
+    .PRDATA  (apb_prdata[31:0]),
+    .PREADY  (apb_pready),
+    .PSLVERR (apb_pslverr)
 );
 
-sram_led u_sram_led(
-    .HCLK               (HCLK                 ),          // 系统时钟
-    .HRESETn            (HRESETn              ),       // 系统复位（低有效）
-    .SRAM_A             (led_addr[13:0]       ),        // 地址总线（低14位）
-    .SRAM_WDATA         (led_wdata[31:0]      ),    // 写数据
-    .SRAM_RDATA         (led_rdata[31:0]      ),    // 读数据
-    .SRAM_CE_N          (led_ce_n             ),     // 片选（低有效）
-    .SRAM_OE_N          (led_oe_n             ),     // 输出使能（低有效）
-    .SRAM_WE_N          (led_we_b_en[3:0]     ),     // 字节写使能（低有效）
-    .led_out            (led[7:0]                   )         // LED 输出
+apb_bus u_apb_bus (
+    .PADDR         (apb_paddr[31:0]),
+    .PSEL          (apb_psel),
+    .PSEL_LED      (psel_led),
+    .PSEL_TIMER    (psel_timer),
+    .PSEL_UART     (psel_uart),
+    .PRDATA_LED    (prdata_led[31:0]),
+    .PRDATA_TIMER  (prdata_timer[31:0]),
+    .PRDATA_UART   (prdata_uart[31:0]),
+    .PREADY_LED    (pready_led),
+    .PREADY_TIMER  (pready_timer),
+    .PREADY_UART   (pready_uart),
+    .PSLVERR_LED   (perr_led),
+    .PSLVERR_TIMER (perr_timer),
+    .PSLVERR_UART  (perr_uart),
+    .PRDATA        (apb_prdata[31:0]),
+    .PREADY        (apb_pready),
+    .PSLVERR       (apb_pslverr)
 );
+
+apb_led u_apb_led (
+    .PCLK    (HCLK),
+    .PRESETn (HRESETn),
+    .PSEL    (psel_led),
+    .PENABLE (apb_penable),
+    .PWRITE  (apb_pwrite),
+    .PADDR   (apb_paddr[31:0]),
+    .PWDATA  (apb_pwdata[31:0]),
+    .PRDATA  (prdata_led[31:0]),
+    .PREADY  (pready_led),
+    .PSLVERR (perr_led),
+    .led_out (led[7:0])
+);
+
+apb_timer u_apb_timer (
+    .PCLK    (HCLK),
+    .PRESETn (HRESETn),
+    .PSEL    (psel_timer),
+    .PENABLE (apb_penable),
+    .PWRITE  (apb_pwrite),
+    .PADDR   (apb_paddr[31:0]),
+    .PWDATA  (apb_pwdata[31:0]),
+    .PRDATA  (prdata_timer[31:0]),
+    .PREADY  (pready_timer),
+    .PSLVERR (perr_timer),
+    .irq     (timer_irq)
+);
+
+apb_uart u_apb_uart (
+    .PCLK     (HCLK),
+    .PRESETn  (HRESETn),
+    .PSEL     (psel_uart),
+    .PENABLE  (apb_penable),
+    .PWRITE   (apb_pwrite),
+    .PADDR    (apb_paddr[31:0]),
+    .PWDATA   (apb_pwdata[31:0]),
+    .PRDATA   (prdata_uart[31:0]),
+    .PREADY   (pready_uart),
+    .PSLVERR  (perr_uart),
+    .uart_rxd (uart_rxd),
+    .uart_txd (uart_txd),
+    .irq      (uart_irq)
+);
+
+assign irq = timer_irq | uart_irq;
 
 // ============================================================================
 // DDR3 控制器（AXI4 slave）接到 matrix 的 M_DDR_AXI 口
