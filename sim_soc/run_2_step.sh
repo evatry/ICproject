@@ -8,7 +8,6 @@
 VLOGAN_OPTS="-sverilog +v2k"
 VHDLAN_OPTS="-full64"    # -v200x"
 VCS_OPTS="-full64 -debug_access+all  -l 1.log -P /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUXAMD64/novas.tab /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUXAMD64/pli.a"
-
 # 清理旧的编译文件（可选）
 #rm -rf csrc simv* vc_hdrs.h vlogan.log vhdlan.log
 
@@ -21,16 +20,11 @@ echo "--- Compiling VHDL files ---"
 vhdlan -work work $VHDLAN_OPTS -f arm926fpga_vhdl.f || exit 1
 
 # 第三步：链接生成可执行文件
-#  -top glbl : unisim 原语（IOBUF/OBUFDS/IOBUFDS/ISERDESE2/OSERDESE2/IDELAYE2）会引用
-#              glbl.GSR / glbl.GTS，glbl 必须作为顶层参与 elaborate，
-#              否则报 [XMRE] Cross-module reference resolution error
 echo "--- Elaborating design ---"
-vcs $VCS_OPTS -top tbench_top -top glbl  || exit 1
+vcs $VCS_OPTS -top tbench_top -top glbl || exit 1
 
 # 第四步：运行仿真
 echo "--- Running simulation ---"
-# Micron DDR3 模型需要 +model_data+<可写目录>（不给就用 /tmp）
-mkdir -p ddr3_data
-./simv +vcs+lic+wait +model_data+./ddr3_data
+./simv +vcs+lic+wait
 
 echo "--- Simulation finished ---"

@@ -15,8 +15,7 @@ OD=$TC/arm-none-eabi-objdump
 
 SRC=${1:-ddr_test.c}
 OUT=${2:-ddr_test}
-# 装到本仓库自己的仿真目录（原来硬编码成 /home/ICer/work/sim_soc）
-SIMDIR="$(cd .. && pwd)/sim_soc"
+SIMDIR=/home/ICer/work/sim_soc
 
 CFLAGS="-mcpu=arm926ej-s -marm -mno-thumb-interwork -O1 -ffreestanding -fno-builtin -nostdlib -Wall -g"
 

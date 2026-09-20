@@ -323,22 +323,12 @@ u_pad_dqs1
 // Write Data (DQ)
 //-----------------------------------------------------------------
 reg [31:0] dfi_wrdata_q;
-// 写数据比 DQS 输出使能路径（wr_valid_q0 -> wr_valid_q1 -> dqs_out_en_n_q，
-// 共 3 级）少了一级，会让 DRAM 把每个写 beat 提前一个 32 位 lane 采走
-// （实测存储内容变成 [d1,d2,d3,0]）。这里补齐一级对齐。
-reg [31:0] dfi_wrdata_q1;
-
-always @ (posedge clk_i )
-if (rst_i)
-    dfi_wrdata_q1 <= 32'b0;
-else
-    dfi_wrdata_q1 <= dfi_wrdata_i;
 
 always @ (posedge clk_i )
 if (rst_i)
     dfi_wrdata_q <= 32'b0;
 else
-    dfi_wrdata_q <= dfi_wrdata_q1;
+    dfi_wrdata_q <= dfi_wrdata_i;
 
 wire [15:0] dq_in_w;
 wire [15:0] dq_out_w;
@@ -1198,20 +1188,12 @@ u_pad_dq15
 //-----------------------------------------------------------------
 wire [1:0] dm_out_w;
 reg [3:0]  dfi_wr_mask_q;
-// 掩码必须和写数据同延迟，否则掩码会落到别的 lane 上
-reg [3:0]  dfi_wr_mask_q1;
-
-always @ (posedge clk_i )
-if (rst_i)
-    dfi_wr_mask_q1 <= 4'b0;
-else
-    dfi_wr_mask_q1 <= dfi_wrdata_mask_i;
 
 always @ (posedge clk_i )
 if (rst_i)
     dfi_wr_mask_q <= 4'b0;
 else
-    dfi_wr_mask_q <= dfi_wr_mask_q1;
+    dfi_wr_mask_q <= dfi_wrdata_mask_i;
 
 OSERDESE2
 #(
