@@ -1,0 +1,79 @@
+# ==============================
+# 1. 首先，忽略 work 目录下的所有内容
+# ==============================
+/*
+
+# ==============================
+# 2. 然后，反向放开我们需要的那三个文件夹
+# （注意：感叹号 ! 表示不忽略）
+# ==============================
+!/verilog/
+!/vivado/
+!/sim_soc/
+!/software/
+# ==============================
+# 3. 针对 IC 设计的进一步忽略（重点）
+# ==============================
+# 虽然放开了 vivado，但不要传 Vivado 的临时生成文件
+/vivado/**/.Xil/
+/vivado/**/.runs/
+/vivado/**/.cache/
+/vivado/**/.hw/
+/vivado/**/.sim/
+/vivado/**/.ip_user_files/
+/vivado/**/*.jou
+/vivado/**/*.log
+
+# 放开 sim_soc 后，忽略仿真生成的临时文件
+/sim_soc/**/*.vcd
+/sim_soc/**/*.fsdb
+/sim_soc/**/xsim.dir/
+/sim_soc/**/csrc/
+/sim_soc/**/simv
+/sim_soc/**/simv.daidir/
+
+# ===== 针对 software 的额外忽略（ICer 必看）=====
+# 如果 software 里是 C 代码，编译生成的临时文件不要传
+/software/**/*.o
+/software/**/*.elf
+/software/**/*.bin
+/software/**/*.hex
+/software/**/*.map
+/software/**/*.d
+
+# ==============================
+# 4. testbench 目录也要入库
+#    sim_soc/arm926fpga.f 里引用了 ../test_arm/tbench_top.v，
+#    不放开会变成"仓库里没有测试平台，clone 下来编不过"
+# ==============================
+!/test_arm/
+
+# ==============================
+# 5. 仿真/编译产物不再入库
+#    （历史上已经入库的，用 git rm --cached 移出索引，本地文件保留）
+# ==============================
+/sim_soc/AN.DB/
+/sim_soc/64/
+/sim_soc/radvcm/
+/sim_soc/ucli.key
+/sim_soc/1.log
+/sim_soc/log.eis
+/sim_soc/novas_dump.log
+/sim_soc/memory.vh.*_bak
+/sim_soc/*.log
+/sim_soc/*.key
+/sim_soc/ddr3_selftest/AN.DB/
+/sim_soc/ddr3_selftest/64/
+/sim_soc/ddr3_selftest/radvcm/
+/sim_soc/ddr3_selftest/ucli.key
+/sim_soc/ddr3_selftest/t_*.log
+
+# ==============================
+# 6. ARM 程序编译产物（memory.vh 镜像由 build_*.sh 重新生成）
+# ==============================
+/software/*.memory.vh
+/software/*.dis
+
+# 通用忽略
+.DS_Store
+*.swp
