@@ -1,0 +1,92 @@
+################ verilog/ddr3/ddr3_dfi_phy.v ################
+--- work/verilog/ddr3/ddr3_dfi_phy.v	2026-09-19 15:03:48.834916139 +0800
++++ ICproject/verilog/ddr3/ddr3_dfi_phy.v	2026-09-20 08:44:44.505007380 +0800
+@@ -323,12 +323,22 @@
+ // Write Data (DQ)
+ //-----------------------------------------------------------------
+ reg [31:0] dfi_wrdata_q;
++// 写数据比 DQS 输出使能路径（wr_valid_q0 -> wr_valid_q1 -> dqs_out_en_n_q，
++// 共 3 级）少了一级，会让 DRAM 把每个写 beat 提前一个 32 位 lane 采走
++// （实测存储内容变成 [d1,d2,d3,0]）。这里补齐一级对齐。
++reg [31:0] dfi_wrdata_q1;
++
++always @ (posedge clk_i )
++if (rst_i)
++    dfi_wrdata_q1 <= 32'b0;
++else
++    dfi_wrdata_q1 <= dfi_wrdata_i;
+ 
+ always @ (posedge clk_i )
+ if (rst_i)
+     dfi_wrdata_q <= 32'b0;
+ else
+-    dfi_wrdata_q <= dfi_wrdata_i;
++    dfi_wrdata_q <= dfi_wrdata_q1;
+ 
+ wire [15:0] dq_in_w;
+ wire [15:0] dq_out_w;
+@@ -1188,12 +1198,20 @@
+ //-----------------------------------------------------------------
+ wire [1:0] dm_out_w;
+ reg [3:0]  dfi_wr_mask_q;
++// 掩码必须和写数据同延迟，否则掩码会落到别的 lane 上
++reg [3:0]  dfi_wr_mask_q1;
++
++always @ (posedge clk_i )
++if (rst_i)
++    dfi_wr_mask_q1 <= 4'b0;
++else
++    dfi_wr_mask_q1 <= dfi_wrdata_mask_i;
+ 
+ always @ (posedge clk_i )
+ if (rst_i)
+     dfi_wr_mask_q <= 4'b0;
+ else
+-    dfi_wr_mask_q <= dfi_wrdata_mask_i;
++    dfi_wr_mask_q <= dfi_wr_mask_q1;
+ 
+ OSERDESE2
+ #(
+################ sim_soc/run_2_step.sh ################
+--- work/sim_soc/run_2_step.sh	2026-09-19 15:05:08.727900913 +0800
++++ ICproject/sim_soc/run_2_step.sh	2026-09-20 08:44:44.497007380 +0800
+@@ -8,6 +8,7 @@
+ VLOGAN_OPTS="-sverilog +v2k"
+ VHDLAN_OPTS="-full64"    # -v200x"
+ VCS_OPTS="-full64 -debug_access+all  -l 1.log -P /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUXAMD64/novas.tab /home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUXAMD64/pli.a"
++
+ # 清理旧的编译文件（可选）
+ #rm -rf csrc simv* vc_hdrs.h vlogan.log vhdlan.log
+ 
+@@ -20,11 +21,16 @@
+ vhdlan -work work $VHDLAN_OPTS -f arm926fpga_vhdl.f || exit 1
+ 
+ # 第三步：链接生成可执行文件
++#  -top glbl : unisim 原语（IOBUF/OBUFDS/IOBUFDS/ISERDESE2/OSERDESE2/IDELAYE2）会引用
++#              glbl.GSR / glbl.GTS，glbl 必须作为顶层参与 elaborate，
++#              否则报 [XMRE] Cross-module reference resolution error
+ echo "--- Elaborating design ---"
+-vcs $VCS_OPTS -top tbench_top -top glbl || exit 1
++vcs $VCS_OPTS -top tbench_top -top glbl  || exit 1
+ 
+ # 第四步：运行仿真
+ echo "--- Running simulation ---"
+-./simv +vcs+lic+wait
++# Micron DDR3 模型需要 +model_data+<可写目录>（不给就用 /tmp）
++mkdir -p ddr3_data
++./simv +vcs+lic+wait +model_data+./ddr3_data
+ 
+ echo "--- Simulation finished ---"
+################ software/build_ddr_test.sh ################
+--- work/software/build_ddr_test.sh	2026-09-19 18:15:19.769162115 +0800
++++ ICproject/software/build_ddr_test.sh	2026-09-20 08:44:44.505007380 +0800
+@@ -15,7 +15,8 @@
+ 
+ SRC=${1:-ddr_test.c}
+ OUT=${2:-ddr_test}
+-SIMDIR=/home/ICer/work/sim_soc
++# 装到本仓库自己的仿真目录（原来硬编码成 /home/ICer/work/sim_soc）
++SIMDIR="$(cd .. && pwd)/sim_soc"
+ 
+ CFLAGS="-mcpu=arm926ej-s -marm -mno-thumb-interwork -O1 -ffreestanding -fno-builtin -nostdlib -Wall -g"
+ 
